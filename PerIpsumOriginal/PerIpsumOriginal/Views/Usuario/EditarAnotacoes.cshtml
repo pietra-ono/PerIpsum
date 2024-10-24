@@ -1,0 +1,28 @@
+﻿@model AnotacaoModel
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<div class="modal-content">
+    <form asp-controller="Usuario" asp-action="AlterarAnotacao" method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Id" />
+        <div class="modal-body">
+            <div class="form-group">
+                <label for="Titulo">Título</label>
+                <input type="text" asp-for="Titulo" class="form-control" id="Titulo" name="Titulo" required />
+            </div>
+            <div class="form-group">
+                <label for="Descricao">Descrição</label>
+                <input type="text" asp-for="Descricao" placeholder="Descrição" name="descricao" />
+            </div>
+            <div class="form-group">
+                <label for="Cor">Cor</label>
+                <input type="color" asp-for="Cor" class="form-control" id="Cor" name="Cor" value="#000000" />
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="Anotacoes" role="button">Fechar</a>
+            <button type="submit" class="btn btn-primary">Alterar Anotação</button>
+        </div>
+    </form>
+</div>

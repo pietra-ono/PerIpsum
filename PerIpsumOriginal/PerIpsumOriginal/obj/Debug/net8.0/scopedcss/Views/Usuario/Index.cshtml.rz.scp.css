@@ -1,0 +1,361 @@
+#fundoIndex[b-x432cbsxza] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF3;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+    #fundoIndex[b-x432cbsxza]:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+
+#fundo2[b-x432cbsxza] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF3;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    position: relative; /* Necessário para o posicionamento absoluto dos elementos filhos */
+}
+
+    #fundo2[b-x432cbsxza]:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+.faixa-verde[b-x432cbsxza] {
+    background-color: #009846; /* Nova cor da faixa */
+    width: 99.47vw; /* Largura total da viewport */
+    height: 180px; /* Altura da faixa */
+    margin-left: calc(-50vw + 50%); /* Centralizar a faixa fora da div 'fundo' */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atualizacoes-conteudo[b-x432cbsxza] {
+    position: absolute;
+    text-align: center;
+    color: white; /* Cor do texto */
+}
+
+    .atualizacoes-conteudo h2[b-x432cbsxza] {
+        font-size: 35px;
+        margin-bottom: 10px;
+        font-weight: normal; /* Retirado o negrito */
+    }
+
+.feed-button[b-x432cbsxza] {
+    background-color: yellow;
+    color: #002279; /* Cor do texto do botão */
+    font-size: 32px; /* Mantendo o tamanho da fonte original */
+    padding: 15px; /* Tamanho do botão */
+    width: 200px; /* Aumentando a largura do botão */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px; /* Bordas arredondadas */
+    text-align: center;
+}
+
+    .feed-button:hover[b-x432cbsxza] {
+        background-color: #e5e500; /* Ligeiramente mais escuro no hover */
+    }
+
+/* Estilo para o título "Perguntas Frequentes" */
+.perguntas-frequentes h2[b-x432cbsxza] {
+    font-size: 64px;
+    color: #002279; /* Ajuste para o tom desejado */
+    font-family: 'Badhorse', sans-serif; /* Aplicando a fonte Badhorse */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilo para a caixinha que engloba todas as perguntas */
+.faq-container[b-x432cbsxza] {
+    border: 10px solid #002279; /* Borda azul ao redor de todas as perguntas */
+    padding: 20px;
+    border-radius: 30px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco dentro da borda */
+}
+
+/* Estilo para cada pergunta dentro da caixinha */
+.faq-item[b-x432cbsxza] {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+    .faq-item img[b-x432cbsxza] {
+        margin-right: 10px; /* Espaço entre o ícone e o texto da pergunta */
+        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    }
+
+    .faq-item h3[b-x432cbsxza] {
+        font-size: 24px;
+        margin-bottom: 10px;
+        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    }
+
+/* Estilo das respostas, inicialmente escondidas */
+.faq-answer[b-x432cbsxza] {
+    display: none;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+    /* Estilo para a animação ao mostrar a resposta */
+    .faq-answer.show[b-x432cbsxza] {
+        display: block;
+        animation: fadeIn-b-x432cbsxza 0.5s ease-in-out;
+    }
+
+@keyframes fadeIn-b-x432cbsxza {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.titulo-sobre-nos[b-x432cbsxza] {
+    font-family: 'Badhorse', sans-serif; /* Fonte do título */
+    font-size: 55px; /* Aumenta o tamanho da fonte do título */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto-sobre-nos[b-x432cbsxza] {
+    font-family: 'Krub', sans-serif; /* Fonte do texto */
+    font-size: 22px; /* Aumenta o tamanho da fonte do texto */
+    text-align: center;
+    margin: 20px 10%;
+}
+
+.slideshow-container[b-x432cbsxza] {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.mySlides[b-x432cbsxza] {
+    display: none;
+    position: relative; /* Mude para relative para evitar problemas de deslocamento */
+    width: 100%;
+}
+
+    /* Garantir que o primeiro slide seja mostrado corretamente */
+    .mySlides:first-child[b-x432cbsxza] {
+        display: block;
+    }
+
+/* Envolve a caixa verde e a sobrepõe ao slideshow */
+.oportunidades-wrapper[b-x432cbsxza] {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    z-index: 2;
+    overflow: visible;
+    margin-bottom: -150px; /* Faz com que o resto do conteúdo suba */
+}
+
+/* Nova div para sobrepor ao slideshow */
+.oportunidades-overlay[b-x432cbsxza] {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    z-index: 3;
+}
+
+.oportunidades-box[b-x432cbsxza] {
+    width: 100%; /* Define a largura total da viewport */
+    height: 200px;
+    background-color: #009846;
+    position: absolute; /* Ajusta a posição para absoluta */
+    left: 0; /* Alinha à esquerda */
+    top: 0; /* Alinha ao topo da wrapper */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os círculos */
+.circle[b-x432cbsxza] {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #009846;
+}
+
+    /* Posicionamento dos círculos */
+    .circle:nth-child(1)[b-x432cbsxza] {
+        left: 10%;
+    }
+
+    .circle:nth-child(2)[b-x432cbsxza] {
+        left: 30%;
+    }
+
+    .circle:nth-child(3)[b-x432cbsxza] {
+        left: 50%;
+    }
+
+    .circle:nth-child(4)[b-x432cbsxza] {
+        left: 70%;
+    }
+
+    /* Ajustes de estilo para os ícones SVG */
+    .circle img[b-x432cbsxza] {
+        width: 60px; /* Tamanho do ícone SVG */
+        height: 60px;
+        margin-top: 65px;
+    }
+
+.circle-text[b-x432cbsxza] {
+    margin-top: 20px; /* Aumenta o espaçamento acima do texto */
+    font-size: 22px;
+    text-align: center;
+    color: white; /* Mude a cor conforme o design desejado */
+}
+
+.resto-conteudo[b-x432cbsxza] {
+    position: relative;
+    z-index: 4;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+.titulo-top[b-x432cbsxza] {
+    font-family: 'Badhorse', sans-serif; /* Fonte do título Top de Linha */
+    font-size: 60px; /* Aumenta o tamanho da fonte */
+    color: #002279; /* Cor do título */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+
+
+/* Estilo adicional para quebrar a linha no título "Acampamento de Verão" */
+.box.box1 h1[b-x432cbsxza] {
+    white-space: pre-wrap; /* Permite quebra de linha no título */
+}
+
+.imagem-fundo-container[b-x432cbsxza] {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin-top: 150px;
+    height: auto; /* Retirar a altura fixa */
+}
+
+.imagem-fundo[b-x432cbsxza] {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.boxes-container[b-x432cbsxza] {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -350px; /* Posição ajustada para sobrepor a imagem de fundo */
+    z-index: 3;
+    padding: 0 5%;
+}
+
+.box[b-x432cbsxza] {
+    width: 25%;
+    height: 400px;
+    border: 15px solid #002279; /* Borda azul */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: #002279;
+    font-weight: bold;
+    background-color: transparent; /* Sem fundo preenchido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+    .box h1[b-x432cbsxza] {
+        font-size: 24px; /* Tamanho do título */
+        margin-top: 0px; /* Ajusta a distância do topo */
+        margin-bottom: 20px; /* Espaçamento entre o título e a imagem */
+        text-align: center;
+    }
+
+    .box img[b-x432cbsxza] {
+        width: 150px; /* Aumenta o tamanho da imagem para 150px */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-bottom: 10px; /* Ajusta o espaçamento abaixo da imagem */
+    }
+
+/* Especificamente para a Box 2 */
+.box2[b-x432cbsxza] {
+    width: 30%; /* Aumentando a largura */
+    height: 500px; /* Aumentando a altura */
+    background-color: #002279; /* Cor de preenchimento para a box2 */
+    color: white;
+    font-weight: bold;
+}
+
+    .box2 img[b-x432cbsxza] {
+        width: 270px;
+        height: auto;
+    }
+
+
+.legenda[b-x432cbsxza] {
+    background-color: #FFD700; /* Cor amarela */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 10px; /* Espaçamento superior */
+    border-radius: 30px; /* Deixa a caixa bem arredondada */
+    max-width: 80%; /* Controla o tamanho máximo da legenda */
+    word-wrap: break-word; /* Garante que o texto seja quebrado se for muito longo */
+    color: #002279;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+
+h2[b-x432cbsxza] {
+    position: relative; /* Para que o título fique sobre a imagem */
+    z-index: 2; /* Garante que o título fique acima da imagem */
+    margin: 20px 0; /* Espaçamento acima e abaixo do título */
+}

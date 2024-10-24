@@ -1,0 +1,1466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\index.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\conteudorascunhorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\conteudorascunhorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\submodels\\conteudorascunhocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\submodels\\conteudorascunhocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\submodels\\conteudoaprovarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\submodels\\conteudoaprovarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\submodels\\conteudocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\submodels\\conteudocategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\peripsumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\peripsumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudorascunhomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudorascunhomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\categoriamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\iconteudorascunhorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\iconteudorascunhorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\solicitacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\solicitacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\anotacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\anotacaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\conteudorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\conteudorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\categoriamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\categoriamap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\contatomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\contatomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\anotacaomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\anotacaomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\favoritomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\favoritomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\conteudorascunhomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\conteudorascunhomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\conteudomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\conteudomap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\conteudoaprovarmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\conteudoaprovarmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudoaprovarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudoaprovarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\favoritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\favoritomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\conteudoaprovarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\conteudoaprovarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\iconteudoaprovarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\iconteudoaprovarrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\deletarfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\deletarfeed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\iconteudorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\iconteudorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\favoritorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\favoritorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\ifavoritorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\ifavoritorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\enums\\tipoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\enums\\tipoenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\enums\\paisenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\enums\\paisenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\anotacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\anotacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\icontatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\ianotacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\ianotacaorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\irepositorios\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\irepositorios\\icategoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\categoriarepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\feed.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\feed.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\deletaranotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\deletaranotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\anotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\anotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\editaranotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\editaranotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\anotacoes.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\anotacoes.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\anotacoes.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\anotacoes.cshtml.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\repositorios\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\repositorios\\contatorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\helpers\\conteudoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\helpers\\conteudoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241015130702_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241015130702_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241016143026_altcorr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241016143026_altcorr.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241016142012_altercat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241016142012_altercat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241016140227_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241016140227_second.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241019193819_categoriasup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241019193819_categoriasup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241020143935_anotacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241020143935_anotacoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241021122712_calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241021122712_calendario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241022231818_conteudoaprovarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241022231818_conteudoaprovarcategorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241023114044_favoritos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241023114044_favoritos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241024133959_correcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241024133959_correcao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241024130252_alterarsubmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241024130252_alterarsubmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\senai3em\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241024112033_senai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241024112033_senai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutSecundario.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T17:18:31.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAADsBAAAAAAAAAAAkwEwBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-14T11:55:44.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutSecundario.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAIwEYAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T22:49:37.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADIAAAAAAAAAAAAiwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T22:53:19.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConteudoCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoCategorias.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\SubModels\\ConteudoCategorias.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoCategorias.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\SubModels\\ConteudoCategorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:10:22.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConteudoRascunhoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwCMAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:39:53.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Feed.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T11:25:55.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T22:47:17.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-15T14:02:02.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-24T16:23:39.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAAEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T13:55:36.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConteudoRascunhoModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:32:27.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Program.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Program.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Program.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAkwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:54:57.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConteudoRascunhoCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoRascunhoCategorias.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\SubModels\\ConteudoRascunhoCategorias.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoRascunhoCategorias.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\SubModels\\ConteudoRascunhoCategorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:05:10.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ConteudoAprovarCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoAprovarCategorias.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\SubModels\\ConteudoAprovarCategorias.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SubModels\\ConteudoAprovarCategorias.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\SubModels\\ConteudoAprovarCategorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:05:23.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoriaModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\CategoriaModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\CategoriaModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\CategoriaModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\CategoriaModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:56:49.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PerIpsumDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAACIAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:55:44.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "20241024133959_Correcao.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024133959_Correcao.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241024133959_Correcao.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024133959_Correcao.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241024133959_Correcao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:39:59.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IConteudoRascunhoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:40:56.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Rascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAAAJQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T01:20:42.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAMQAAAAAAAAAAAAtwN8AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:12:41.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Solicitacoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T11:13:47.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Favoritos.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAIAwwCQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:48:51.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "20241024130252_AlterarSubModels.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024130252_AlterarSubModels.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241024130252_AlterarSubModels.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024130252_AlterarSubModels.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241024130252_AlterarSubModels.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:02:52.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EditarRascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEMAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T15:37:10.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RascunhoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:34:09.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAkwFcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:08:38.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AnotacaoModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\AnotacaoModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\AnotacaoModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\AnotacaoModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\AnotacaoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:22:48.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ConteudoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwCQAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:39:27.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ValoresNulosModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T11:34:24.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConteudoRascunhoMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:27:25.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ConteudoMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:27:01.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FavoritoMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\FavoritoMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\FavoritoMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\FavoritoMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\FavoritoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:27:43.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CategoriaMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\CategoriaMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\CategoriaMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\CategoriaMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\CategoriaMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:26:49.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AnotacaoMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:24:57.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ContatoMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:56:42.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ConteudoAprovarMap.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T12:27:13.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ConteudoModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\ConteudoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:32:01.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ConteudoAprovarModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:32:14.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\appsettings.json",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
+              "RelativeToolTip": "PerIpsumOriginal\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T13:01:00.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FavoritoModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\FavoritoModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\FavoritoModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\FavoritoModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\FavoritoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:07:32.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "20241024112033_Senai.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024112033_Senai.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241024112033_Senai.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241024112033_Senai.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241024112033_Senai.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:20:33.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ConteudoAprovarRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAADwvyUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:39:40.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IConteudoAprovarRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:41:59.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ContatoModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ContatoModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ContatoModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ContatoModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\ContatoModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:49:37.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Rascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAkwL4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T14:07:48.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T22:45:38.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T22:47:12.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Rascunhos.cshtml.js",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-15T14:04:02.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Feedbacks.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T20:14:19.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Calendario.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T13:25:53.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:31:16.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "DeletarFeed.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\DeletarFeed.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\DeletarFeed.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\DeletarFeed.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\DeletarFeed.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T20:31:28.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Calendario.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T11:24:12.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Contato.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T20:17:04.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FavoritoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\FavoritoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\FavoritoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\FavoritoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\FavoritoRepositorio.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwBMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:32:49.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IConteudoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:40:40.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "20241023114044_Favoritos2.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023114044_Favoritos2.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241023114044_Favoritos2.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023114044_Favoritos2.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241023114044_Favoritos2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:40:44.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IFavoritoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IFavoritoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IFavoritoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IFavoritoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IFavoritoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:32:35.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\UsuarioModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T21:52:34.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "20241023111802_Favoritos2.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
+              "RelativeToolTip": "..\\..\\..\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T11:18:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "TipoEnum.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\TipoEnum.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Enums\\TipoEnum.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\TipoEnum.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Enums\\TipoEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:39:51.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "20241022231818_ConteudoAprovarCategorias.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241022231818_ConteudoAprovarCategorias.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241022231818_ConteudoAprovarCategorias.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241022231818_ConteudoAprovarCategorias.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241022231818_ConteudoAprovarCategorias.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T23:18:18.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "DeletarRascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T15:38:20.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:59:27.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PaisEnum.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\PaisEnum.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Enums\\PaisEnum.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\PaisEnum.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Enums\\PaisEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:40:05.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "AnotacaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:28:40.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "IContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:54:34.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IAnotacaoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T13:28:54.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "20241021122712_Calendario.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241021122712_Calendario.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241021122712_Calendario.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241021122712_Calendario.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241021122712_Calendario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T12:27:12.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ICategoriaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\ICategoriaRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\ICategoriaRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\ICategoriaRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\IRepositorios\\ICategoriaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:46:42.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CategoriaRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\CategoriaRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\CategoriaRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\CategoriaRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\CategoriaRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T11:47:28.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Feed.cshtml.js",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.js",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.js",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-15T12:05:16.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Anotacoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAACBjwDEAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:34:42.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DeletarAnotacoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\DeletarAnotacoes.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\DeletarAnotacoes.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\DeletarAnotacoes.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\DeletarAnotacoes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:15:54.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "EditarAnotacoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\EditarAnotacoes.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\EditarAnotacoes.cshtml",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\EditarAnotacoes.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\EditarAnotacoes.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:15:35.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "20241020143935_Anotacoes.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241020143935_Anotacoes.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241020143935_Anotacoes.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241020143935_Anotacoes.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241020143935_Anotacoes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T14:39:35.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "EditarRascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:50:21.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Anotacoes.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:51:26.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Anotacoes.cshtml.js",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.js",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.js",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-20T14:55:32.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DeletarRascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:50:01.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ContatoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwCcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T19:54:23.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "20241019193819_CategoriasUp.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193819_CategoriasUp.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241019193819_CategoriasUp.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193819_CategoriasUp.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241019193819_CategoriasUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:38:19.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "20241019193610_CategoriasUp.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
+              "RelativeToolTip": "..\\..\\..\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-19T19:36:10.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "ConteudosHelper.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAwwDkAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:22:28.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "20241016143026_AltCorr.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016143026_AltCorr.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241016143026_AltCorr.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016143026_AltCorr.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241016143026_AltCorr.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:30:26.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "20241016142012_AlterCat.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016142012_AlterCat.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241016142012_AlterCat.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016142012_AlterCat.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241016142012_AlterCat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:20:12.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "20241016140227_Second.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016140227_Second.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241016140227_Second.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241016140227_Second.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241016140227_Second.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T14:02:28.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "20241015130702_First.cs",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241015130702_First.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241015130702_First.cs",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241015130702_First.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Migrations\\20241015130702_First.cs",
+              "ViewState": "AQIAAGkBAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T13:07:02.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "Contato.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "ToolTip": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T20:17:38.485Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

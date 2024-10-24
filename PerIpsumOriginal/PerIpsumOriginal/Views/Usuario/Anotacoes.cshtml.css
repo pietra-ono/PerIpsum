@@ -1,0 +1,40 @@
+﻿.fundoAnotacoes {
+    display: flex;
+    background-color: #FFFFF3;
+    width: 1280px;
+    height: 880px;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blocoAnotacao {
+    display: inline-flex;
+    width: 175px;
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word; /* Quebra as palavras muito longas */
+    white-space: normal; /* Garante que o texto quebre em linhas */
+    overflow: hidden; /* Impede que o texto ultrapasse os limites */
+    text-overflow: ellipsis;
+    transition: transform 0.3s ease;
+}
+
+    .blocoAnotacao p {
+        font-family: Krub;
+        font-size: 28px;
+        color: #FFFFF3;
+        vertical-align: central;
+        margin: auto;
+    }
+
+    .blocoAnotacao:hover {
+        transform: scale(1.05);
+    }
+
+#descricaoAnotacao {
+    display: none;
+}

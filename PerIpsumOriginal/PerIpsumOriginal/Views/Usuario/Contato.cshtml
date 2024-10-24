@@ -1,0 +1,11 @@
+﻿@model ContatoModel
+
+<div class="containerContato">
+    <form asp-controller="Usuario" asp-action="AdicionarContato" method="post" enctype="multipart/form-data">
+
+        <input type="text" asp-for="Nome" placeholder="Qual o seu nome?" />
+        <input type="email" asp-for="Email" placeholder="E-mail" />
+        <input type="text" asp-for="Problema" placeholder="Descreva ele aqui!" />
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>

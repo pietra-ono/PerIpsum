@@ -1,0 +1,18 @@
+﻿@model ConteudoModel
+
+
+        <div class="modal-content">
+                <h5 class="modal-title" id="modalDeletar1Label">Deletar Rascunho</h5>
+            
+                <p>Tem certeza que deseja deletar este rascunho?</p>
+                <form asp-action="ApagarConteudo" asp-controller="Usuario">
+                    @Html.HiddenFor(model => model.Id)
+                    <div class="modal-footer">
+            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="Feed" role="button">Fechar</a>
+                        <button type="submit" class="btn btn-danger">Deletar</button>
+                    </div>
+                </form>
+        </div>
+
+
+

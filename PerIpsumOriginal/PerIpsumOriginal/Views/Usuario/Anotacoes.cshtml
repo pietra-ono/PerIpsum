@@ -1,0 +1,62 @@
+﻿@model IEnumerable<AnotacaoModel>
+@{
+    ViewData["Title"] = "Minhas Anotações";
+}
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AddAnotModal">+</button>
+
+<div class="fundoAnotacoes" >
+    @foreach (var anotacao in Model)
+    {
+        <div class="blocoAnotacao" style="background-color: @anotacao.Cor" data-id="@anotacao.Id">
+            <div id="tituloAnotacao">
+            <p>@anotacao.Titulo</p>
+            </div>
+            <div id="descricaoAnotacao">
+                <p>@anotacao.Descricao</p>
+            </div>
+        </div>
+        <!-- Modal visualizar -->
+        <div class="modal fade" id="anotVisuModal-@anotacao.Id" tabindex="-1" aria-labelledby="anotVisuModalLabel-@anotacao.Id" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div id="modalTitulo" class="text-black" ></div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <p id="modalDescricao" class="text-black"></p>
+                            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="DeletarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/DelButton.svg" /></a>
+                            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="EditarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/EditButton.svg" /></a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- adicionar Modal -->
+<div class="modal fade" id="AddAnotModal" tabindex="-1" aria-labelledby="AddAnotModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-controller="Usuario" asp-action="AdicionarAnotacao" method="post" enctype="multipart/form-data">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="Titulo">Título</label>
+                        <input type="text" class="form-control" id="Titulo" name="Titulo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Descricao">Descrição</label>
+                        <textarea class="form-control" id="Descricao" name="Descricao" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Cor">Cor</label>
+                        <input type="color" class="form-control" id="Cor" name="Cor" value="#000000">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                    <button type="submit" class="btn btn-primary">Adicionar Anotação</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+

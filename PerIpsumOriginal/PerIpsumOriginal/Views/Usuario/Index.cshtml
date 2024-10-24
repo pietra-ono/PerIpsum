@@ -1,0 +1,119 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="fundoIndex">
+    <div class="slideshow-container">
+        <!-- Slideshow logic -->
+        <div class="mySlides">
+            <img src="~/img/Testes (1).png" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="~/img/Testes (2).png" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="~/img/Testes (3).png" style="width:100%">
+        </div>
+    </div>
+
+    <div class="oportunidades-wrapper">
+        <!-- Oportunidades section -->
+        <div class="oportunidades-overlay">
+            <div class="oportunidades-box">
+                <div class="circle">
+                    <img src="~/img/icone1.svg" alt="Icone 1">
+                    <p class="circle-text">Personalize sua Experiência</p>
+                </div>
+                <div class="circle">
+                    <img src="~/img/Icone2.svg" alt="Icone 2">
+                    <p class="circle-text">Encontre vagas específicas</p>
+                </div>
+                <div class="circle">
+                    <img src="~/img/icone3.svg" alt="Icone 3">
+                    <p class="circle-text">Organize seus Objetivos</p>
+                </div>
+                <div class="circle">
+                    <img src="~/img/icone4.svg" alt="Icone 4">
+                    <p class="circle-text">Busca Otimizada</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="resto-conteudo">
+        <h2 class="titulo-top">Top de Linha</h2>
+        <div class="imagem-fundo-container">
+            <img src="~/img/fundoLinhas.png" class="imagem-fundo" alt="Fundo Linhas">
+        </div>
+        <div class="boxes-container">
+            <div class="box box1" style="margin-top: 25px;">
+                <h1 class="titulo-box" style="font-family: 'Krub', sans-serif; font-size: 26px; text-align: center;">Acampamento de Verão</h1>
+                <img src="~/img/ImagemProfissao1.png" alt="Imagem Profissão 1">
+                <div class="legenda">Confira os critérios<br>para conquistá-lo</div> <!-- Legenda arredondada -->
+            </div>
+            <div class="box box2">
+                <h1 class="titulo-box" style="font-weight: bold; font-size: 30px; text-align: center;">Bolsa de Estudos 100%</h1>
+                <img src="~/img/ImagemProfissao2.png" alt="Imagem Profissão 2">
+                <div class="legenda">Confira os critérios<br>para conquistá-la</div> <!-- Legenda arredondada -->
+            </div>
+            <div class="box box3" style="margin-top: 25px;">
+                <h1 class="titulo-box" style="font-family: 'Krub', sans-serif; font-size: 26px; text-align: center;">Estágio no Exterior</h1>
+                <img src="~/img/ImagemProfissao3.png" alt="Imagem Profissão 3">
+                <div class="legenda">Confira os critérios<br>para conquistá-la</div> <!-- Legenda arredondada -->
+            </div>
+        </div>
+    </div>
+    <div class="sobre-nos" id="sobre-nos" style="margin: 0px 0px 80px 0px;">
+        <h2 class="titulo-sobre-nos">Sobre Nós</h2>
+        <p class="texto-sobre-nos">
+            Conectamos estudantes a oportunidades acadêmicas internacionais, como intercâmbios, bolsas de estudo e programas de pesquisa. Nosso objetivo é facilitar o acesso a essas oportunidades, permitindo que estudantes encontrem facilmente as opções que melhor atendem seus interesses e objetivos. Acreditamos que a educação transforma vidas, e por isso oferecemos uma plataforma intuitiva e eficiente, onde estudantes podem filtrar, favoritar e acompanhar oportunidades de maneira simples e organizada.
+            <br><br>
+            Além de apoiar o desenvolvimento acadêmico, promovemos a conexão entre instituições de ensino e estudantes, oferecendo um ambiente em que as melhores oportunidades são facilmente acessíveis.
+            <br><br>
+            Nossa missão é garantir que cada estudante possa explorar o mundo por meio da educação, com orgulho de suas raízes e a confiança de estar trilhando o caminho para seu sucesso acadêmico e profissional.
+        </p>
+    </div>
+</div>
+
+<div class="faixa-verde">
+    <div class="atualizacoes-conteudo">
+        <h2>Confira as atualizações agora mesmo!</h2>
+        <button class="feed-button">FEED</button>
+    </div>
+</div>
+
+<div id="fundo2" style="position: relative; z-index: 1;">
+    <!-- Seção de Perguntas Frequentes -->
+    <div class="perguntas-frequentes">
+        <h2>Perguntas Frequentes</h2>
+        <div class="faq-container" style="margin: 20px 10%; margin-top;">
+            <div class="faq-item">
+                <img src="~/img/iconeMais.png" alt="Ícone Mais">
+                <div>
+                    <h3>Como posso encontrar oportunidades de intercâmbio ou bolsas de estudo que se alinhem ao meu perfil acadêmico?</h3>
+                    <p class="faq-answer">Você pode utilizar nossa plataforma para filtrar oportunidades por área de interesse, localização e tipo de programa (intercâmbio, bolsa, etc.).</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <img src="~/img/iconeMais.png" alt="Ícone Mais">
+                <div>
+                    <h3>Posso receber notificações de novas oportunidades ou alertas sobre prazos de inscrição?</h3>
+                    <p class="faq-answer">Para se inscrever, você deve criar um perfil em nossa plataforma, preencher seus dados acadêmicos e seguir o processo de inscrição fornecido para cada oportunidade.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <img src="~/img/iconeMais.png" alt="Ícone Mais">
+                <div>
+                    <h3>Existe algum custo para se cadastrar e acessar as oportunidades no site?</h3>
+                    <p class="faq-answer">Os documentos variam de acordo com a oportunidade. Geralmente, são solicitados histórico escolar, cartas de recomendação e um plano de estudos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adicionando a imagem fundoOndas para sobrepor fundo2 -->
+<div id="fundoOndas" style="position: absolute; bottom: -50px; left: 0; width: 100%; max-width: 100%; z-index: 2; overflow: hidden;">
+    <img src="~/img/fundoOndas.png" alt="Fundo Ondas" style="width: 100%; height: auto;">
+</div>

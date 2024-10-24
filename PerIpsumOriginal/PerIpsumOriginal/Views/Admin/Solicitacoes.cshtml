@@ -1,0 +1,26 @@
+﻿@model IEnumerable<ConteudoAprovarModel>
+
+<h2>Conteúdos Pendentes de Aprovação</h2>
+
+@foreach (var conteudo in Model)
+{
+    <div class="card">
+        <h3>@conteudo.Nome</h3>
+        <p>@conteudo.Descricao</p>
+        <img src="@($"/storage/{conteudo.Imagem}")" alt="@conteudo.Nome" style="width: 340px;" />
+        <p>@conteudo.Tipo</p>
+        <p>@conteudo.Pais</p>
+        <p>@conteudo.Data</p>
+        <p>@conteudo.ConteudoAprovarCategorias</p>
+        <div class="buttons">
+            <form asp-action="Aprovar" method="post">
+                <input type="hidden" name="id" value="@conteudo.Id" />
+                <button type="submit" class="btn btn-success">Aprovar</button>
+            </form>
+            <form asp-action="Rejeitar" method="post">
+                <input type="hidden" name="id" value="@conteudo.Id" />
+                <button type="submit" class="btn btn-danger">Rejeitar</button>
+            </form>
+        </div>
+    </div>
+}

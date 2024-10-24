@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+<h3>@ViewData["Title"]</h3>
+<partial name="_StatusMessage" for="StatusMessage" />
+<div class="row">
+    <div class="col-md-6">
+        <form id="profile-form" method="post">
+            <!-- Nome -->
+            <div class="mb-3">
+                <label asp-for="Input.Nome" class="form-label">Usuário:</label>
+                <div class="d-flex">
+                    <input asp-for="Input.Nome" class="form-control" id="nomeInput" />
+                </div>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label asp-for="Input.Email" class="form-label">E-mail:</label>
+                <div class="d-flex">
+                    <input asp-for="Input.Email" type="email" class="form-control" disabled id="emailInput" />
+                    <a asp-page="./Email" class="btn btn-success ms-2">Alterar</a>
+                </div>
+            </div>
+
+            <!-- Senha -->
+            <div class="mb-3">
+                <label asp-for="Input.Password" class="form-label">Senha:</label>
+                <div class="d-flex">
+                    <input asp-for="Input.Password" id="senhaInput" value="*******" type="password" class="form-control" disabled />
+                    <a asp-page="./ChangePassword" class="btn btn-success ms-2">Alterar</a>
+                </div>
+            </div>
+
+            <div class="mt-3 text-center">
+                <button type="submit" id="updateNomeBtn" class="btn btn-success ms-2">Atualizar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

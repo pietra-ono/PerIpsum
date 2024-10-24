@@ -1,0 +1,839 @@
+/* _content/PerIpsumOriginal/Views/Admin/DeletarRascunhos.cshtml.rz.scp.css */
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+/* _content/PerIpsumOriginal/Views/Admin/EditarRascunhos.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Admin/Feedbacks.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Admin/Rascunhos.cshtml.rz.scp.css */
+#tipoDesignRascunho[b-3hr5jcfa2x] {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+
+#tipoTextoRascunho[b-3hr5jcfa2x] {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Krub;
+    font-weight: bold;
+}
+
+#paisDesignRascunho[b-3hr5jcfa2x] {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFF3;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    padding-right: 0;
+}
+
+#paisTextoRascunho[b-3hr5jcfa2x] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    margin: auto;
+}
+
+#dataDesignRascunho[b-3hr5jcfa2x] {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFF3;
+    width: 146px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-around;
+    padding-right: 0;
+}
+
+#dataTextoRascunho[b-3hr5jcfa2x] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    margin: 0;
+}
+
+#textoTituloRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    font-size: 20px;
+    font-family: Krub;
+    font-weight: bold;
+    text-align: start;
+    margin-bottom: 0;
+}
+
+#textoDescricaoRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    text-align: start;
+}
+
+#espacoTextoRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 14px;
+}
+
+#linkTextoRascunho[b-3hr5jcfa2x] {
+    display: none;
+}
+
+#imagemCardRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    width: 366px;
+    height: 223px;
+    border-radius: 15px;
+    margin: 7px;
+    position: relative;
+}
+
+
+#modalImageRascunho[b-3hr5jcfa2x] {
+    width: 100%;
+    height: 580px;
+    border-radius: 15px;
+    margin: 20px 30px;
+    margin-bottom: 0;
+}
+
+#modalTipoDesignRascunho[b-3hr5jcfa2x] {
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+
+#modalTipoRascunho[b-3hr5jcfa2x] {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Krub;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+#modalPaisDesignRascunho[b-3hr5jcfa2x] {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #FFFFF3;
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    padding-right: 0;
+    margin-right: 10px;
+}
+
+#modalPaisRascunho[b-3hr5jcfa2x] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+}
+
+#modalPaisDisplayRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-left: 10px;
+}
+
+#modalDataDesignRascunho[b-3hr5jcfa2x] {
+    display: inline-flex;
+    align-items: center;
+    background-color: #FFFFF3;
+    width: 146px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-around;
+    padding-right: 0;
+}
+
+#modalDataRascunho[b-3hr5jcfa2x] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    margin: 0;
+}
+
+#modalLinkRascunho[b-3hr5jcfa2x] {
+    color: #FFFFF3;
+    text-align: center;
+    font-size: 32px;
+    font-family: Krub;
+    font-weight: 600;
+}
+
+#modalTitleRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    font-size: 20px;
+    font-family: Krub;
+    font-weight: 500;
+    text-align: start;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+}
+
+#modalDescriptionRascunho[b-3hr5jcfa2x] {
+    display: flex;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: 400;
+    text-align: start;
+    margin-left: 65px;
+    margin-right: 40px;
+}
+/* _content/PerIpsumOriginal/Views/Admin/Solicitacoes.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-w03624orpt] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-w03624orpt] {
+  color: #0077cc;
+}
+
+.btn-primary[b-w03624orpt] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-w03624orpt], .nav-pills .show > .nav-link[b-w03624orpt] {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.border-top[b-w03624orpt] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-w03624orpt] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-w03624orpt] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-w03624orpt] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-w03624orpt] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+/* _content/PerIpsumOriginal/Views/Shared/_LayoutSecundario.cshtml.rz.scp.css */
+
+
+.nav-pills > li > a[b-33iofu2bhy] {
+    border-radius: 0;
+}
+
+#wrapper[b-33iofu2bhy] {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+    #wrapper.toggled[b-33iofu2bhy] {
+        padding-left: 250px;
+        overflow: hidden;
+    }
+
+#sidebar-wrapper[b-33iofu2bhy] {
+    z-index: 1000;
+    position: absolute;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #000;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper[b-33iofu2bhy] {
+    width: 250px;
+}
+
+#page-content-wrapper[b-33iofu2bhy] {
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.xyz[b-33iofu2bhy] {
+    min-width: 360px;
+}
+
+#wrapper.toggled #page-content-wrapper[b-33iofu2bhy] {
+    position: relative;
+    margin-right: 0px;
+}
+
+.fixed-brand[b-33iofu2bhy] {
+    width: auto;
+}
+/* Sidebar Styles */
+
+.sidebar-nav[b-33iofu2bhy] {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 2px;
+}
+
+    .sidebar-nav li[b-33iofu2bhy] {
+        text-indent: 15px;
+        line-height: 40px;
+    }
+
+        .sidebar-nav li a[b-33iofu2bhy] {
+            display: block;
+            text-decoration: none;
+            color: #999999;
+        }
+
+            .sidebar-nav li a:hover[b-33iofu2bhy] {
+                text-decoration: none;
+                color: #fff;
+                background: rgba(255, 255, 255, 0.2);
+                border-left: red 2px solid;
+            }
+
+            .sidebar-nav li a:active[b-33iofu2bhy],
+            .sidebar-nav li a:focus[b-33iofu2bhy] {
+                text-decoration: none;
+            }
+
+    .sidebar-nav > .sidebar-brand[b-33iofu2bhy] {
+        height: 65px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+        .sidebar-nav > .sidebar-brand a[b-33iofu2bhy] {
+            color: #999999;
+        }
+
+            .sidebar-nav > .sidebar-brand a:hover[b-33iofu2bhy] {
+                color: #fff;
+                background: none;
+            }
+
+.no-margin[b-33iofu2bhy] {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    #wrapper[b-33iofu2bhy] {
+        padding-left: 250px;
+    }
+
+    .fixed-brand[b-33iofu2bhy] {
+        width: 250px;
+    }
+
+    #wrapper.toggled[b-33iofu2bhy] {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper[b-33iofu2bhy] {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper[b-33iofu2bhy] {
+        width: 250px;
+    }
+
+    #wrapper.toggled-2 #sidebar-wrapper[b-33iofu2bhy] {
+        width: 50px;
+    }
+
+        #wrapper.toggled-2 #sidebar-wrapper:hover[b-33iofu2bhy] {
+            width: 250px;
+        }
+
+    #page-content-wrapper[b-33iofu2bhy] {
+        padding: 20px;
+        position: relative;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #wrapper.toggled #page-content-wrapper[b-33iofu2bhy] {
+        position: relative;
+        margin-right: 0;
+        padding-left: 250px;
+    }
+
+    #wrapper.toggled-2 #page-content-wrapper[b-33iofu2bhy] {
+        position: relative;
+        margin-right: 0;
+        margin-left: -200px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        width: auto;
+    }
+}
+/* _content/PerIpsumOriginal/Views/Usuario/Anotacoes.cshtml.rz.scp.css */
+.fundoAnotacoes[b-mww44o13le] {
+    display: flex;
+    background-color: #FFFFF3;
+    width: 1280px;
+    height: 880px;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blocoAnotacao[b-mww44o13le] {
+    display: inline-flex;
+    width: 175px;
+    height: 55px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    word-wrap: break-word; /* Quebra as palavras muito longas */
+    white-space: normal; /* Garante que o texto quebre em linhas */
+    overflow: hidden; /* Impede que o texto ultrapasse os limites */
+    text-overflow: ellipsis;
+    transition: transform 0.3s ease;
+}
+
+    .blocoAnotacao p[b-mww44o13le] {
+        font-family: Krub;
+        font-size: 28px;
+        color: #FFFFF3;
+        vertical-align: central;
+        margin: auto;
+    }
+
+    .blocoAnotacao:hover[b-mww44o13le] {
+        transform: scale(1.05);
+    }
+
+#descricaoAnotacao[b-mww44o13le] {
+    display: none;
+}
+/* _content/PerIpsumOriginal/Views/Usuario/Calendario.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Usuario/Contato.cshtml.rz.scp.css */
+.containerContato[b-xckj07141h] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* _content/PerIpsumOriginal/Views/Usuario/Favoritos.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Usuario/Feed.cshtml.rz.scp.css */
+/* _content/PerIpsumOriginal/Views/Usuario/Index.cshtml.rz.scp.css */
+#fundoIndex[b-x432cbsxza] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF3;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+    #fundoIndex[b-x432cbsxza]:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+
+#fundo2[b-x432cbsxza] {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFF3;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    position: relative; /* Necessário para o posicionamento absoluto dos elementos filhos */
+}
+
+    #fundo2[b-x432cbsxza]:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+.faixa-verde[b-x432cbsxza] {
+    background-color: #009846; /* Nova cor da faixa */
+    width: 99.47vw; /* Largura total da viewport */
+    height: 180px; /* Altura da faixa */
+    margin-left: calc(-50vw + 50%); /* Centralizar a faixa fora da div 'fundo' */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atualizacoes-conteudo[b-x432cbsxza] {
+    position: absolute;
+    text-align: center;
+    color: white; /* Cor do texto */
+}
+
+    .atualizacoes-conteudo h2[b-x432cbsxza] {
+        font-size: 35px;
+        margin-bottom: 10px;
+        font-weight: normal; /* Retirado o negrito */
+    }
+
+.feed-button[b-x432cbsxza] {
+    background-color: yellow;
+    color: #002279; /* Cor do texto do botão */
+    font-size: 32px; /* Mantendo o tamanho da fonte original */
+    padding: 15px; /* Tamanho do botão */
+    width: 200px; /* Aumentando a largura do botão */
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px; /* Bordas arredondadas */
+    text-align: center;
+}
+
+    .feed-button:hover[b-x432cbsxza] {
+        background-color: #e5e500; /* Ligeiramente mais escuro no hover */
+    }
+
+/* Estilo para o título "Perguntas Frequentes" */
+.perguntas-frequentes h2[b-x432cbsxza] {
+    font-size: 64px;
+    color: #002279; /* Ajuste para o tom desejado */
+    font-family: 'Badhorse', sans-serif; /* Aplicando a fonte Badhorse */
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Estilo para a caixinha que engloba todas as perguntas */
+.faq-container[b-x432cbsxza] {
+    border: 10px solid #002279; /* Borda azul ao redor de todas as perguntas */
+    padding: 20px;
+    border-radius: 30px; /* Bordas arredondadas */
+    background-color: white; /* Fundo branco dentro da borda */
+}
+
+/* Estilo para cada pergunta dentro da caixinha */
+.faq-item[b-x432cbsxza] {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+    .faq-item img[b-x432cbsxza] {
+        margin-right: 10px; /* Espaço entre o ícone e o texto da pergunta */
+        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    }
+
+    .faq-item h3[b-x432cbsxza] {
+        font-size: 24px;
+        margin-bottom: 10px;
+        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+    }
+
+/* Estilo das respostas, inicialmente escondidas */
+.faq-answer[b-x432cbsxza] {
+    display: none;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+    /* Estilo para a animação ao mostrar a resposta */
+    .faq-answer.show[b-x432cbsxza] {
+        display: block;
+        animation: fadeIn-b-x432cbsxza 0.5s ease-in-out;
+    }
+
+@keyframes fadeIn-b-x432cbsxza {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.titulo-sobre-nos[b-x432cbsxza] {
+    font-family: 'Badhorse', sans-serif; /* Fonte do título */
+    font-size: 55px; /* Aumenta o tamanho da fonte do título */
+    text-align: center;
+    margin-top: 50px;
+}
+
+.texto-sobre-nos[b-x432cbsxza] {
+    font-family: 'Krub', sans-serif; /* Fonte do texto */
+    font-size: 22px; /* Aumenta o tamanho da fonte do texto */
+    text-align: center;
+    margin: 20px 10%;
+}
+
+.slideshow-container[b-x432cbsxza] {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 1;
+}
+
+.mySlides[b-x432cbsxza] {
+    display: none;
+    position: relative; /* Mude para relative para evitar problemas de deslocamento */
+    width: 100%;
+}
+
+    /* Garantir que o primeiro slide seja mostrado corretamente */
+    .mySlides:first-child[b-x432cbsxza] {
+        display: block;
+    }
+
+/* Envolve a caixa verde e a sobrepõe ao slideshow */
+.oportunidades-wrapper[b-x432cbsxza] {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    z-index: 2;
+    overflow: visible;
+    margin-bottom: -150px; /* Faz com que o resto do conteúdo suba */
+}
+
+/* Nova div para sobrepor ao slideshow */
+.oportunidades-overlay[b-x432cbsxza] {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    z-index: 3;
+}
+
+.oportunidades-box[b-x432cbsxza] {
+    width: 100%; /* Define a largura total da viewport */
+    height: 200px;
+    background-color: #009846;
+    position: absolute; /* Ajusta a posição para absoluta */
+    left: 0; /* Alinha à esquerda */
+    top: 0; /* Alinha ao topo da wrapper */
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza os círculos */
+.circle[b-x432cbsxza] {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -75px;
+    z-index: 4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #009846;
+}
+
+    /* Posicionamento dos círculos */
+    .circle:nth-child(1)[b-x432cbsxza] {
+        left: 10%;
+    }
+
+    .circle:nth-child(2)[b-x432cbsxza] {
+        left: 30%;
+    }
+
+    .circle:nth-child(3)[b-x432cbsxza] {
+        left: 50%;
+    }
+
+    .circle:nth-child(4)[b-x432cbsxza] {
+        left: 70%;
+    }
+
+    /* Ajustes de estilo para os ícones SVG */
+    .circle img[b-x432cbsxza] {
+        width: 60px; /* Tamanho do ícone SVG */
+        height: 60px;
+        margin-top: 65px;
+    }
+
+.circle-text[b-x432cbsxza] {
+    margin-top: 20px; /* Aumenta o espaçamento acima do texto */
+    font-size: 22px;
+    text-align: center;
+    color: white; /* Mude a cor conforme o design desejado */
+}
+
+.resto-conteudo[b-x432cbsxza] {
+    position: relative;
+    z-index: 4;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+.titulo-top[b-x432cbsxza] {
+    font-family: 'Badhorse', sans-serif; /* Fonte do título Top de Linha */
+    font-size: 60px; /* Aumenta o tamanho da fonte */
+    color: #002279; /* Cor do título */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+
+
+/* Estilo adicional para quebrar a linha no título "Acampamento de Verão" */
+.box.box1 h1[b-x432cbsxza] {
+    white-space: pre-wrap; /* Permite quebra de linha no título */
+}
+
+.imagem-fundo-container[b-x432cbsxza] {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin-top: 150px;
+    height: auto; /* Retirar a altura fixa */
+}
+
+.imagem-fundo[b-x432cbsxza] {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+.boxes-container[b-x432cbsxza] {
+    display: flex;
+    justify-content: space-around;
+    margin-top: -350px; /* Posição ajustada para sobrepor a imagem de fundo */
+    z-index: 3;
+    padding: 0 5%;
+}
+
+.box[b-x432cbsxza] {
+    width: 25%;
+    height: 400px;
+    border: 15px solid #002279; /* Borda azul */
+    border-radius: 20px; /* Bordas arredondadas */
+    color: #002279;
+    font-weight: bold;
+    background-color: transparent; /* Sem fundo preenchido */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 4;
+}
+
+    .box h1[b-x432cbsxza] {
+        font-size: 24px; /* Tamanho do título */
+        margin-top: 0px; /* Ajusta a distância do topo */
+        margin-bottom: 20px; /* Espaçamento entre o título e a imagem */
+        text-align: center;
+    }
+
+    .box img[b-x432cbsxza] {
+        width: 150px; /* Aumenta o tamanho da imagem para 150px */
+        height: auto; /* Mantém a proporção da imagem */
+        margin-bottom: 10px; /* Ajusta o espaçamento abaixo da imagem */
+    }
+
+/* Especificamente para a Box 2 */
+.box2[b-x432cbsxza] {
+    width: 30%; /* Aumentando a largura */
+    height: 500px; /* Aumentando a altura */
+    background-color: #002279; /* Cor de preenchimento para a box2 */
+    color: white;
+    font-weight: bold;
+}
+
+    .box2 img[b-x432cbsxza] {
+        width: 270px;
+        height: auto;
+    }
+
+
+.legenda[b-x432cbsxza] {
+    background-color: #FFD700; /* Cor amarela */
+    padding: 10px 15px; /* Espaçamento interno */
+    font-size: 20px; /* Tamanho da fonte */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 10px; /* Espaçamento superior */
+    border-radius: 30px; /* Deixa a caixa bem arredondada */
+    max-width: 80%; /* Controla o tamanho máximo da legenda */
+    word-wrap: break-word; /* Garante que o texto seja quebrado se for muito longo */
+    color: #002279;
+    font-weight: bold;
+    margin-top: -30px;
+}
+
+
+h2[b-x432cbsxza] {
+    position: relative; /* Para que o título fique sobre a imagem */
+    z-index: 2; /* Garante que o título fique acima da imagem */
+    margin: 20px 0; /* Espaçamento acima e abaixo do título */
+}
+/* _content/PerIpsumOriginal/Views/Usuario/Sobre.cshtml.rz.scp.css */

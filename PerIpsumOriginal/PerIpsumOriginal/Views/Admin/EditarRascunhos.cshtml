@@ -1,0 +1,86 @@
+﻿@model PerIpsumOriginal.ViewModels.RascunhoViewModel
+@using PerIpsumOriginal.Enums
+@{
+    ViewData["Title"] = "Editar";
+}
+
+<form asp-controller="Admin" asp-action="AlterarRascunho" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Rascunho.Id" />
+        <div class="modal-content p-3">
+            <div class="row g-0">
+                <div class="col-4">
+                <input type="file" asp-for="Rascunho.Imagem" name="imagemArquivo" id="imagemArquivo" />
+                </div>
+            <div class="col-8">
+                <button type="submit" name="acao" value="SalvarRascunho">Salvar como Rascunho</button>
+                <button type="submit" name="acao" value="EnviarAprovar">Enviar para Aprovação</button>
+                <a class="btn btn-secondary" asp-controller="Admin" asp-action="Rascunhos" role="button">Fechar</a>
+
+                <div class="modal-header">
+                    <select asp-for="Rascunho.Tipo">
+                        <option value="@TipoEnum.Desconhecido">Tipo</option>
+                        <option value="@TipoEnum.Oportunidades">Oport.</option>
+                        <option value="@TipoEnum.Provas">Prova</option>
+                        <option value="@TipoEnum.Eventos">Evento</option>
+                    </select>
+
+                    <select asp-for="Rascunho.Pais">
+                        <option value="@PaisEnum.Desconhecido">Desconhecido</option>
+                        <option value="@PaisEnum.EstadosUnidos">EUA</option>
+                        <option value="@PaisEnum.China">CHI</option>
+                        <option value="@PaisEnum.Alemanha">ALE</option>
+                        <option value="@PaisEnum.Japao">JAP</option>
+                        <option value="@PaisEnum.India">IND</option>
+                        <option value="@PaisEnum.ReinoUnido">ING</option>
+                        <option value="@PaisEnum.Franca">FRA</option>
+                        <option value="@PaisEnum.Italia">ITA</option>
+                        <option value="@PaisEnum.Brasil">BRA</option>
+                        <option value="@PaisEnum.Canada">CAN</option>
+                        <option value="@PaisEnum.Russia">RUS</option>
+                        <option value="@PaisEnum.Mexico">MEX</option>
+                        <option value="@PaisEnum.CoreiaDoSul">COS</option>
+                        <option value="@PaisEnum.Australia">AUS</option>
+                        <option value="@PaisEnum.Espanha">ESP</option>
+                        <option value="@PaisEnum.Indonesia">INDO</option>
+                        <option value="@PaisEnum.Turquia">TUR</option>
+                        <option value="@PaisEnum.Holanda">HOL</option>
+                        <option value="@PaisEnum.ArabiaSaudita">ARAB</option>
+                        <option value="@PaisEnum.Suica">SUI</option>
+                        <option value="@PaisEnum.Portugal">POR</option>
+                        <option value="@PaisEnum.Irlanda">IRL</option>
+                        <option value="@PaisEnum.IrlandaDoNorte">IRLN</option>
+                        <option value="@PaisEnum.Chile">CHIL</option>
+                        <option value="@PaisEnum.Argentina">ARG</option>
+                    </select>
+                    <input type="date" asp-for="Rascunho.Data"/>
+                </div>
+                <div class="modal-body">
+                    <input type="text" asp-for="Rascunho.Nome" placeholder="Título"/>
+                    <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição"/>
+                    
+                    <div class="form-group">
+                        <label asp-for="Rascunho.ConteudoRascunhoCategorias" class="control-label"></label>
+                        <select asp-for="Rascunho.ConteudoRascunhoCategorias" name="Categorias" class="chosen-select" multiple>
+                            @if (Model.Rascunho?.ConteudoRascunhoCategorias != null)
+                            {
+                                @foreach (var categoria in Model.Categorias)
+                                {
+                                    if (Model.Rascunho.ConteudoRascunhoCategorias.Any(c => c.CategoriaId.ToString() == categoria.Value))
+                                    {
+                                        <option value="@categoria.Value" selected="selected">@categoria.Text</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@categoria.Value">@categoria.Text</option>
+                                    }
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    <input type="text" asp-for="Rascunho.Link" placeholder="Link" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

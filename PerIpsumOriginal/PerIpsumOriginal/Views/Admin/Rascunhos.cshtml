@@ -1,0 +1,163 @@
+﻿@model PerIpsumOriginal.ViewModels.RascunhoViewModel
+@using PerIpsumOriginal.Enums
+@using PerIpsumOriginal.Helpers
+@{
+    ViewData["Title"] = "Feed";
+}
+<div class="container">
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adicionarRascunhoModal">+</button>
+    <div class="fundo">
+        @foreach (var rascunho in Model.Rascunhos)
+        {
+            <div class="card" data-id="@rascunho.Id">
+                <img id="imagemCardRascunho" src="@($"/storage/{rascunho.Imagem}")" alt="...">
+                <div class="row">
+                    <div class="col-auto" id="tipoDesignRascunho" style="background-color: @(ConteudosHelper.GetColorForTipo(rascunho.Tipo));">
+                        <p id="tipoTextoRascunho">@ConteudosHelper.GetTextForTipo(rascunho.Tipo)</p>
+                    </div>
+                    <div class="col-auto">
+                        <div class="row">
+                            <div id="paisDesignRascunho">
+                                <p id="paisTextoRascunho">@ConteudosHelper.GetCountryDisplayName(rascunho.Pais)</p>
+                                <img src="@ConteudosHelper.GetFlagForCountry(rascunho.Pais)" alt="@ConteudosHelper.GetCountryDisplayName(rascunho.Pais)" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <div class="row">
+                            <div id="dataDesignRascunho">
+                                <p id="dataTextoRascunho">@rascunho.Data.ToString("dd/MM/yyyy")</p>
+                                <img src="/img/calendar.svg" alt="calendário" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="espacoTextoRascunho">
+                    <h1 id="textoTituloRascunho">@rascunho.Nome</h1>
+                    <p id="dataTextoDescricaoRascunho">@rascunho.Descricao</p>
+                    <p id="categoriasTextoRascunho">@rascunho.ConteudoRascunhoCategorias</p>
+                    <p id="linkTextoRascunho">@rascunho.Link</p>
+                </div>
+            </div>
+
+            <!-- VISUALIZAR MODAL -->
+
+            <div class="modal fade" id="rascunhoModal-@rascunho.Id" tabindex="-1" aria-labelledby="rascunhoModal1Label-@rascunho.Id" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content1">
+                        <div class="left-section">
+                            <img id="modalImageRascunho" src="" alt="imagem do conteúdo" />
+                        </div>
+
+                        <div class="right-section">
+                            <div id="button-spaceRascunho">
+                                <a class="btn btn-secondary" asp-controller="Admin" asp-action="EditarRascunhos" role="button" asp-route-id="@rascunho.Id"><img src="~/img/EditButton.svg" /></a>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="header-info">
+                                <div id="modalTipoDesignRascunho">
+                                    <p id="modalTipoRascunho"></p>
+                                </div>
+                                <div id="modalPaisDesignRascunho">
+                                    <img id="modalPaisFlagRascunho" src="" alt="Bandeira do país" />
+                                    <p id="modalPaisDisplayRascunho"></p>
+                                </div>
+                                <div id="modalDataDesignRascunho">
+                                    <p id="modalDataRascunho"></p>
+                                    <img src="/img/calendar.svg" alt="calendário" />
+                                </div>
+
+                            </div>
+
+                            <div class="content-info">
+                                <h3 id="modalTitleRascunho"></h3>
+                                <!-- <p id="modalDescription"></p>
+                                <div id="modalKeywords">Palavras-chave: </div>-->
+                            </div>
+
+                            <div class="button-container">
+                                <a id="modalLinkRascunho" href="#" class="access-button" target="_blank">Acessar</a>
+                            </div>
+                            <div class="delBtnSpace">
+                                <a class="btn btn-secondary" asp-controller="Admin" asp-action="DeletarRascunhos" role="button" asp-route-id="@rascunho.Id"><img src="~/img/DelButton.svg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+<!-- ADICIONAR MODAL -->
+<div class="modal fade" id="adicionarRascunhoModal" tabindex="-1" aria-labelledby="adicionarRascunhoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <form asp-controller="Admin" asp-action="AdicionarRascunho" method="post" enctype="multipart/form-data">
+            <div class="modal-content p-3">
+                <div class="row g-0">
+                    <div class="col-4">
+                        <input type="file" asp-for="Rascunho.Imagem" id="imagem" name="imagem" />
+                    </div>
+                    <div class="col-8">
+                                <button type="submit" class="btn btn-primary" formaction="@Url.Action("AdicionarRascunho", "Admin")">Salvar Rascunho</button>
+                                <button type="submit" class="btn btn-success" formaction="@Url.Action("AdicionarRascunhoAprovar", "Admin")">Salvar e Aprovar</button>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        <div class="modal-header">
+                            <select asp-for="Rascunho.Tipo" name="tipo">
+                                <option value="@TipoEnum.Desconhecido">Tipo</option>
+                                <option value="@TipoEnum.Oportunidades">Oport.</option>
+                                <option value="@TipoEnum.Provas">Prova</option>
+                                <option value="@TipoEnum.Eventos">Evento</option>
+                            </select>
+
+                            <select asp-for="Rascunho.Pais" name="pais">
+                                <option value="@PaisEnum.Desconhecido">Desconhecido</option>
+                                <option value="@PaisEnum.EstadosUnidos">EUA</option>
+                                <option value="@PaisEnum.China">CHI</option>
+                                <option value="@PaisEnum.Alemanha">ALE</option>
+                                <option value="@PaisEnum.Japao">JAP</option>
+                                <option value="@PaisEnum.India">IND</option>
+                                <option value="@PaisEnum.ReinoUnido">ING</option>
+                                <option value="@PaisEnum.Franca">FRA</option>
+                                <option value="@PaisEnum.Italia">ITA</option>
+                                <option value="@PaisEnum.Brasil">BRA</option>
+                                <option value="@PaisEnum.Canada">CAN</option>
+                                <option value="@PaisEnum.Russia">RUS</option>
+                                <option value="@PaisEnum.Mexico">MEX</option>
+                                <option value="@PaisEnum.CoreiaDoSul">COS</option>
+                                <option value="@PaisEnum.Australia">AUS</option>
+                                <option value="@PaisEnum.Espanha">ESP</option>
+                                <option value="@PaisEnum.Indonesia">INDO</option>
+                                <option value="@PaisEnum.Turquia">TUR</option>
+                                <option value="@PaisEnum.Holanda">HOL</option>
+                                <option value="@PaisEnum.ArabiaSaudita">ARAB</option>
+                                <option value="@PaisEnum.Suica">SUI</option>
+                                <option value="@PaisEnum.Portugal">POR</option>
+                                <option value="@PaisEnum.Irlanda">IRL</option>
+                                <option value="@PaisEnum.IrlandaDoNorte">IRLN</option>
+                                <option value="@PaisEnum.Chile">CHIL</option>
+                                <option value="@PaisEnum.Argentina">ARG</option>
+                            </select>
+                            <input type="date" asp-for="Rascunho.Data" name="data" />
+                        </div>
+                        <div class="modal-body">
+                            <input type="text" asp-for="Rascunho.Nome" placeholder="Título" name="nome" />
+                            <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição" name="descricao" />
+                                    <div class="form-group">
+                                        <label for="categorias">Categorias</label>
+                                        <select asp-for="Rascunho.ConteudoRascunhoCategorias" name="Categorias" class="chosen-select" multiple>
+                                            @foreach (var categoria in Model.Categorias)
+                                            {
+                                                <option value="@categoria.Value">@categoria.Text</option>
+                                            }
+                                        </select>
+                                    </div>
+                            <input type="text" asp-for="Rascunho.Link" placeholder="Link" name="link" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    </div>
+</div>

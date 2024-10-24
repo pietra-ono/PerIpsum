@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ContatoModel>
+
+<div class="container">
+    @foreach (var contato in Model)
+    {
+        <div data-id="@contato.Id">
+            <div id="nomeContato">
+                <h1>@contato.Nome</h1>
+            </div>
+            <div id="emailContato">
+                <p>@contato.Email</p>
+            </div>
+            <div id="problemaContato">
+                <p>@contato.Problema</p>
+            </div>
+            <div id="dataContato">
+                <p>@contato.Data</p>
+            </div>
+            <div id="btnApagar">
+                <a class="btn btn-danger" asp-action="ApagarContato" asp-controller="Admin" asp-route-id="@contato.Id" role="button">Apagar</a>
+            </div>
+        </div>
+    }
+</div>

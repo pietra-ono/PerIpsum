@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PerIpsumOriginal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/lib/jquery-chosen/dist/css/chosen.css" rel="stylesheet" />
+    <link href="~/lib/jquery-chosen/dist/css/chosen.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PerIpsumOriginal.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3" style="background-color: transparent;">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Usuario" asp-action="Index">
+                    <img src="~/img/logo.png" alt="Logo" style="width: 80px;" /> <!-- Aumentando a altura da logo -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <!-- Ajuste para o "Home" funcionar tanto na raiz quanto no /Inicio -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Index">
+                                <img src="~/img/iconeHome.svg" alt="Ícone Home" class="icone icone-home" style="height: 40px; padding: 5px;" />
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Feed") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Feed">
+                                <img src="~/img/iconeFeed.svg" alt="Ícone Feed" class="icone icone-feed" style="height: 40px; padding: 5px;" />
+                                Feed
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Sobre") ? "active" : "")" href="#sobre-nos">
+                                <img src="~/img/iconeSobre.svg" alt="Sobre" class="icone icone-sobre" style="height: 40px; padding: 5px;" />
+                                Sobre
+                            </a>
+                        </li>
+
+                        <!-- Calendário -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Calendario") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Calendario">
+                                <img src="~/img/iconeCalendario.svg" alt="Calendário" class="icone icone-calendario" style="height: 40px; padding: 5px;" />
+                                Calendário
+                            </a>
+                        </li>
+
+                        <!-- Contato -->
+                        <li class="nav-item">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Contato") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Contato">
+                                <img src="~/img/iconeContato.svg" alt="Contato" class="icone icone-contato" style="height: 40px; padding: 5px;" />
+                                Contato
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Rascunhos">Rascunhos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            @Html.Partial("_LoginPartial")
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.js"></script>
+    <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-fullcalendar/dist/index.global.js"></script>
+    <script src="~/lib/jquery-fullcalendar/dist/index.global.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

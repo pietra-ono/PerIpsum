@@ -1,0 +1,10 @@
+﻿@model PerIpsumOriginal.Models.ConteudoRascunhoModel
+
+<p>Tem certeza que deseja deletar este rascunho?</p>
+<form asp-action="ApagarRascunho" asp-controller="Admin" method="post">
+    @Html.HiddenFor(model => model.Id)
+    <div class="modal-footer">
+        <a class="btn btn-secondary" asp-controller="Admin" asp-action="Rascunhos" role="button">Fechar</a>
+        <button type="submit" class="btn btn-danger">Deletar</button>
+    </div>
+</form>

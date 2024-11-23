@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PerIpsumOriginal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+804c914f403fd7564af1c4db3db564d61baee4d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PerIpsumOriginal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PerIpsumOriginal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

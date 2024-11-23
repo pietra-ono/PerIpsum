@@ -8615,11 +8615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
       "projectName": "PerIpsumOriginal",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

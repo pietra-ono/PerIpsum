@@ -4,18 +4,17 @@ using Microsoft.AspNetCore.Identity;
 using PerIpsumOriginal.Models;
 using PerIpsumOriginal.Repositorios.IRepositorios;
 using PerIpsumOriginal.Repositorios;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IContatoRepositorio, ContatoRepositorio>();
-builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<IConteudoAprovarRepositorio, ConteudoAprovarRepositorio>();
 builder.Services.AddScoped<IConteudoRascunhoRepositorio, ConteudoRascunhoRepositorio>();
 builder.Services.AddScoped<IConteudoRepositorio, ConteudoRepositorio>();
 builder.Services.AddScoped<IAnotacaoRepositorio, AnotacaoRepositorio>();
-builder.Services.AddScoped<IFavoritoRepositorio, FavoritoRepositorio>();
 
 builder.Services.AddDbContext<PerIpsumDbContext>(options =>
 {
@@ -30,6 +29,11 @@ builder.Services.AddDefaultIdentity<UsuarioModel>(options => options.SignIn.Requ
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    await SeedRoles.Initialize(services);
+}
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

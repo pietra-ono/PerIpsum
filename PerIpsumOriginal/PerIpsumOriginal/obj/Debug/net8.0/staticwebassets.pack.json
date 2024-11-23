@@ -1,612 +1,696 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Admin\\Feedbacks.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Admin\\Rascunhos.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Admin\\Solicitacoes.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Anotacoes.cshtml.js"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Calendario.cshtml.js"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Contato.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Favoritos.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Feed.cshtml.js"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Index.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Sobre.cshtml.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Sobre.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Sobre.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PerIpsumOriginal.bundle.scp.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PerIpsumOriginal.bundle.scp.css",
       "PackagePath": "staticwebassets\\PerIpsumOriginal.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
+      "PackagePath": "staticwebassets\\css\\indexManager.css"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\register.css",
+      "PackagePath": "staticwebassets\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\DelButton.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\DelButton.svg",
       "PackagePath": "staticwebassets\\img\\DelButton.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Desfavorito.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Desfavorito.svg",
       "PackagePath": "staticwebassets\\img\\Desfavorito.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\EditButton.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\EditButton.svg",
       "PackagePath": "staticwebassets\\img\\EditButton.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Favorito.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Favorito.svg",
       "PackagePath": "staticwebassets\\img\\Favorito.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao1.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao1.png",
       "PackagePath": "staticwebassets\\img\\ImagemProfissao1.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao2.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao2.png",
       "PackagePath": "staticwebassets\\img\\ImagemProfissao2.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao3.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao3.png",
       "PackagePath": "staticwebassets\\img\\ImagemProfissao3.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Indefinido.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Indefinido.svg",
       "PackagePath": "staticwebassets\\img\\Indefinido.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Oportunidades2.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Oportunidades2.png",
       "PackagePath": "staticwebassets\\img\\Oportunidades2.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (1).png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (1).png",
       "PackagePath": "staticwebassets\\img\\Testes (1).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (2).png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (2).png",
       "PackagePath": "staticwebassets\\img\\Testes (2).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (3).png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (3).png",
       "PackagePath": "staticwebassets\\img\\Testes (3).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\alemanha.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\addBtn.svg",
+      "PackagePath": "staticwebassets\\img\\addBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\admDropdown.svg",
+      "PackagePath": "staticwebassets\\img\\admDropdown.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\backgroundFeed.svg",
+      "PackagePath": "staticwebassets\\img\\backgroundFeed.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\alemanha.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\alemanha.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\arab.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\arab.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\arab.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\argentina.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\argentina.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\argentina.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\australia.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\australia.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\australia.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\brasil.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\brasil.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\brasil.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\calendar.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\calendar.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\calendar.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\canada.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\canada.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\canada.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\chile.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\chile.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\chile.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\china.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\china.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\china.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\cosul.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\cosul.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\cosul.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\espanha.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\espanha.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\espanha.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\eua.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\eua.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\eua.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\franca.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\franca.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\franca.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\holanda.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\holanda.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\holanda.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\india.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\india.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\india.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\indonesia.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\indonesia.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\indonesia.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\irlanda.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\irlanda.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\irlanda.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\italia.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\italia.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\italia.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\japao.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\japao.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\japao.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\mexico.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\mexico.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\mexico.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\portugal.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\portugal.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\portugal.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\russia.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\russia.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\russia.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\suica.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\suica.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\suica.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\turquia.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\turquia.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\turquia.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\uk.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\uk.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\uk.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\calendar.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\btnVoltar.svg",
+      "PackagePath": "staticwebassets\\img\\btnVoltar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\calendar.svg",
       "PackagePath": "staticwebassets\\img\\calendar.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoContato.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\decoracao-login.svg",
+      "PackagePath": "staticwebassets\\img\\decoracao-login.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\filtroBtn.svg",
+      "PackagePath": "staticwebassets\\img\\filtroBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoContato.png",
       "PackagePath": "staticwebassets\\img\\fundoContato.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoLinhas.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoLinhas.png",
       "PackagePath": "staticwebassets\\img\\fundoLinhas.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoOndas.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoOndas.png",
       "PackagePath": "staticwebassets\\img\\fundoOndas.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone1.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone1.svg",
       "PackagePath": "staticwebassets\\img\\icone1.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone2.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone2.svg",
       "PackagePath": "staticwebassets\\img\\icone2.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone3.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone3.svg",
       "PackagePath": "staticwebassets\\img\\icone3.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone4.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\icone4.svg",
       "PackagePath": "staticwebassets\\img\\icone4.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeCalendario.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeAnotacoes.svg",
+      "PackagePath": "staticwebassets\\img\\iconeAnotacoes.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeAnotacoesAtivado.svg",
+      "PackagePath": "staticwebassets\\img\\iconeAnotacoesAtivado.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeCalendario.svg",
       "PackagePath": "staticwebassets\\img\\iconeCalendario.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeContato.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeCalendarioAtivado.svg",
+      "PackagePath": "staticwebassets\\img\\iconeCalendarioAtivado.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeContato.svg",
       "PackagePath": "staticwebassets\\img\\iconeContato.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFeed.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFavoritos.svg",
+      "PackagePath": "staticwebassets\\img\\iconeFavoritos.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFavoritosAtivado.svg",
+      "PackagePath": "staticwebassets\\img\\iconeFavoritosAtivado.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFeed.svg",
       "PackagePath": "staticwebassets\\img\\iconeFeed.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeHome.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFeedAtivado.svg",
+      "PackagePath": "staticwebassets\\img\\iconeFeedAtivado.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeHome.svg",
       "PackagePath": "staticwebassets\\img\\iconeHome.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeMais.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeMais.png",
       "PackagePath": "staticwebassets\\img\\iconeMais.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeSobre.svg",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeRascunhos.svg",
+      "PackagePath": "staticwebassets\\img\\iconeRascunhos.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeRascunhosAtivado.svg",
+      "PackagePath": "staticwebassets\\img\\iconeRascunhosAtivado.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeSobre.svg",
       "PackagePath": "staticwebassets\\img\\iconeSobre.svg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\logo.png",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\logoSVG.svg",
+      "PackagePath": "staticwebassets\\img\\logoSVG.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\lupaPesquisar.svg",
+      "PackagePath": "staticwebassets\\img\\lupaPesquisar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\parceriaRascBtn.svg",
+      "PackagePath": "staticwebassets\\img\\parceriaRascBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\usuarioAnotaBtn.svg",
+      "PackagePath": "staticwebassets\\img\\usuarioAnotaBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
+      "PackagePath": "staticwebassets\\js\\anotacoes.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\calendario.js",
+      "PackagePath": "staticwebassets\\js\\calendario.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
+      "PackagePath": "staticwebassets\\js\\feed.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",
+      "PackagePath": "staticwebassets\\js\\layoutSecundario.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\rascunhos.js",
+      "PackagePath": "staticwebassets\\js\\rascunhos.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\LICENSE.md",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\css\\chosen.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\css\\chosen.css",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\css\\chosen.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\css\\chosen.min.css",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\css\\chosen.min.css",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\css\\chosen.min.css"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\js\\chosen.jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.proto.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.proto.js",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\js\\chosen.proto.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.proto.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-chosen\\dist\\js\\chosen.proto.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-chosen\\dist\\js\\chosen.proto.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-fullcalendar\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-fullcalendar\\LICENSE.md"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-fullcalendar\\dist\\index.global.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-fullcalendar\\dist\\index.global.js"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-fullcalendar\\dist\\index.global.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-fullcalendar\\dist\\index.global.min.js"
-    },
-    {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\0613026a-adf8-4f70-b7a2-1ca619a435dc_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\0613026a-adf8-4f70-b7a2-1ca619a435dc_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\1e8683ea-c885-4705-9fac-dea19f0e5fb1_background.jpg",
+      "PackagePath": "staticwebassets\\storage\\1e8683ea-c885-4705-9fac-dea19f0e5fb1_background.jpg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\0a6999f2-dabd-4afa-93be-412d9eb2f3e6_IMG_00905.JPG",
-      "PackagePath": "staticwebassets\\storage\\0a6999f2-dabd-4afa-93be-412d9eb2f3e6_IMG_00905.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\1f39b48b-8b44-42e9-a1c1-1b8c549c947b_Captura de tela 2024-10-26 103953.png",
+      "PackagePath": "staticwebassets\\storage\\1f39b48b-8b44-42e9-a1c1-1b8c549c947b_Captura de tela 2024-10-26 103953.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\1535e584-e5da-4a47-a901-8ff462ba5456_LUZL4536.JPG",
-      "PackagePath": "staticwebassets\\storage\\1535e584-e5da-4a47-a901-8ff462ba5456_LUZL4536.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\2179cfb5-0898-48c9-ab1f-587db64067fc_Imagem do WhatsApp de 2024-10-21 à(s) 14.28.11_1f2eb3da.jpg",
+      "PackagePath": "staticwebassets\\storage\\2179cfb5-0898-48c9-ab1f-587db64067fc_Imagem do WhatsApp de 2024-10-21 à(s) 14.28.11_1f2eb3da.jpg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\29a58399-692c-4afb-8ee0-7fc11e20f219_IMG_00905.JPG",
-      "PackagePath": "staticwebassets\\storage\\29a58399-692c-4afb-8ee0-7fc11e20f219_IMG_00905.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\25b0133a-1e28-4537-86c2-604094951883_Captura de Tela (6).png",
+      "PackagePath": "staticwebassets\\storage\\25b0133a-1e28-4537-86c2-604094951883_Captura de Tela (6).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\2f1b2e6e-f46a-420b-914a-a59004e61355_LUZL4536.JPG",
-      "PackagePath": "staticwebassets\\storage\\2f1b2e6e-f46a-420b-914a-a59004e61355_LUZL4536.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\43e33275-2b83-4b64-b88e-7bb1ee433917_Captura de tela 2024-10-08 074525.png",
+      "PackagePath": "staticwebassets\\storage\\43e33275-2b83-4b64-b88e-7bb1ee433917_Captura de tela 2024-10-08 074525.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\522c6092-c387-4efb-91ef-f4799d8d2339_dctor.png",
-      "PackagePath": "staticwebassets\\storage\\522c6092-c387-4efb-91ef-f4799d8d2339_dctor.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\4bb13484-9fea-4b3b-a71c-4ef75b6a5ff7_Captura de Tela (12).png",
+      "PackagePath": "staticwebassets\\storage\\4bb13484-9fea-4b3b-a71c-4ef75b6a5ff7_Captura de Tela (12).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8a6a353c-5c28-4286-8ce7-3fa0433d9ab4_IMG_00905.JPG",
-      "PackagePath": "staticwebassets\\storage\\8a6a353c-5c28-4286-8ce7-3fa0433d9ab4_IMG_00905.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\63fbb6f4-d6a8-427a-bc90-195ff845774f_Captura de tela 2024-10-16 190713.png",
+      "PackagePath": "staticwebassets\\storage\\63fbb6f4-d6a8-427a-bc90-195ff845774f_Captura de tela 2024-10-16 190713.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\998d4370-4fba-4d37-9587-8c296002f012_dctor.png",
-      "PackagePath": "staticwebassets\\storage\\998d4370-4fba-4d37-9587-8c296002f012_dctor.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\698fbeab-3e75-406e-8493-21a7fe8118ed_Captura de Tela (10).png",
+      "PackagePath": "staticwebassets\\storage\\698fbeab-3e75-406e-8493-21a7fe8118ed_Captura de Tela (10).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\9c88de89-ab4a-45fd-b842-2f321a636565_dctor.png",
-      "PackagePath": "staticwebassets\\storage\\9c88de89-ab4a-45fd-b842-2f321a636565_dctor.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\71c40f1d-41f9-4161-bd70-fa909b877fbb_estudante FEED.png",
+      "PackagePath": "staticwebassets\\storage\\71c40f1d-41f9-4161-bd70-fa909b877fbb_estudante FEED.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\a810351a-d8d9-4c11-bd37-63c33b5b0f96_china.png",
-      "PackagePath": "staticwebassets\\storage\\a810351a-d8d9-4c11-bd37-63c33b5b0f96_china.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8100deaa-2bb2-4d1c-bab8-87d75991e1d4_Charmander.webp",
+      "PackagePath": "staticwebassets\\storage\\8100deaa-2bb2-4d1c-bab8-87d75991e1d4_Charmander.webp"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\a875b9af-ee83-4973-ad32-0c84f7381c22_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\a875b9af-ee83-4973-ad32-0c84f7381c22_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8645b326-37fd-402c-befe-85d1179e3358_OIP.jpg",
+      "PackagePath": "staticwebassets\\storage\\8645b326-37fd-402c-befe-85d1179e3358_OIP.jpg"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ac546d78-4619-4075-8a7d-5ed045e57186_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\ac546d78-4619-4075-8a7d-5ed045e57186_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8d548fb6-74b8-4197-8cd4-a79b559497af_Squirtle.webp",
+      "PackagePath": "staticwebassets\\storage\\8d548fb6-74b8-4197-8cd4-a79b559497af_Squirtle.webp"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ae0087fe-eaae-42d1-9c04-d1a765387297_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\ae0087fe-eaae-42d1-9c04-d1a765387297_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\93331931-9c22-4604-8c2c-511b0053c473_Captura de Tela (2).png",
+      "PackagePath": "staticwebassets\\storage\\93331931-9c22-4604-8c2c-511b0053c473_Captura de Tela (2).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\b1a6a9b8-f684-4190-83f4-5caae5a72ecc_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\b1a6a9b8-f684-4190-83f4-5caae5a72ecc_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\958c9276-b1c0-477b-aad6-46547c8b67ae_Color Hunt Palette dff2ebb9e5e87ab2d34a628a.png",
+      "PackagePath": "staticwebassets\\storage\\958c9276-b1c0-477b-aad6-46547c8b67ae_Color Hunt Palette dff2ebb9e5e87ab2d34a628a.png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ca1a17a1-2c55-4616-9f2c-6e1d290814af_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\ca1a17a1-2c55-4616-9f2c-6e1d290814af_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\961e64ed-c65a-4cfa-aae8-32f0d8b4494c_Bulbasaur.webp",
+      "PackagePath": "staticwebassets\\storage\\961e64ed-c65a-4cfa-aae8-32f0d8b4494c_Bulbasaur.webp"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\cc2725bf-7a38-4cdb-bc7b-9b7760f7c99b_IMG_00905.JPG",
-      "PackagePath": "staticwebassets\\storage\\cc2725bf-7a38-4cdb-bc7b-9b7760f7c99b_IMG_00905.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\963a6cbb-8064-4c44-b7dc-e87c36e88d38_Captura de Tela (6).png",
+      "PackagePath": "staticwebassets\\storage\\963a6cbb-8064-4c44-b7dc-e87c36e88d38_Captura de Tela (6).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\e329c815-ec36-4e78-bae8-c9d241ff3698_dctor.png",
-      "PackagePath": "staticwebassets\\storage\\e329c815-ec36-4e78-bae8-c9d241ff3698_dctor.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\b30e78da-2ece-4ba5-a506-648c14de5501_Captura de Tela (7).png",
+      "PackagePath": "staticwebassets\\storage\\b30e78da-2ece-4ba5-a506-648c14de5501_Captura de Tela (7).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\f1e11c79-9922-4fe7-99ac-e16d49884f7d_9d10f361-d70b-4dc4-b428-2d403d190b26.png",
-      "PackagePath": "staticwebassets\\storage\\f1e11c79-9922-4fe7-99ac-e16d49884f7d_9d10f361-d70b-4dc4-b428-2d403d190b26.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\b7427657-b3dd-4dc2-aaf7-d0212f985057_Captura de Tela (13).png",
+      "PackagePath": "staticwebassets\\storage\\b7427657-b3dd-4dc2-aaf7-d0212f985057_Captura de Tela (13).png"
     },
     {
-      "Id": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\f25116b1-276f-48f4-a8d3-d8fff1f4a025_OIP (1).jpg",
-      "PackagePath": "staticwebassets\\storage\\f25116b1-276f-48f4-a8d3-d8fff1f4a025_OIP (1).jpg"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG",
+      "PackagePath": "staticwebassets\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ed73ff8e-a716-4a0d-ac7f-5cb46718fe48_Captura de tela 2024-08-27 204549.png",
+      "PackagePath": "staticwebassets\\storage\\ed73ff8e-a716-4a0d-ac7f-5cb46718fe48_Captura de tela 2024-08-27 204549.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PerIpsumOriginal.Microsoft.AspNetCore.StaticWebAssets.props",

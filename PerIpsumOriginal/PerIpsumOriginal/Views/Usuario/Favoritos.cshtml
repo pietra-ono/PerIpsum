@@ -1,46 +1,9 @@
-﻿@model PerIpsumOriginal.ViewModels.RascunhoViewModel
-@using PerIpsumOriginal.Enums
-@using PerIpsumOriginal.Helpers
-<div class="container">
-    <h2>Favoritos</h2>
-    <div class="fundo">
-    @foreach (var conteudo in Model.Conteudos)
-    {
-            bool isFavorited = Model.ConteudosFavoritosIds.Contains(conteudo.Id);
-            string starImage = isFavorited ? "Favorito.svg" : "Desfavorito.svg";
-        <div class="card" data-id="@conteudo.Id">
-            <img id="imagemCard" src="@($"/storage/{conteudo.Imagem}")" alt="...">
-            <div class="row">
-                <div class="col-auto" id="tipoDesign" style="background-color: @ConteudosHelper.GetColorForTipo(conteudo.Tipo);">
-                    <p id="tipoTexto">@ConteudosHelper.GetTextForTipo(conteudo.Tipo)</p>
-                </div>
-                <div class="col-auto">
-                    <div class="row">
-                        <div id="paisDesign">
-                            <p id="paisTexto">@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)</p>
-                            <img src="@ConteudosHelper.GetFlagForCountry(conteudo.Pais)" alt="@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)" />
-                        </div>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="row">
-                        <div id="dataDesign">
-                            <p id="dataTexto">@conteudo.Data.ToString("dd/MM/yyyy")</p>
-                            <img src="~/img/calendar.svg" alt="calendário" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="espacoTexto">
-                <h1 id="textoTitulo">@conteudo.Nome</h1>
-                <p id="dataTextoDescricao">@conteudo.Descricao</p>
-                <p id="categoriasTexto">@conteudo.ConteudoCategorias</p>
-                    <button class="favorito-btn" onclick="toggleFavorite(@conteudo.Id)">
-                        <img id="favorito-img-@conteudo.Id" src="@($"/img/Desfavorito.svg")" alt="Favoritar/Desfavoritar" />
-                    </button>
-                <p id="linkTexto">@conteudo.Link</p>
-            </div>
-        </div>
-    }
+﻿@model IEnumerable<ConteudoModel>
+
+@foreach (var conteudo in Model)
+{
+    <div class="post">
+        <h3>@conteudo.Nome</h3>
+        <p>@conteudo.Descricao</p>
     </div>
-</div>
+}

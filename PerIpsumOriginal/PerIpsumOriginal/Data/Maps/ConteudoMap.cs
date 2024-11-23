@@ -16,6 +16,7 @@ namespace PerIpsumOriginal.Data.Maps
             builder.Property(x => x.Imagem).IsRequired();
             builder.Property(x => x.Pais).IsRequired();
             builder.Property(x => x.Data).IsRequired().HasColumnType("date");
+            builder.Property(x => x.Categorias).IsRequired().HasMaxLength(300);
         }
     }
 }

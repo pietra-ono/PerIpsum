@@ -302,6 +302,7 @@ C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\refint
 C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\PerIpsumOriginal.pdb
 C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\PerIpsumOriginal.genruntimeconfig.cache
 C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\ref\PerIpsumOriginal.dll
+C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSecundario.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\bin\Debug\net8.0\appsettings.json
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\bin\Debug\net8.0\PerIpsumOriginal.staticwebassets.runtime.json
@@ -591,6 +592,7 @@ C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\sco
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Admin\Rascunhos.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Admin\Solicitacoes.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSecundario.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Anotacoes.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Calendario.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Contato.cshtml.rz.scp.css
@@ -606,4 +608,3 @@ C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\ref
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\PerIpsumOriginal.pdb
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\PerIpsumOriginal.genruntimeconfig.cache
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\ref\PerIpsumOriginal.dll
-C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Shared\_LayoutSecundario.cshtml.rz.scp.css

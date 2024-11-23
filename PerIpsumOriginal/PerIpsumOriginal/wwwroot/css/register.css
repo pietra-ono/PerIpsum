@@ -1,0 +1,157 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: #FFFFF3;
+}
+
+.register-layout {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.barra-container {
+    background-color: #002279;
+    width: 100%;
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr auto;
+    grid-template-areas:
+        'botao'
+        'titulo'
+        'forms';
+}
+
+.titulo-register-container {
+    display: inline-flex;
+    grid-area: titulo;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+#tituloRegister {
+    font-family: Krub;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+
+.form-container input {
+    width: 35vw;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 1em;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFFF3;
+}
+
+    .form-container input::placeholder {
+        color: #000000;
+        opacity: 1;
+        font-family: Krub;
+    }
+
+    .form-container input:focus,
+    .form-container input:active,
+    .form-container input:hover {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+#registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.btn-register-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 2em;
+}
+
+    .btn-register-container a {
+        font-family: Krub;
+        font-weight: 600;
+        font-size: 20px;
+        color: #009846;
+    }
+
+#btnVoltarRegister {
+    display: inline-flex;
+    justify-content: space-between;
+    border: 3px solid #009846;
+    border-radius: 25px;
+    padding-inline: 0.5em;
+}
+
+.btn-cadastrar-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#register-submit {
+    width: 50%;
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+    background-color: #009846;
+    color: #FFFFF3;
+    font-family: Krub;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #register-submit:hover {
+        transform: scale(1.05);
+    }
+
+.link-entrar-container {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1em;
+}
+
+#linkEntrar {
+    font-family: Krub;
+    font-size: 20px;
+}
+
+    #linkEntrar a {
+        font-weight: bold;
+        color: #009846;
+    }
+
+@media (max-width: 850px) {
+    .register-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100vw;
+        min-height: 100vh;
+    }
+
+    .barra-container {
+        display: none;
+    }
+}

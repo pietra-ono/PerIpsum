@@ -2,7 +2,9 @@
 @using PerIpsumOriginal.Enums
 @using PerIpsumOriginal.Helpers
 @{
-    ViewData["Title"] = "Feed";
+    ViewData["Title"] = "Rascunhos";
+    Layout = "_LayoutSecundario";
+
 }
 <div class="container">
     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adicionarRascunhoModal">+</button>
@@ -35,7 +37,6 @@
                 <div id="espacoTextoRascunho">
                     <h1 id="textoTituloRascunho">@rascunho.Nome</h1>
                     <p id="dataTextoDescricaoRascunho">@rascunho.Descricao</p>
-                    <p id="categoriasTextoRascunho">@rascunho.ConteudoRascunhoCategorias</p>
                     <p id="linkTextoRascunho">@rascunho.Link</p>
                 </div>
             </div>
@@ -71,8 +72,7 @@
 
                             <div class="content-info">
                                 <h3 id="modalTitleRascunho"></h3>
-                                <!-- <p id="modalDescription"></p>
-                                <div id="modalKeywords">Palavras-chave: </div>-->
+                                <p id="modalDescricao">Palavras-chave:</p>
                             </div>
 
                             <div class="button-container">
@@ -88,76 +88,77 @@
         }
 
 <!-- ADICIONAR MODAL -->
-<div class="modal fade" id="adicionarRascunhoModal" tabindex="-1" aria-labelledby="adicionarRascunhoModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <form asp-controller="Admin" asp-action="AdicionarRascunho" method="post" enctype="multipart/form-data">
-            <div class="modal-content p-3">
-                <div class="row g-0">
-                    <div class="col-4">
-                        <input type="file" asp-for="Rascunho.Imagem" id="imagem" name="imagem" />
-                    </div>
-                    <div class="col-8">
-                                <button type="submit" class="btn btn-primary" formaction="@Url.Action("AdicionarRascunho", "Admin")">Salvar Rascunho</button>
-                                <button type="submit" class="btn btn-success" formaction="@Url.Action("AdicionarRascunhoAprovar", "Admin")">Salvar e Aprovar</button>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal fade" id="adicionarRascunhoModal" tabindex="-1" aria-labelledby="adicionarRascunhoModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <form asp-controller="Admin" asp-action="AdicionarRascunho" method="post" enctype="multipart/form-data">
+                    <input type="hidden" name="acao" id="acao" />
+                    <div class="modal-content p-3">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <input type="file" asp-for="Rascunho.Imagem" id="imagem" name="imagem" />
+                            </div>
+                            <div class="col-8">
+                                <button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value='SalvarRascunho'">Salvar Rascunho</button>
+                                <button type="submit" class="btn btn-success" onclick="document.getElementById('acao').value='SalvarAprovar'">Salvar e Aprovar</button>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
 
-                        <div class="modal-header">
-                            <select asp-for="Rascunho.Tipo" name="tipo">
-                                <option value="@TipoEnum.Desconhecido">Tipo</option>
-                                <option value="@TipoEnum.Oportunidades">Oport.</option>
-                                <option value="@TipoEnum.Provas">Prova</option>
-                                <option value="@TipoEnum.Eventos">Evento</option>
-                            </select>
+                                <div class="modal-header">
+                                    <select asp-for="Rascunho.Tipo">
+                                        <option value="0">Tipo</option>
+                                        <option value="1">Oport.</option>
+                                        <option value="2">Prova</option>
+                                        <option value="3">Evento</option>
+                                    </select>
 
-                            <select asp-for="Rascunho.Pais" name="pais">
-                                <option value="@PaisEnum.Desconhecido">Desconhecido</option>
-                                <option value="@PaisEnum.EstadosUnidos">EUA</option>
-                                <option value="@PaisEnum.China">CHI</option>
-                                <option value="@PaisEnum.Alemanha">ALE</option>
-                                <option value="@PaisEnum.Japao">JAP</option>
-                                <option value="@PaisEnum.India">IND</option>
-                                <option value="@PaisEnum.ReinoUnido">ING</option>
-                                <option value="@PaisEnum.Franca">FRA</option>
-                                <option value="@PaisEnum.Italia">ITA</option>
-                                <option value="@PaisEnum.Brasil">BRA</option>
-                                <option value="@PaisEnum.Canada">CAN</option>
-                                <option value="@PaisEnum.Russia">RUS</option>
-                                <option value="@PaisEnum.Mexico">MEX</option>
-                                <option value="@PaisEnum.CoreiaDoSul">COS</option>
-                                <option value="@PaisEnum.Australia">AUS</option>
-                                <option value="@PaisEnum.Espanha">ESP</option>
-                                <option value="@PaisEnum.Indonesia">INDO</option>
-                                <option value="@PaisEnum.Turquia">TUR</option>
-                                <option value="@PaisEnum.Holanda">HOL</option>
-                                <option value="@PaisEnum.ArabiaSaudita">ARAB</option>
-                                <option value="@PaisEnum.Suica">SUI</option>
-                                <option value="@PaisEnum.Portugal">POR</option>
-                                <option value="@PaisEnum.Irlanda">IRL</option>
-                                <option value="@PaisEnum.IrlandaDoNorte">IRLN</option>
-                                <option value="@PaisEnum.Chile">CHIL</option>
-                                <option value="@PaisEnum.Argentina">ARG</option>
-                            </select>
-                            <input type="date" asp-for="Rascunho.Data" name="data" />
-                        </div>
-                        <div class="modal-body">
-                            <input type="text" asp-for="Rascunho.Nome" placeholder="Título" name="nome" />
-                            <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição" name="descricao" />
+                                    <select asp-for="Rascunho.Pais">
+                                        <option value="0">Desconhecido</option>
+                                        <option value="1">EUA</option>
+                                        <option value="2">China</option>
+                                        <option value="@PaisEnum.Alemanha">ALE</option>
+                                        <option value="@PaisEnum.Japao">JAP</option>
+                                        <option value="@PaisEnum.India">IND</option>
+                                        <option value="@PaisEnum.ReinoUnido">ING</option>
+                                        <option value="@PaisEnum.Franca">FRA</option>
+                                        <option value="@PaisEnum.Italia">ITA</option>
+                                        <option value="@PaisEnum.Brasil">BRA</option>
+                                        <option value="@PaisEnum.Canada">CAN</option>
+                                        <option value="@PaisEnum.Russia">RUS</option>
+                                        <option value="@PaisEnum.Mexico">MEX</option>
+                                        <option value="@PaisEnum.CoreiaDoSul">COS</option>
+                                        <option value="@PaisEnum.Australia">AUS</option>
+                                        <option value="@PaisEnum.Espanha">ESP</option>
+                                        <option value="@PaisEnum.Indonesia">INDO</option>
+                                        <option value="@PaisEnum.Turquia">TUR</option>
+                                        <option value="@PaisEnum.Holanda">HOL</option>
+                                        <option value="@PaisEnum.ArabiaSaudita">ARAB</option>
+                                        <option value="@PaisEnum.Suica">SUI</option>
+                                        <option value="@PaisEnum.Portugal">POR</option>
+                                        <option value="@PaisEnum.Irlanda">IRL</option>
+                                        <option value="@PaisEnum.IrlandaDoNorte">IRLN</option>
+                                        <option value="@PaisEnum.Chile">CHIL</option>
+                                        <option value="@PaisEnum.Argentina">ARG</option>
+                                    </select>
+                                    <input type="date" asp-for="Rascunho.Data" />
+                                </div>
+                                <div class="modal-body">
+                                    <input type="text" asp-for="Rascunho.Nome" placeholder="Título" />
+                                    <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição" />
                                     <div class="form-group">
-                                        <label for="categorias">Categorias</label>
-                                        <select asp-for="Rascunho.ConteudoRascunhoCategorias" name="Categorias" class="chosen-select" multiple>
-                                            @foreach (var categoria in Model.Categorias)
-                                            {
-                                                <option value="@categoria.Value">@categoria.Text</option>
-                                            }
-                                        </select>
+                                        <label for="categorias">Categorias:</label>
+                                        <input type="text" asp-for="Rascunho.Categorias" id="categorias" class="form-control" />
+                                        @if (ViewData.ModelState["Categorias"]?.Errors.Count > 0)
+                                        {
+                                            <span class="text-danger">@ViewData.ModelState["Categorias"].Errors[0].ErrorMessage</span>
+                                        }
                                     </div>
-                            <input type="text" asp-for="Rascunho.Link" placeholder="Link" name="link" />
+                                    <input type="text" asp-for="Rascunho.Link" placeholder="Link" />
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
-        </form>
-    </div>
-</div>
+        </div>
+
     </div>
 </div>

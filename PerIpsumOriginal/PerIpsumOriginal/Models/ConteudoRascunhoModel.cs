@@ -1,5 +1,4 @@
 ﻿using PerIpsumOriginal.Enums;
-using PerIpsumOriginal.Models.SubModels;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace PerIpsumOriginal.Models
@@ -16,12 +15,10 @@ namespace PerIpsumOriginal.Models
         public string Imagem { get; set; }
         public PaisEnum Pais { get; set; }
         public DateOnly Data { get; set; }
-
+        public string Categorias { get; set; }
         public string UsuarioId { get; set; }
 
         public UsuarioModel Usuario { get; set; }
-
-        public ICollection<ConteudoRascunhoCategorias> ConteudoRascunhoCategorias { get; set; }
 
 
     }

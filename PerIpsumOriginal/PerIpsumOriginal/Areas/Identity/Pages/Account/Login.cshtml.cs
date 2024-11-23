@@ -129,7 +129,7 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account
                         return Page();
                     }
 
-                    _logger.LogInformation("User logged in.");
+                    _logger.LogInformation("Usuário logado.");
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)

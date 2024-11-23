@@ -1,4 +1,4 @@
-﻿@model ConteudoModel
+﻿@model PerIpsumOriginal.ViewModels.RascunhoViewModel
 
 
         <div class="modal-content">
@@ -6,7 +6,7 @@
             
                 <p>Tem certeza que deseja deletar este rascunho?</p>
                 <form asp-action="ApagarConteudo" asp-controller="Usuario">
-                    @Html.HiddenFor(model => model.Id)
+                    <input type="hidden" asp-for="Rascunho.Id" />
                     <div class="modal-footer">
             <a class="btn btn-secondary" asp-controller="Usuario" asp-action="Feed" role="button">Fechar</a>
                         <button type="submit" class="btn btn-danger">Deletar</button>

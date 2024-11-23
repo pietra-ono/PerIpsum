@@ -17,151 +17,155 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PerIpsumOriginal
 build_property.RootNamespace = PerIpsumOriginal
-build_property.ProjectDir = C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\
+build_property.ProjectDir = C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal
+build_property.MSBuildProjectDirectory = C:\Users\Bruno\Desktop\PerIpsumOriginal\PerIpsumOriginal
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/Error.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/DeletarAnotacoes.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/DeletarAnotacoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGFyQW5vdGFjb2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/DeletarFeed.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/DeletarFeed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGFyRmVlZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/EditarAnotacoes.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/EditarAnotacoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0YXJBbm90YWNvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/_ViewImports.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Preferencias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xQcmVmZXJlbmNpYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/_ViewStart.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/DeletarRascunhos.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/DeletarRascunhos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRhclJhc2N1bmhvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-qqq1mcgiqj
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/EditarRascunhos.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/EditarRascunhos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdGFyUmFzY3VuaG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-mcspivfnzb
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Feedbacks.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Feedbacks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmVlZGJhY2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-xhh3dno1xy
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Rascunhos.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Rascunhos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUmFzY3VuaG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-3hr5jcfa2x
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Solicitacoes.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Admin/Solicitacoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU29saWNpdGFjb2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-i1uveutagb
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_Layout.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-w03624orpt
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_LayoutSecundario.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Shared/_LayoutSecundario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTZWN1bmRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-33iofu2bhy
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Anotacoes.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Anotacoes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBbm90YWNvZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-mww44o13le
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Calendario.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Calendario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDYWxlbmRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-bwdgjc3sag
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Contato.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Contato.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDb250YXRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-xckj07141h
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Favoritos.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Favoritos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xGYXZvcml0b3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ctp6i0w4hz
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Feed.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Feed.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xGZWVkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-zya5gcfuuh
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Index.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-x432cbsxza
 
-[C:/Users/SENAI3EM/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Sobre.cshtml]
+[C:/Users/Bruno/Desktop/PerIpsumOriginal/PerIpsumOriginal/Views/Usuario/Sobre.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-l5yg1kckl0

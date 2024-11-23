@@ -33,9 +33,7 @@ namespace PerIpsumOriginal.Repositorios
 
         public ConteudoModel ListarPorId(int id)
         {
-            return _dbContext.Conteudos
-                .Include(c => c.ConteudoCategorias)
-                .FirstOrDefault(x => x.Id == id);
+            return _dbContext.Conteudos.FirstOrDefault(x => x.Id == id);
         }
 
         public IEnumerable<ConteudoModel> PegarConteudos()

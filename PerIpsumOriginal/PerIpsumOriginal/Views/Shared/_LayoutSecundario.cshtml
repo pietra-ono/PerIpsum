@@ -7,83 +7,77 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="~/lib/jquery-chosen/dist/css/chosen.css" rel="stylesheet" />
     <link href="~/lib/jquery-chosen/dist/css/chosen.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PerIpsumOriginal.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light mb-3" style="background-color: transparent;">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Usuario" asp-action="Index">
-                    <img src="~/img/logo.png" alt="Logo" style="width: 80px;" /> <!-- Aumentando a altura da logo -->
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-
-                        <!-- Ajuste para o "Home" funcionar tanto na raiz quanto no /Inicio -->
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Index">
-                                <img src="~/img/iconeHome.svg" alt="Ícone Home" class="icone icone-home" style="height: 40px; padding: 5px;" />
-                                Home
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Feed") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Feed">
-                                <img src="~/img/iconeFeed.svg" alt="Ícone Feed" class="icone icone-feed" style="height: 40px; padding: 5px;" />
-                                Feed
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Sobre") ? "active" : "")" href="#sobre-nos">
-                                <img src="~/img/iconeSobre.svg" alt="Sobre" class="icone icone-sobre" style="height: 40px; padding: 5px;" />
-                                Sobre
-                            </a>
-                        </li>
-
-                        <!-- Calendário -->
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Calendario") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Calendario">
-                                <img src="~/img/iconeCalendario.svg" alt="Calendário" class="icone icone-calendario" style="height: 40px; padding: 5px;" />
-                                Calendário
-                            </a>
-                        </li>
-
-                        <!-- Contato -->
-                        <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value.Contains("/Contato") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Contato">
-                                <img src="~/img/iconeContato.svg" alt="Contato" class="icone icone-contato" style="height: 40px; padding: 5px;" />
-                                Contato
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Rascunhos">Rascunhos</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <div class="layout">
+        <nav id="sidebar" class="close">
+            <ul>
+                <li>
+                    <button id="toggle-btn" onclick="toggleSidebar()" >
+                        <img src="~/img/logoSVG.svg" style="flex-shrink: 0;width: 75px; height: 75px;" />
+                    </button>
+                    <span class="logo">PER IPSUM</span>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Usuario")">
+                        <img src="~/img/iconeHome.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Feed", "Usuario")" data-page="Feed" data-icon-active="iconeFeedAtivado.svg">
+                        <img src="~/img/iconeFeed.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Feed</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Anotacoes", "Usuario")" data-page="Anotacoes" data-icon-active="iconeAnotacoesAtivado.svg">
+                        <img src="~/img/iconeAnotacoes.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Anotações</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Calendario", "Usuario")" data-page="Calendario" data-icon-active="iconeCalendarioAtivado.svg">
+                        <img src="~/img/iconeCalendario.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Calendário</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Rascunhos", "Admin")" data-page="Rascunhos" data-icon-active="iconeRascunhosAtivado.svg">
+                        <img src="~/img/iconeRascunhos.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Rascunhos</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Favoritos", "Usuario")" data-page="Favoritos" data-icon-active="iconeFavoritosAtivado.svg">
+                        <img src="~/img/iconeFavoritos.svg" style="flex-shrink: 0;" class="icon" />
+                        <span>Favoritos</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.js"></script>
     <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-fullcalendar/dist/index.global.js"></script>
-    <script src="~/lib/jquery-fullcalendar/dist/index.global.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/js/layoutSecundario.js" asp-append-version="true"></script>
+    <script src="~/js/feed.js" asp-append-version="true"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/anotacoes.js" asp-append-version="true"></script>
+    <script src="~/js/rascunhos.js" asp-append-version="true"></script>
+    <script src="~/js/calendario.js" asp-append-version="true"></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js'></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

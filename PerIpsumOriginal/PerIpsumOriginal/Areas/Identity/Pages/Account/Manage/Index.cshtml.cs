@@ -26,6 +26,7 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account.Manage
             _signInManager = signInManager;
         }
 
+
         /// <summary>
         ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
         ///     directly from your code. This API may change or be removed in future releases.
@@ -107,30 +108,60 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account.Manage
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
             }
 
-            if (!ModelState.IsValid)
+            // Store original username
+            var originalUserName = user.UserName;
+
+            // Update only the Nome property
+            user.Nome = Input.Nome;
+
+            // Restore original username
+            user.UserName = originalUserName;
+            user.NormalizedUserName = originalUserName.ToUpper();
+
+            var result = await _userManager.UpdateAsync(user);
+
+            if (result.Succeeded)
             {
-                await LoadAsync(user);
-                return Page();
+                await _signInManager.RefreshSignInAsync(user);
+                StatusMessage = "Nome atualizado com sucesso!";
+                await LoadAsync(user); // Reload the page data
+                return RedirectToPage();
             }
 
-            // Atualizar Nome
-            if (Input.Nome != user.Nome)
+            foreach (var error in result.Errors)
             {
-                user.Nome = Input.Nome;
-                var updateResult = await _userManager.UpdateAsync(user);
-
-                if (!updateResult.Succeeded)
-                {
-                    StatusMessage = "Erro ao tentar atualizar o nome.";
-                    return RedirectToPage();
-                }
-
-                await LoadAsync(user);
+                ModelState.AddModelError(string.Empty, error.Description);
             }
 
-            await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Perfil atualizado com sucesso";
-            return RedirectToPage();
+            await LoadAsync(user);
+            return Page();
         }
+
+
+
+
+
+
+        public async Task<IActionResult> OnPostDeleteUserAsync()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            var result = await _userManager.DeleteAsync(user);
+
+            if (!result.Succeeded)
+            {
+                throw new InvalidOperationException($"Erro inesperado ao tentar deletar o usuário.");
+            }
+
+            await _signInManager.SignOutAsync();
+
+            return Redirect("~/");
+        }
+
     }
 }

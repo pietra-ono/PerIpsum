@@ -1,36 +1,63 @@
-﻿@model IEnumerable<AnotacaoModel>
+﻿@using PerIpsumOriginal.Enums
+@model PerIpsumOriginal.ViewModels.RascunhoViewModel
 @{
-    ViewData["Title"] = "Minhas Anotações";
+    ViewData["Title"] = "Anotações";
+    Layout = "_LayoutSecundario";
 }
-
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#AddAnotModal">+</button>
-
-<div class="fundoAnotacoes" >
-    @foreach (var anotacao in Model)
-    {
-        <div class="blocoAnotacao" style="background-color: @anotacao.Cor" data-id="@anotacao.Id">
-            <div id="tituloAnotacao">
-            <p>@anotacao.Titulo</p>
-            </div>
-            <div id="descricaoAnotacao">
-                <p>@anotacao.Descricao</p>
-            </div>
-        </div>
-        <!-- Modal visualizar -->
-        <div class="modal fade" id="anotVisuModal-@anotacao.Id" tabindex="-1" aria-labelledby="anotVisuModalLabel-@anotacao.Id" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div id="modalTitulo" class="text-black" ></div>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                            <p id="modalDescricao" class="text-black"></p>
-                            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="DeletarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/DelButton.svg" /></a>
-                            <a class="btn btn-secondary" asp-controller="Usuario" asp-action="EditarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/EditButton.svg" /></a>
+<body>
+    <div class="anotacoes-layout">
+        <nav>
+            <div class="search-container">
+                <div class="input-group">
+                    <input type="text" id="searchInputFeed" class="form-control custom-input" placeholder="Procurar nas anotações..." />
                 </div>
             </div>
-        </div>
-    }
-</div>
+            <div class="title-container">
+                <div class="titulo-design">
+                    <h1 id="anotacoesTitulo">@ViewData["Title"]</h1>
+                </div>
+            </div>
+            <div class="btn-container">
+                <button type="button" class="btn btnAdd" data-bs-toggle="modal" data-bs-target="#AddAnotModal"><img src="~/img/addBtn.svg" style="width: 80%" /></button>
+                <div class="perfil-container">
+                </div>
+            </div>
+        </nav>
+        <main>
+            <div class="anotacoes-container">
+                @foreach (var anotacao in Model.Anotacoes)
+                {
+                    <div class="blocoAnotacao" style="background-color: @anotacao.Cor" data-id="@anotacao.Id">
+                        <div id="tituloAnotacao">
+                            <p>@anotacao.Titulo</p>
+                        </div>
+                        <div id="descricaoAnotacao">
+                            <p>@anotacao.Descricao</p>
+                        </div>
+                    </div>
+                    <!-- Modal visualizar -->
 
+                    <div class="modal fade" id="anotVisuModal-@anotacao.Id" tabindex="-1" aria-labelledby="anotVisuModalLabel-@anotacao.Id" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="headerAnotacoes">
+                                    <h1 id="modalTitulo" />
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="descricaoAnotacoes">
+                                    <p id="modalDescricao" />
+                                </div>
+                                <div class="footerAnotacoes">
+                                    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="DeletarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/DelButton.svg" /></a>
+                                    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="EditarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/EditButton.svg" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </main>
+    </div>
 <!-- adicionar Modal -->
 <div class="modal fade" id="AddAnotModal" tabindex="-1" aria-labelledby="AddAnotModalLabel" aria-hidden="true">
     <div class="modal-dialog">
@@ -58,5 +85,6 @@
         </div>
     </div>
 </div>
+</body>
 
 

@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link href="~/lib/jquery-chosen/dist/css/chosen.css" rel="stylesheet" />
     <link href="~/lib/jquery-chosen/dist/css/chosen.min.css" rel="stylesheet" />
-    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/PerIpsumOriginal.styles.css" asp-append-version="true" />
 </head>
@@ -27,7 +26,7 @@
 
                         <!-- Ajuste para o "Home" funcionar tanto na raiz quanto no /Inicio -->
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Index">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Sobre">
                                 <img src="~/img/iconeHome.svg" alt="Ícone Home" class="icone icone-home" style="height: 40px; padding: 5px;" />
                                 Home
                             </a>
@@ -62,9 +61,6 @@
                                 Contato
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Rascunhos">Rascunhos</a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -81,8 +77,6 @@
     <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.js"></script>
     <script src="~/lib/jquery-chosen/dist/js/chosen.jquery.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-fullcalendar/dist/index.global.js"></script>
-    <script src="~/lib/jquery-fullcalendar/dist/index.global.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

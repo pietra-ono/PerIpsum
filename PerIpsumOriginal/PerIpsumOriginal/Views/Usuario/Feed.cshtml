@@ -6,196 +6,172 @@
     Layout = "_LayoutSecundario";
 }
 
-<div class="container">
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adicionarModal">
-        +
-    </button>
-    <div class="search-container">
-        <input type="text" id="searchInput" placeholder="Pesquisar...">
-    </div>
-    <div class="filter-container">
-        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#filterModal">Filtros</button>
-    </div>
-    <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="filterModalLabel">Filtros</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<body>
+    <div class="feed-layout">
+        <nav>
+            <div class="search-container">
+                <div class="input-group">
+                    <input type="text" id="searchInputFeed" class="form-control custom-input" placeholder="Procurar oportunidades..." />
                 </div>
-                <div class="modal-body">
-                    @foreach (var categoria in Model.Categorias)
-                    {
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="@categoria.Value" id="filter-@categoria.Value">
-                            <label class="form-check-label" for="filter-@categoria.Text">@categoria.Text</label>
+                <div class="filter-container">
+                    <button id="filtroBtn" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="~/img/filtroBtn.svg" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <div class="filter-section">
+                            <h6>Filtros</h6>
+                            <div>
+                                <input type="checkbox" id="filtroPersonalizado" name="filtro" value="personalizado"/>
+                                <label for="filtroPersonalizado">Preferências</label>
+                            </div>
                         </div>
-                    }
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" onclick="applyFilters()">Aplicar</button>
+                        <div class="filter-section">
+                            <h6>Tipos</h6>
+                            <div class="filter-options tipos">
+                                @foreach (TipoEnum tipo in Enum.GetValues(typeof(TipoEnum)))
+                                {
+                                    if (tipo != TipoEnum.Desconhecido)
+                                    {
+                                        <div>
+                                            <input type="checkbox" value="@tipo" @(Model.TiposSelecionados.Contains(tipo) ? "checked" : "")>
+                                            @ConteudosHelper.GetTextForTipo(tipo)
+                                        </div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h6>Países</h6>
+                            <div class="filter-options paises">
+                                @foreach (PaisEnum pais in Enum.GetValues(typeof(PaisEnum)))
+                                {
+                                    if (pais != PaisEnum.Desconhecido)
+                                    {
+                                        <div>
+                                            <input type="checkbox" value="@pais" @(Model.PaisesSelecionados.Contains(pais) ? "checked" : "")>
+                                            @ConteudosHelper.GetCountryDisplayName(pais)
+                                        </div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </ul>
                 </div>
             </div>
+
+        <div class="btn-container">
+            <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%" /></a>
+            <a id="btnRascunhos" role="button" href="@Url.Action("Rascunhos", "Admin")"><img src="~/img/parceriaRascBtn.svg" /></a>
+            <div id="admDropdown" class="dropdown">
+                <button id="admButton" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" /></button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
+                    <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
+                </ul>
+            </div>
+                <div class="perfil-container">
+                </div>
         </div>
-    </div>
+        
+    </nav>
+    <main>
+        <div class="feed-container">
+            @foreach (var conteudo in Model.Conteudos)
+            {
+                <div class="card" data-id="@conteudo.Id">
+                    <div class="imagem-container">
+                        <img id="imagemCard" src="@($"/storage/{conteudo.Imagem}")" alt="Imagem do conteúdo." />
+                            <div class="favorito-btn">
 
-    <div class="fundo">
+                                <button class="favoritar-btn" onclick="toggleFavorite(@conteudo.Id)">
+                                    <img id="favorito-@conteudo.Id"
+                                         src="~/img/@((Model.FavoritosIds.Contains(conteudo.Id)) ? "Favorito.svg" : "Desfavorito.svg")"
+                                         alt="Favorito"
+                                         class="favorite-icon" />
+                                </button>
 
-        @foreach (var conteudo in Model.Conteudos)
-        {
-            bool isFavorited = Model.ConteudosFavoritosIds?.Contains(conteudo.Id) ?? false;
-            string starImage = isFavorited ? "Favorito.svg" : "Desfavorito.svg";
-            <div class="card" data-id="@conteudo.Id">
-                <img id="imagemCard1" src="@($"/storage/{conteudo.Imagem}")" alt="...">
-                <div class="row">
-                    <div class="col-auto" id="tipoDesign" style="background-color: @ConteudosHelper.GetColorForTipo(conteudo.Tipo);">
-                        <p id="tipoTexto1">@ConteudosHelper.GetTextForTipo(conteudo.Tipo)</p>
+
+                            </div>
                     </div>
-                    <div class="col-auto">
-                        <div class="row">
-                            <div id="paisDesign">
-                                <p id="paisTexto1">@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)</p>
+                    <div class="info-container">
+                        <div class="tipoDesign" style="background-color:@ConteudosHelper.GetColorForTipo(conteudo.Tipo);">
+                            <p id="tipo">@ConteudosHelper.GetTextForTipo(conteudo.Tipo)</p>
+                        </div>
+                            <div class="paisDesign">
+                                <p id="pais">@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)</p>
                                 <img src="@ConteudosHelper.GetFlagForCountry(conteudo.Pais)" alt="@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)" />
                             </div>
-                        </div>
+                            <div class="dataDesign">
+                                <p id="data">@conteudo.Data.ToString("dd/MM/yyyy")</p>
+                                <img src="~/img/calendar.svg" alt="Calendário" />
+                            </div>
                     </div>
-                    <div class="col-auto">
-                        <div class="row">
-                            <div id="dataDesign">
-                                <p id="dataTexto1">@conteudo.Data.ToString("dd/MM/yyyy")</p>
-                                <img src="~/img/calendar.svg" alt="calendário" />
-                            </div>
-                        </div>
+                    <div class="titulo-container">
+                        <h1 id="titulo">@conteudo.Nome</h1>
                     </div>
-                </div>
-                <div id="espacoTexto">
-                    <h1 id="textoTitulo1">@conteudo.Nome</h1>
-                    <p id="dataTextoDescricao1">@conteudo.Descricao</p>
-                    <p id="categoriasTexto1">@conteudo.ConteudoCategorias</p>
-                    <p id="linkTexto1">@conteudo.Link</p>
-                    <button class="favorito-btn" onclick="toggleFavorite(@conteudo.Id)">
-                        <img id="favorito-img-@conteudo.Id" src="@($"/img/Desfavorito.svg")" alt="Favoritar/Desfavoritar" />
-                    </button>
-                </div>
-
-            </div>
-            <!-- VISUALIZAR MODAL -->
-
-            <div class="modal fade" id="conteudoModal-@conteudo.Id" tabindex="-1" aria-labelledby="conteudoModalLabel-@conteudo.Id" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="left-section">
-                            <img id="modalImage1" src="" alt="imagem do conteúdo" />
-                        </div>
-
-                        <div class="right-section">
-                            <div id="button-space">
-                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="header-info">
-                                <div id="modalTipoDesign">
-                                    <p id="modalTipo1"></p>
-                                </div>
-                                <div id="modalPaisDesign">
-                                    <img id="modalPaisFlag1" src="" alt="Bandeira do país" />
-                                    <p id="modalPaisDisplay1"></p>
-                                </div>
-                                <div id="modalDataDesign">
-                                    <p id="modalData1"></p>
-                                    <img src="~/img/calendar.svg" alt="calendário" />
-                                </div>
-                            </div>
-                            <div class="content-info">
-                                <h3 id="modalTitle1"></h3>
-                                <p id="modalDescription1"></p>
-                                <!--  <div id="modalKeywords1">Palavras-chave: </div> -->
-
-                                <button class="favorito-btn" onclick="toggleFavorite(@conteudo.Id)">
-                                    <img id="favorito-img-@conteudo.Id" src="@($"/img/Desfavorito.svg")" alt="Favoritar/Desfavoritar" />
-                                </button>
-                               
-                            </div>
-                            <div class="button-container">
-                                <a id="modalLink1" href="#" class="access-button" target="_blank">Acessar</a>
-                            </div>
-                            <div class="delBtnSpace">
-                                <a class="btn btn-secondary" asp-controller="Usuario" asp-action="DeletarFeed" role="button" asp-route-id="@conteudo.Id"><img src="~/img/DelButton.svg" /></a>
-                            </div>
-                        </div>
+                    <div class="descricao-container">
+                        <p id="descricao">@conteudo.Descricao</p>
+                    </div>
+                    <div class="categorias-container">
+                        <p id="categorias">@conteudo.Categorias</p>
+                    </div>
+                    <div class="link-container">
+                        <p id="link">@conteudo.Link</p>
                     </div>
                 </div>
-            </div>
-        }
+                
 
- <div class="modal fade" id="adicionarModal" tabindex="-1" aria-labelledby="adicionarModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <form asp-controller="Usuario" asp-action="AdicionarConteudo" method="post" enctype="multipart/form-data">
-                <div class="modal-content p-3">
-                    <div class="row g-0">
-                        <div class="col-4">
-                            <input type="file" asp-for="ConteudoM.Imagem" id="imagem" name="imagem" />
-                        </div>
-                        <div class="col-8">
-                            <button type="submit" class="btn btn-primary">Salvar</button>
-                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- MODAL DE VISUALIZAÇÃO -->
 
-                            <div class="modal-header">
-                                <select asp-for="ConteudoM.Tipo" name="tipo">
-                                    <option value="@TipoEnum.Desconhecido">Tipo</option>
-                                    <option value="@TipoEnum.Oportunidades">Oport.</option>
-                                    <option value="@TipoEnum.Provas">Prova</option>
-                                    <option value="@TipoEnum.Eventos">Evento</option>
-                                </select>
+                    <div class="modal fade" id="feedModal-@conteudo.Id" tabindex="-1" aria-labelledby="feedModalLabel-@conteudo.Id" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="esquerda">
+                                    <img id="imgModal" src="" alt="Imagem do conteúdo."/>
+                                    <button class="favoritar-btn-modal" onclick="toggleFavorite(@conteudo.Id)">
+                                        <img id="favorito-@conteudo.Id"
+                                             src="~/img/@((Model.FavoritosIds.Contains(conteudo.Id)) ? "Favorito.svg" : "Desfavorito.svg")"
+                                             alt="Favorito"
+                                             class="favorite-icon" />
+                                    </button>
 
-                                <select asp-for="ConteudoM.Pais" name="pais">
-                                    <option value="@PaisEnum.Desconhecido">Desconhecido</option>
-                                    <option value="@PaisEnum.EstadosUnidos">EUA</option>
-                                    <option value="@PaisEnum.China">CHI</option>
-                                    <option value="@PaisEnum.Alemanha">ALE</option>
-                                    <option value="@PaisEnum.Japao">JAP</option>
-                                    <option value="@PaisEnum.India">IND</option>
-                                    <option value="@PaisEnum.ReinoUnido">ING</option>
-                                    <option value="@PaisEnum.Franca">FRA</option>
-                                    <option value="@PaisEnum.Italia">ITA</option>
-                                    <option value="@PaisEnum.Brasil">BRA</option>
-                                    <option value="@PaisEnum.Canada">CAN</option>
-                                    <option value="@PaisEnum.Russia">RUS</option>
-                                    <option value="@PaisEnum.Mexico">MEX</option>
-                                    <option value="@PaisEnum.CoreiaDoSul">COS</option>
-                                    <option value="@PaisEnum.Australia">AUS</option>
-                                    <option value="@PaisEnum.Espanha">ESP</option>
-                                    <option value="@PaisEnum.Indonesia">INDO</option>
-                                    <option value="@PaisEnum.Turquia">TUR</option>
-                                    <option value="@PaisEnum.Holanda">HOL</option>
-                                    <option value="@PaisEnum.ArabiaSaudita">ARAB</option>
-                                    <option value="@PaisEnum.Suica">SUI</option>
-                                    <option value="@PaisEnum.Portugal">POR</option>
-                                    <option value="@PaisEnum.Irlanda">IRL</option>
-                                    <option value="@PaisEnum.IrlandaDoNorte">IRLN</option>
-                                    <option value="@PaisEnum.Chile">CHIL</option>
-                                    <option value="@PaisEnum.Argentina">ARG</option>
-                                </select>
-                                <input type="date" asp-for="ConteudoM.Data" name="data" />
-                            </div>
-                            <div class="modal-body">
-                                <input type="text" asp-for="ConteudoM.Nome" placeholder="Título" name="nome" />
-                                <input type="text" asp-for="ConteudoM.Descricao" placeholder="Descrição" name="descricao" />
-                                <div class="form-group">
-                                    <label for="categorias">Categorias</label>
-                                        <select asp-for="ConteudoM.ConteudoCategorias" name="Categorias" class="chosen-select" multiple>
-                                            @foreach (var categoria in Model.Categorias)
-                                            {
-                                                <option value="@categoria.Value">@categoria.Text</option>
-                                            }
-                                        </select>
                                 </div>
-                                <input type="text" asp-for="ConteudoM.Link" placeholder="Link" name="link" />
+                                <div class="direita">
+                                    <div class="btn-modal-container">
+                                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="headerModal">
+                                        <div class="modal-tipo-design">
+                                            <p id="tipoModal"></p>
+                                        </div>
+                                        <div class="modal-pais-design">
+                                            <img id="bandeiraModal" src="" alt="Bandeira do país" />
+                                            <p id="paisModal"></p>
+                                        </div>
+                                        <div class="modal-data-design">
+                                            <p id="dataModal"></p>
+                                            <img src="~/img/calendar.svg" alt="Calendário" />
+                                        </div>
+                                    </div>
+                                    <div class="mainModal">
+                                        <h3 id="nomeModal"></h3>
+                                        <p id="descricaoModal"></p>
+                                        <p id="categoriasModal"></p>
+                                        <div class="modal-link-design">
+                                            <a id="linkModal" href="#" target="_blank">Acessar</a>
+                                        </div>
+                                    </div>
+                                    <div class="footerModal">
+                                        <a asp-controller="Usuario" asp-action="DeletarFeed" role="button" asp-route-id="@conteudo.Id">
+                                            <img src="~/img/DelButton.svg" />
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </form>
+            }
         </div>
+    </main>
     </div>
-    </div>
-</div>
+</body>

@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Views\Usuario\Calendario.cshtml.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="chosen.jquery" Version="1.2.0" />
     <PackageReference Include="jQuery" Version="3.7.1" />
     <PackageReference Include="jQuery.FileUpload" Version="10.4.0" />
@@ -30,7 +34,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\lib\jquery-chosen\dist\css\" />
     <Folder Include="wwwroot\lib\jquery-chosen\dist\js\" />
-    <Folder Include="wwwroot\lib\jquery-fullcalendar\" />
     <Folder Include="wwwroot\storage\" />
   </ItemGroup>
 

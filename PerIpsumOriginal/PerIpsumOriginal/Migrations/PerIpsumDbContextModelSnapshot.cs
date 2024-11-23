@@ -187,10 +187,10 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Anotacoes", (string)null);
+                    b.ToTable("Anotacoes");
                 });
 
-            modelBuilder.Entity("PerIpsumOriginal.Models.CategoriaModel", b =>
+            modelBuilder.Entity("PerIpsumOriginal.Models.CalendarioModel", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -198,14 +198,26 @@ namespace PerIpsumOriginal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Nome")
+                    b.Property<DateOnly>("Data")
+                        .HasColumnType("date");
+
+                    b.Property<string>("Descricao")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categorias", (string)null);
+                    b.HasIndex("UsuarioId");
+
+                    b.ToTable("Calendario");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.ContatoModel", b =>
@@ -236,7 +248,7 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Contatos", (string)null);
+                    b.ToTable("Contatos");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoAprovarModel", b =>
@@ -247,6 +259,11 @@ namespace PerIpsumOriginal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Categorias")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
                     b.Property<DateOnly>("Data")
                         .HasColumnType("date");
 
@@ -277,7 +294,7 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ConteudoAprovar", (string)null);
+                    b.ToTable("ConteudoAprovar");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoModel", b =>
@@ -288,6 +305,11 @@ namespace PerIpsumOriginal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Categorias")
+                        .IsRequired()
+                        .HasMaxLength(300)
+                        .HasColumnType("nvarchar(300)");
+
                     b.Property<DateOnly>("Data")
                         .HasColumnType("date");
 
@@ -318,7 +340,7 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Conteudos", (string)null);
+                    b.ToTable("Conteudos");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoRascunhoModel", b =>
@@ -328,6 +350,10 @@ namespace PerIpsumOriginal.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Categorias")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateOnly>("Data")
                         .HasColumnType("date");
@@ -365,7 +391,7 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("ConteudoRascunho", (string)null);
+                    b.ToTable("ConteudoRascunho");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.FavoritoModel", b =>
@@ -389,61 +415,32 @@ namespace PerIpsumOriginal.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Favoritos", (string)null);
+                    b.ToTable("Favoritos");
                 });
 
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoAprovarCategorias", b =>
+            modelBuilder.Entity("PerIpsumOriginal.Models.PreferenciasModel", b =>
                 {
-                    b.Property<int>("ConteudoAprovarId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoriaId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.HasKey("ConteudoAprovarId", "CategoriaId");
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.HasIndex("CategoriaId");
-
-                    b.ToTable("ConteudoAprovarCategorias", (string)null);
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoCategorias", b =>
-                {
-                    b.Property<int>("ConteudoId")
+                    b.Property<int>("Pais")
                         .HasColumnType("int");
 
-                    b.Property<int>("CategoriaId")
+                    b.Property<int>("Tipo")
                         .HasColumnType("int");
 
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
+                    b.Property<string>("UsuarioId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("ConteudoId", "CategoriaId");
+                    b.HasKey("Id");
 
-                    b.HasIndex("CategoriaId");
+                    b.HasIndex("UsuarioId");
 
-                    b.ToTable("ConteudoCategorias", (string)null);
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoRascunhoCategorias", b =>
-                {
-                    b.Property<int>("ConteudoRascunhoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CategoriaId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.HasKey("ConteudoRascunhoId", "CategoriaId");
-
-                    b.HasIndex("CategoriaId");
-
-                    b.ToTable("ConteudoRascunhoCategorias", (string)null);
+                    b.ToTable("Preferencias");
                 });
 
             modelBuilder.Entity("PerIpsumOriginal.Models.UsuarioModel", b =>
@@ -577,6 +574,17 @@ namespace PerIpsumOriginal.Migrations
                     b.Navigation("Usuario");
                 });
 
+            modelBuilder.Entity("PerIpsumOriginal.Models.CalendarioModel", b =>
+                {
+                    b.HasOne("PerIpsumOriginal.Models.UsuarioModel", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
+                });
+
             modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoRascunhoModel", b =>
                 {
                     b.HasOne("PerIpsumOriginal.Models.UsuarioModel", "Usuario")
@@ -607,85 +615,15 @@ namespace PerIpsumOriginal.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoAprovarCategorias", b =>
+            modelBuilder.Entity("PerIpsumOriginal.Models.PreferenciasModel", b =>
                 {
-                    b.HasOne("PerIpsumOriginal.Models.CategoriaModel", "Categoria")
-                        .WithMany("ConteudoAprovarCategorias")
-                        .HasForeignKey("CategoriaId")
+                    b.HasOne("PerIpsumOriginal.Models.UsuarioModel", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("PerIpsumOriginal.Models.ConteudoAprovarModel", "ConteudoAprovar")
-                        .WithMany("ConteudoAprovarCategorias")
-                        .HasForeignKey("ConteudoAprovarId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Categoria");
-
-                    b.Navigation("ConteudoAprovar");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoCategorias", b =>
-                {
-                    b.HasOne("PerIpsumOriginal.Models.CategoriaModel", "Categoria")
-                        .WithMany("ConteudoCategorias")
-                        .HasForeignKey("CategoriaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PerIpsumOriginal.Models.ConteudoModel", "Conteudo")
-                        .WithMany("ConteudoCategorias")
-                        .HasForeignKey("ConteudoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Categoria");
-
-                    b.Navigation("Conteudo");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.SubModels.ConteudoRascunhoCategorias", b =>
-                {
-                    b.HasOne("PerIpsumOriginal.Models.CategoriaModel", "Categoria")
-                        .WithMany("ConteudoRascunhoCategorias")
-                        .HasForeignKey("CategoriaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("PerIpsumOriginal.Models.ConteudoRascunhoModel", "ConteudoRascunho")
-                        .WithMany("ConteudoRascunhoCategorias")
-                        .HasForeignKey("ConteudoRascunhoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Categoria");
-
-                    b.Navigation("ConteudoRascunho");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.CategoriaModel", b =>
-                {
-                    b.Navigation("ConteudoAprovarCategorias");
-
-                    b.Navigation("ConteudoCategorias");
-
-                    b.Navigation("ConteudoRascunhoCategorias");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoAprovarModel", b =>
-                {
-                    b.Navigation("ConteudoAprovarCategorias");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoModel", b =>
-                {
-                    b.Navigation("ConteudoCategorias");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.ConteudoRascunhoModel", b =>
-                {
-                    b.Navigation("ConteudoRascunhoCategorias");
+                    b.Navigation("Usuario");
                 });
 #pragma warning restore 612, 618
         }

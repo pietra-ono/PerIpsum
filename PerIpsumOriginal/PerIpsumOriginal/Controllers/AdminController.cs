@@ -1,10 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PerIpsumOriginal.Data;
+using PerIpsumOriginal.Enums;
+using PerIpsumOriginal.Migrations;
 using PerIpsumOriginal.Models;
-using PerIpsumOriginal.Models.SubModels;
+using PerIpsumOriginal.Repositorios;
 using PerIpsumOriginal.Repositorios.IRepositorios;
 using PerIpsumOriginal.ViewModels;
 using System.Diagnostics;
@@ -18,7 +21,6 @@ namespace PerIpsumOriginal.Controllers
         private readonly IConteudoRascunhoRepositorio _conteudoRascunhoRepositorio;
         private readonly IConteudoAprovarRepositorio _conteudoAprovarRepositorio;
         private readonly IConteudoRepositorio _conteudoRepositorio;
-        private readonly ICategoriaRepositorio _categoriaRepositorio;
         private readonly IWebHostEnvironment _environment;
         private readonly UserManager<UsuarioModel> _userManager;
         private readonly PerIpsumDbContext _dbContext;
@@ -27,7 +29,6 @@ namespace PerIpsumOriginal.Controllers
             IConteudoRascunhoRepositorio conteudoRascunhoRepositorio,
             IConteudoAprovarRepositorio conteudoAprovarRepositorio,
             IConteudoRepositorio conteudoRepositorio,
-            ICategoriaRepositorio categoriaRepositorio,
             IWebHostEnvironment environment,
             UserManager<UsuarioModel> userManager,
             PerIpsumDbContext dbContext
@@ -37,51 +38,41 @@ namespace PerIpsumOriginal.Controllers
             _conteudoRascunhoRepositorio = conteudoRascunhoRepositorio;
             _conteudoAprovarRepositorio = conteudoAprovarRepositorio;
             _conteudoRepositorio = conteudoRepositorio;
-            _categoriaRepositorio = categoriaRepositorio;
             _environment = environment;
             _userManager = userManager;
             _dbContext = dbContext;
         }
         // ================================= RASCUNHOS =================================
-
         [HttpGet]
+        
         public IActionResult Rascunhos()
         {
             string usuarioId = _userManager.GetUserId(User);
             if (string.IsNullOrEmpty(usuarioId))
             {
-                return BadRequest("O usuário não está logado.");
+                return BadRequest("O usuário não está logado");
             }
 
             var rascunhos = _conteudoRascunhoRepositorio.ObterRascunhosPorUsuario(usuarioId);
-            var categorias = _dbContext.Categorias.ToList();
-            var categoriasSelectList = categorias.Select(c => new SelectListItem
-            {
-                Value = c.Id.ToString(),
-                Text = c.Nome
-            }).ToList();
-
             var viewModel = new RascunhoViewModel
             {
-                Rascunhos = rascunhos,
-                Categorias = categoriasSelectList
+                Rascunhos = rascunhos
             };
 
             return View(viewModel);
         }
 
-
         [HttpPost]
-        public IActionResult AdicionarRascunho(ConteudoRascunhoModel rascunho, IFormFile imagem, int[] categorias)
+        public IActionResult AdicionarRascunho(ConteudoRascunhoModel rascunho, IFormFile imagem, string acao)
         {
             string usuarioId = _userManager.GetUserId(User);
-
             if (string.IsNullOrEmpty(usuarioId))
             {
-                return BadRequest("O usuário não está logado.");
+                return BadRequest("O usuário não está logado");
             }
-
             rascunho.UsuarioId = usuarioId;
+
+            // Lógica para salvar a imagem
             if (imagem != null)
             {
                 string uploadsFolder = Path.Combine(_environment.WebRootPath, "storage");
@@ -95,24 +86,61 @@ namespace PerIpsumOriginal.Controllers
 
                 rascunho.Imagem = filePath;
             }
-            if (categorias != null)
+            if (!string.IsNullOrWhiteSpace(rascunho.Categorias))
             {
-                foreach (var categoriaId in categorias)
+                // Divide as palavras, remove espaços extras
+                var categoriasArray = rascunho.Categorias
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries);
+
+                // Verifica o número de categorias
+                if (categoriasArray.Length > 7)
                 {
-                    if (!_dbContext.ConteudoRascunhoCategorias.Any(crc => crc.ConteudoRascunhoId == rascunho.Id && crc.CategoriaId == categoriaId))
-                    {
-                        var categoria = new ConteudoRascunhoCategorias
-                        {
-                            ConteudoRascunhoId = rascunho.Id,
-                            CategoriaId = categoriaId
-                        };
-                        _dbContext.ConteudoRascunhoCategorias.Add(categoria);
-                    }
+                    ModelState.AddModelError("Categorias", "Você pode adicionar no máximo 7 categorias.");
+                    return View(rascunho);
                 }
+
+                // Formata as categorias
+                rascunho.Categorias = string.Join(", ", categoriasArray) + ".";
             }
-            _conteudoRascunhoRepositorio.Adicionar(rascunho, usuarioId, categorias);
-            return RedirectToAction("Rascunhos");
+
+            if (acao == "SalvarRascunho")
+            {
+                // Salvar alterações no rascunho
+                _conteudoRascunhoRepositorio.Adicionar(rascunho, usuarioId);
+                return RedirectToAction("Rascunhos");
+            }
+            else if (acao == "SalvarAprovar")
+            {
+                // Validação para verificar valores "nulos" ou inválidos
+                if (string.IsNullOrEmpty(rascunho.Nome) ||
+                    string.IsNullOrEmpty(rascunho.Descricao) ||
+                    rascunho.Pais == 0 || // Assumindo que 0 é um valor inválido para PaisEnum
+                    rascunho.Tipo == 0 || // Assumindo que 0 é um valor inválido para TipoEnum
+                    string.IsNullOrEmpty(rascunho.Link) ||
+                    rascunho.Data == default(DateOnly))// Verifica se a data é válida
+                {
+                    return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
+                }
+
+                // Enviar conteúdo para aprovação (tabela ConteudoAprovar)
+                var conteudoAprovar = new ConteudoAprovarModel
+                {
+                    Nome = rascunho.Nome,
+                    Descricao = rascunho.Descricao,
+                    Pais = rascunho.Pais,
+                    Tipo = rascunho.Tipo,
+                    Link = rascunho.Link,
+                    Imagem = rascunho.Imagem,
+                    Data = rascunho.Data,
+                    Categorias = rascunho.Categorias
+                };
+
+                _conteudoAprovarRepositorio.Adicionar(conteudoAprovar);
+                return RedirectToAction("Rascunhos");
+            }
+            return BadRequest("Ação inválida.");
         }
+
 
         [HttpGet]
         public IActionResult EditarRascunhos(int id)
@@ -124,26 +152,16 @@ namespace PerIpsumOriginal.Controllers
             {
                 return NotFound();
             }
-
-            var categorias = _dbContext.Categorias.ToList();
-            var categoriasSelectList = categorias.Select(c => new SelectListItem
-            {
-                Value = c.Id.ToString(),
-                Text = c.Nome
-            }).ToList();
-
             var viewModel = new RascunhoViewModel
             {
-                Rascunho = rascunho,  // Passando o rascunho diretamente
-                Categorias = categoriasSelectList
+                Rascunho = rascunho
             };
 
             return View(viewModel);
         }
 
-
         [HttpPost]
-        public async Task<IActionResult> AlterarRascunho(ConteudoRascunhoModel rascunho, IFormFile imagemArquivo, int[] categorias, string acao)
+        public IActionResult AlterarRascunho(ConteudoRascunhoModel rascunho, IFormFile imagem, string acao)
         {
             string usuarioId = _userManager.GetUserId(User);
 
@@ -158,8 +176,8 @@ namespace PerIpsumOriginal.Controllers
                 return NotFound("Rascunho não encontrado.");
             }
 
-            // Manipulação da imagem
-            if (imagemArquivo != null)
+            // Lógica para atualizar a imagem
+            if (imagem != null)
             {
                 string uploadsFolder = Path.Combine(_environment.WebRootPath, "storage");
 
@@ -172,41 +190,31 @@ namespace PerIpsumOriginal.Controllers
                         System.IO.File.Delete(imagemAntigaPath);
                     }
                 }
-
                 // Salvar nova imagem
-                string novoNomeImagem = Guid.NewGuid().ToString() + "_" + imagemArquivo.FileName;
+                string novoNomeImagem = Guid.NewGuid().ToString() + "_" + imagem.FileName;
                 string novaImagemPath = Path.Combine(uploadsFolder, novoNomeImagem);
                 using (var stream = new FileStream(novaImagemPath, FileMode.Create))
                 {
-                    await imagemArquivo.CopyToAsync(stream);
+                    imagem.CopyTo(stream);
                 }
                 rascunhoAtual.Imagem = novoNomeImagem;
             }
-
-            // Atualizar categorias
-            if (categorias != null)
+            if (!string.IsNullOrWhiteSpace(rascunho.Categorias))
             {
-                var categoriasARemover = rascunhoAtual.ConteudoRascunhoCategorias
-                    .Where(crc => crc.ConteudoRascunhoId == rascunhoAtual.Id && !categorias.Contains(crc.CategoriaId))
-                    .ToList();
+                var categoriasArray = rascunho.Categorias
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries); // Divide por espaço
 
-                foreach (var categoria in categoriasARemover)
+                if (categoriasArray.Length > 7)
                 {
-                    rascunhoAtual.ConteudoRascunhoCategorias.Remove(categoria);
+                    return BadRequest("Você pode adicionar no máximo 7 categorias.");
                 }
 
-                foreach (var categoriaId in categorias)
-                {
-                    if (!_dbContext.ConteudoRascunhoCategorias.Any(crc => crc.ConteudoRascunhoId == rascunhoAtual.Id && crc.CategoriaId == categoriaId))
-                    {
-                        var novaRelacao = new ConteudoRascunhoCategorias
-                        {
-                            ConteudoRascunhoId = rascunhoAtual.Id,
-                            CategoriaId = categoriaId
-                        };
-                        _dbContext.ConteudoRascunhoCategorias.Add(novaRelacao);
-                    }
-                }
+                // Reformatar categorias
+                rascunhoAtual.Categorias = string.Join(", ", categoriasArray) + ".";
+            }
+            else
+            {
+                rascunhoAtual.Categorias = null; // Permitir que categorias sejam removidas
             }
 
             // Atualizar campos do rascunho
@@ -216,28 +224,26 @@ namespace PerIpsumOriginal.Controllers
             rascunhoAtual.Tipo = rascunho.Tipo;
             rascunhoAtual.Link = rascunho.Link;
             rascunhoAtual.Data = rascunho.Data;
+            rascunhoAtual.Categorias = rascunho.Categorias;
 
-            // Verifica a ação selecionada pelo usuário
             if (acao == "SalvarRascunho")
             {
-                // Salvar alterações no rascunho
-                _conteudoRascunhoRepositorio.Atualizar(rascunhoAtual, usuarioId, categorias);
+                _conteudoRascunhoRepositorio.Atualizar(rascunhoAtual, usuarioId);
                 return RedirectToAction("Rascunhos");
             }
             else if (acao == "EnviarAprovar")
             {
-                // Validação para verificar valores "nulos" ou inválidos
-                if (rascunhoAtual.Nome == ValoresNulosModel.Nome ||
-                    rascunhoAtual.Descricao == ValoresNulosModel.Descricao ||
-                    rascunhoAtual.Pais == ValoresNulosModel.Pais ||
-                    rascunhoAtual.Tipo == ValoresNulosModel.Tipo ||
-                    rascunhoAtual.Link == ValoresNulosModel.Link ||
-                    rascunhoAtual.Data == ValoresNulosModel.Data)
+                if (string.IsNullOrEmpty(rascunhoAtual.Nome) ||
+                    string.IsNullOrEmpty(rascunhoAtual.Descricao) ||
+                    rascunhoAtual.Pais == 0 || // Assumindo que 0 é um valor inválido para PaisEnum
+                    rascunhoAtual.Tipo == 0 || // Assumindo que 0 é um valor inválido para TipoEnum
+                    string.IsNullOrEmpty(rascunhoAtual.Link) ||
+                    rascunhoAtual.Data == default(DateOnly) || // Verifica se a data é válida
+                    string.IsNullOrEmpty(rascunhoAtual.Categorias))
                 {
                     return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
                 }
 
-                // Enviar conteúdo para aprovação (tabela ConteudoAprovar)
                 var conteudoAprovar = new ConteudoAprovarModel
                 {
                     Nome = rascunhoAtual.Nome,
@@ -246,43 +252,19 @@ namespace PerIpsumOriginal.Controllers
                     Tipo = rascunhoAtual.Tipo,
                     Link = rascunhoAtual.Link,
                     Imagem = rascunhoAtual.Imagem,
-                    Data = rascunhoAtual.Data
+                    Data = rascunhoAtual.Data,
+                    Categorias = rascunhoAtual.Categorias
                 };
 
                 _conteudoAprovarRepositorio.Adicionar(conteudoAprovar);
-                await _dbContext.SaveChangesAsync();
-
-                // Copiar as categorias associadas para ConteudoAprovarCategorias
-                var categoriasRascunho = await _dbContext.ConteudoRascunhoCategorias
-                    .Where(crc => crc.ConteudoRascunhoId == rascunhoAtual.Id)
-                    .ToListAsync();
-
-                foreach (var categoriaRascunho in categoriasRascunho)
-                {
-                    var conteudoAprovarCategoria = new ConteudoAprovarCategorias
-                    {
-                        ConteudoAprovarId = conteudoAprovar.Id,
-                        CategoriaId = categoriaRascunho.CategoriaId
-                    };
-                    _dbContext.ConteudoAprovarCategorias.Add(conteudoAprovarCategoria);
-                }
-
-                await _dbContext.SaveChangesAsync();
-
-                // Apagar o rascunho depois de enviar para aprovação
+                _dbContext.SaveChanges();
                 _conteudoRascunhoRepositorio.Apagar(rascunhoAtual.Id, usuarioId);
-
                 return RedirectToAction("Rascunhos");
             }
-
-            // Caso a ação seja inválida, retornar um erro
             return BadRequest("Ação inválida.");
         }
 
-
-
-
-
+        [HttpGet]
         public IActionResult DeletarRascunhos(int id)
         {
             string usuarioId = _userManager.GetUserId(User);
@@ -325,7 +307,6 @@ namespace PerIpsumOriginal.Controllers
             return BadRequest("Erro ao apagar o rascunho.");
         }
 
-
         [HttpPost]
         public IActionResult AdicionarRascunhoAprovar(ConteudoAprovarModel conteudoAprovar, IFormFile imagem)
         {
@@ -340,15 +321,13 @@ namespace PerIpsumOriginal.Controllers
             var conteudoRascunho = _conteudoRascunhoRepositorio.ListarPorId(conteudoAprovar.Id, usuarioId);
             if (conteudoRascunho != null)
             {
-                // Atualizar os valores do ConteudoAprovar com base no rascunho, caso os campos sejam nulos ou não preenchidos
                 conteudoAprovar.Nome = string.IsNullOrEmpty(conteudoAprovar.Nome) ? conteudoRascunho.Nome : conteudoAprovar.Nome;
                 conteudoAprovar.Descricao = string.IsNullOrEmpty(conteudoAprovar.Descricao) ? conteudoRascunho.Descricao : conteudoAprovar.Descricao;
                 conteudoAprovar.Link = string.IsNullOrEmpty(conteudoAprovar.Link) ? conteudoRascunho.Link : conteudoAprovar.Link;
                 conteudoAprovar.Pais = conteudoAprovar.Pais == ValoresNulosModel.Pais ? conteudoRascunho.Pais : conteudoAprovar.Pais;
                 conteudoAprovar.Tipo = conteudoAprovar.Tipo == ValoresNulosModel.Tipo ? conteudoRascunho.Tipo : conteudoAprovar.Tipo;
                 conteudoAprovar.Data = conteudoAprovar.Data == ValoresNulosModel.Data ? conteudoRascunho.Data : conteudoAprovar.Data;
-                conteudoAprovar.ConteudoAprovarCategorias = conteudoAprovar.ConteudoAprovarCategorias ?? conteudoRascunho.ConteudoRascunhoCategorias.Select(c => new ConteudoAprovarCategorias { CategoriaId = c.CategoriaId }).ToList();
-
+                conteudoAprovar.Categorias = string.IsNullOrEmpty(conteudoAprovar.Categorias) ? conteudoRascunho.Categorias : conteudoAprovar.Categorias;
             }
 
             // Verificar se o conteúdo tem valores nulos ou padrão
@@ -357,7 +336,8 @@ namespace PerIpsumOriginal.Controllers
                 conteudoAprovar.Pais == ValoresNulosModel.Pais ||
                 conteudoAprovar.Tipo == ValoresNulosModel.Tipo ||
                 conteudoAprovar.Link == ValoresNulosModel.Link ||
-                conteudoAprovar.Data == ValoresNulosModel.Data)
+                conteudoAprovar.Data == ValoresNulosModel.Data ||
+                conteudoAprovar.Categorias == ValoresNulosModel.Categorias) // Verifica se não há categorias selecionadas
             {
                 return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
             }
@@ -394,7 +374,7 @@ namespace PerIpsumOriginal.Controllers
                 Imagem = conteudoAprovar.Imagem,
                 Pais = conteudoAprovar.Pais,
                 Data = conteudoAprovar.Data,
-                ConteudoAprovarCategorias = conteudoAprovar.ConteudoAprovarCategorias// Certificar que as categorias estão sendo adicionadas
+                Categorias = conteudoAprovar.Categorias
             });
 
             // Remover o rascunho após adicionar ao ConteudoAprovar
@@ -405,10 +385,6 @@ namespace PerIpsumOriginal.Controllers
 
             return RedirectToAction("Rascunhos");
         }
-
-
-
-
 
 
 
@@ -437,9 +413,7 @@ namespace PerIpsumOriginal.Controllers
                     Tipo = conteudoTemp.Tipo,
                     Pais = conteudoTemp.Pais,
                     Data = conteudoTemp.Data,
-                    ConteudoCategorias = conteudoTemp.ConteudoAprovarCategorias
-                .Select(ca => new ConteudoCategorias { CategoriaId = ca.CategoriaId })
-                .ToList()
+                    Categorias = conteudoTemp.Categorias
             };
 
                 _conteudoRepositorio.Adicionar(conteudo);

@@ -1,6 +1,4 @@
 ﻿using PerIpsumOriginal.Enums;
-using PerIpsumOriginal.Models.SubModels;
-
 namespace PerIpsumOriginal.Models
 {
     public static class ValoresNulosModel
@@ -11,5 +9,6 @@ namespace PerIpsumOriginal.Models
         public const TipoEnum Tipo = TipoEnum.Desconhecido;
         public const string Link = "Linkar";
         public static DateOnly Data = new DateOnly(1, 1, 1);
+        public const string Categorias = "Nenhuma categoria selecionada";
     }
 }

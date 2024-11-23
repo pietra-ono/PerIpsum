@@ -36,251 +36,16 @@
         }
     });
 
-    // MODAL VISUALIZAÇÃO RASCUNHO
-    $('.fundo').on('click', '.card', function () {
-
-        var id = $(this).data('id');
-
-        var imagem = $(this).find('#imagemCardRascunho').attr('src');
-        var titulo = $(this).find('#textoTituloRascunho').text();
-        var descricao = $(this).find('#dataTextoDescricaoRascunho').text();
-        var data = $(this).find('#dataTextoRascunho').text();
-        var pais = $(this).find('#paisTextoRascunho').text();
-        var tipo = $(this).find('#tipoTextoRascunho').text();
-        var link = $(this).find('#linkTextoRascunho').text();
-        var bandeira = $(this).find('#paisDesignRascunho img').attr('src');
-
-
-
-        var modal = $('#rascunhoModal-' + id);
-        modal.find('#modalImageRascunho').attr('src', imagem);
-        modal.find('#modalTitleRascunho').text(titulo);
-        modal.find('#modalDescriptionRascunho').text(descricao);
-        modal.find('#modalDataRascunho').text(data);
-        modal.find('#modalLinkRascunho').attr('href', link);
-        modal.find('#modalTipoRascunho').text(tipo).css('background-color', $(this).find('#tipoDesignRascunho').css('background-color'));
-        modal.find('#modalPaisDisplayRascunho').text(pais);
-        modal.find('#modalPaisFlagRascunho').attr('src', bandeira);
-
-
-        modal.modal('show');
-    });
-
-    // MODAL VISUALIZAÇÃO FEED
-
-    $('.fundo').on('click', '.card', function () {
-
-        var id = $(this).data('id');
-
-        var imagem = $(this).find('#imagemCard1').attr('src');
-        var titulo = $(this).find('#textoTitulo1').text();
-        var descricao = $(this).find('#dataTextoDescricao1').text();
-        var data = $(this).find('#dataTexto1').text();
-        var pais = $(this).find('#paisTexto1').text();
-        var tipo = $(this).find('#tipoTexto1').text();
-        var link = $(this).find('#linkTexto1').text();
-        var bandeira = $(this).find('#paisDesign1 img').attr('src');
-
-
-
-        var modal = $('#conteudoModal1-' + id);
-        modal.find('#modalImage1').attr('src', imagem);
-        modal.find('#modalTitle1').text(titulo);
-        modal.find('#modalDescription1').text(descricao);
-        modal.find('#modalData1').text(data);
-        modal.find('#modalLink1').attr('href', link);
-        modal.find('#modalTipo1').text(tipo).css('background-color', $(this).find('#tipoDesign').css('background-color'));
-        modal.find('#modalPaisDisplay1').text(pais);
-        modal.find('#modalPaisFlag1').attr('src', bandeira);
-
-        modal.modal('show');
-    });
-
-
-
-    // Fechar modal ao clicar no botão de fechar
-    $('.btn-close').click(function () {
-        $('.modal').modal('hide');
-    });
-
-
 
     $('.chosen-select').chosen({ width: "95%" });
-
-
-    // MODAL VISUALIZAÇÃO ANOTAÇÕES
-    $('.fundoAnotacoes').on('click', '.blocoAnotacao', function () {
-
-        var id = $(this).data('id');
-
-        var titulo = $(this).find('#tituloAnotacao').attr('src');
-        var descricao = $(this).find('#descricaoAnotacao').attr('src');
-
-
-
-        var modal = $('#anotVisuModal-' + id);
-
-        modal.find('#modalTitulo').text(titulo);
-        modal.find('#modalDescricao').text(descricao);
-
-        modal.modal('show');
-    });
 });
 
 
-function toggleFavorite(id) {
-    var usuarioId = '@_userManager.GetUserId(User)';
-    var favorito = {
-        UsuarioId: usuarioId,
-        ConteudoId: id
-    };
-
-    $.ajax({
-        type: 'POST',
-        url: '/Home/Favoritar',
-        data: favorito,
-        success: function (data) {
-            if (data.success) {
-                // Atualizar a imagem do botão de favoritar/desfavoritar
-                var imagem = $('#favorito-img-' + id);
-                if (data.isFavorited) {
-                    imagem.attr('src', '/images/Favorito.svg');
-                } else {
-                    imagem.attr('src', '/images/Desfavorito.svg');
-                }
-            }
-        }
-    });
-}
-
-
-
-document.getElementById("searchInput").addEventListener("keyup", function () {
-    var input, filter, cards, card, i, txtValue;
-    input = document.getElementById("searchInput");
-    filter = input.value.toLowerCase();
-    cards = document.getElementsByClassName("card");
-
-    for (i = 0; i < cards.length; i++) {
-        card = cards[i];
-        txtValue = card.textContent || card.innerText;
-        if (txtValue.toLowerCase().indexOf(filter) > -1) {
-            card.style.display = "";
-        } else {
-            card.style.display = "none";
-        }
-    }
-});
-
-function applyFilters() {
-    var checkboxes = document.querySelectorAll('.form-check-input');
-    var selectedCategories = Array.from(checkboxes).filter(i => i.checked).map(i => i.value);
-    var cards = document.getElementsByClassName("card");
-
-    for (var i = 0; i < cards.length; i++) {
-        var card = cards[i];
-        var categorias = card.querySelector("#categoriasTexto").textContent.split(",");
-        var showCard = selectedCategories.every(cat => categorias.includes(cat.trim()));
-
-        if (showCard) {
-            card.style.display = "";
-        } else {
-            card.style.display = "none";
-        }
-    }
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    var calendarEl = document.getElementById('calendar');
-    var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        events: '/Usuario/ObterEventos',  // URL para carregar os eventos
-        editable: true
-    });
-    calendar.render();
-});
-
-
-function abrirModalCriacao(data) {
-    $('#modalCriacao').modal('show');
-    $('#DataCriacao').val(data); // Passa a data clicada para o campo do formulário
-}
-
-$('#formCriacao').submit(function (e) {
-    e.preventDefault();
-    var dadosEvento = {
-        Titulo: $('#TituloCriacao').val(),
-        Descricao: $('#DescricaoCriacao').val(),
-        Data: $('#DataCriacao').val()
-    };
-
-    $.ajax({
-        type: "POST",
-        url: "/Usuario/AdicionarEvento",
-        data: dadosEvento,
-        success: function () {
-            $('#modalCriacao').modal('hide');
-            calendar.refetchEvents(); // Recarrega os eventos no calendário
-        },
-        error: function () {
-            alert("Erro ao criar evento.");
-        }
-    });
-});
-
-function abrirModalEdicao(evento) {
-    $('#modalEdicao').modal('show');
-    $('#IdEdicao').val(evento.id);
-    $('#TituloEdicao').val(evento.title);
-    $('#DescricaoEdicao').val(evento.extendedProps.description);
-    $('#DataEdicao').val(evento.startStr); // Data do evento
-}
-
-// Exemplo de AJAX para editar evento
-$('#formEdicao').submit(function (e) {
-    e.preventDefault();
-    var dadosEvento = {
-        Id: $('#IdEdicao').val(),
-        Titulo: $('#TituloEdicao').val(),
-        Descricao: $('#DescricaoEdicao').val(),
-        Data: $('#DataEdicao').val()
-    };
-
-    $.ajax({
-        type: "POST",
-        url: "/Usuario/AlterarEvento",
-        data: dadosEvento,
-        success: function () {
-            $('#modalEdicao').modal('hide');
-            calendar.refetchEvents(); // Recarrega os eventos no calendário
-        },
-        error: function () {
-            alert("Erro ao editar evento.");
-        }
-    });
-});
-
-
-$('#btnDeletarEvento').click(function () {
-    var id = $('#IdEdicao').val();
-
-    $.ajax({
-        type: "POST",
-        url: "/Usuario/ApagarEvento",
-        data: { id: id },
-        success: function () {
-            $('#modalEdicao').modal('hide');
-            calendar.refetchEvents(); // Recarrega os eventos no calendário
-        },
-        error: function () {
-            alert("Erro ao deletar evento.");
-        }
-    });
 
 
     // FUNÇÕES INÍCIO
 
-    let slideIndex = 0;
+   /* let slideIndex = 0;
     showSlides();
 
     function showSlides() {
@@ -299,7 +64,7 @@ $('#btnDeletarEvento').click(function () {
         slides[slideIndex - 1].style.display = "block";
         // Altera a imagem a cada 5 segundos
         setTimeout(showSlides, 5000);
-    }
+    }*/
 
     document.addEventListener("DOMContentLoaded", function () {
         const path = window.location.pathname;
@@ -331,4 +96,7 @@ $('#btnDeletarEvento').click(function () {
         document.querySelector('#sobre-nos').scrollIntoView({ behavior: 'smooth' });
     });
 
-});
+
+
+
+

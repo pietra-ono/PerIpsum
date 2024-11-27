@@ -418,31 +418,6 @@ namespace PerIpsumOriginal.Migrations
                     b.ToTable("Favoritos");
                 });
 
-            modelBuilder.Entity("PerIpsumOriginal.Models.PreferenciasModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("Pais")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Tipo")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UsuarioId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UsuarioId");
-
-                    b.ToTable("Preferencias");
-                });
-
             modelBuilder.Entity("PerIpsumOriginal.Models.UsuarioModel", b =>
                 {
                     b.Property<string>("Id")
@@ -611,17 +586,6 @@ namespace PerIpsumOriginal.Migrations
                         .IsRequired();
 
                     b.Navigation("Conteudo");
-
-                    b.Navigation("Usuario");
-                });
-
-            modelBuilder.Entity("PerIpsumOriginal.Models.PreferenciasModel", b =>
-                {
-                    b.HasOne("PerIpsumOriginal.Models.UsuarioModel", "Usuario")
-                        .WithMany()
-                        .HasForeignKey("UsuarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
 
                     b.Navigation("Usuario");
                 });

@@ -1,5 +1,49 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿
+.mainModalDeletar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.titulo-modal-delete {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+    .titulo-modal-delete p {
+        font-family: Krub;
+        font-size: 15px;
+    }
+
+
+#descricaoDelete {
+    font-family: Krub;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+
+
+.footerModalDelete {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#confirmDeleteBtn {
+    width: 100%;
+    background-color: #C50003;
+    padding-inline: 1em;
+    font-size: 26px;
+    color: #fffff3;
+    font-family: Krub;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #confirmDeleteBtn:hover {
+        transform: scale(1.05);
+    }

@@ -1,1 +1,29 @@
-﻿
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.feedback-list-panel {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.feedback-details-panel {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.feedback-item {
+    cursor: pointer;
+}
+
+    .feedback-item.active {
+        background-color: #f0f0f0;
+    }

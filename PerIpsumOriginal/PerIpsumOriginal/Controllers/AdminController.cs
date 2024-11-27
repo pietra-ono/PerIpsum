@@ -72,6 +72,11 @@ namespace PerIpsumOriginal.Controllers
             }
             rascunho.UsuarioId = usuarioId;
 
+
+            if (string.IsNullOrEmpty(acao))
+            {
+                return RedirectToAction("Rascunhos");
+            }
             // Lógica para salvar a imagem
             if (imagem != null)
             {
@@ -86,6 +91,7 @@ namespace PerIpsumOriginal.Controllers
 
                 rascunho.Imagem = filePath;
             }
+
             if (!string.IsNullOrWhiteSpace(rascunho.Categorias))
             {
                 // Divide as palavras, remove espaços extras
@@ -105,21 +111,41 @@ namespace PerIpsumOriginal.Controllers
 
             if (acao == "SalvarRascunho")
             {
+                // Preencher valores nulos para rascunho
+                rascunho.Nome = string.IsNullOrEmpty(rascunho.Nome) ? ValoresNulosModel.Nome : rascunho.Nome;
+                rascunho.Descricao = string.IsNullOrEmpty(rascunho.Descricao) ? ValoresNulosModel.Descricao : rascunho.Descricao;
+                rascunho.Pais = rascunho.Pais == 0 ? ValoresNulosModel.Pais : rascunho.Pais;
+                rascunho.Tipo = rascunho.Tipo == 0 ? ValoresNulosModel.Tipo : rascunho.Tipo;
+                rascunho.Link = string.IsNullOrEmpty(rascunho.Link) ? ValoresNulosModel.Link : rascunho.Link;
+                rascunho.Data = rascunho.Data == default ? ValoresNulosModel.Data : rascunho.Data;
+                rascunho.Categorias = string.IsNullOrEmpty(rascunho.Categorias) ? ValoresNulosModel.Categorias : rascunho.Categorias;
+                rascunho.Imagem = string.IsNullOrEmpty(rascunho.Imagem) ? ValoresNulosModel.ImagemNula : rascunho.Imagem;
                 // Salvar alterações no rascunho
                 _conteudoRascunhoRepositorio.Adicionar(rascunho, usuarioId);
                 return RedirectToAction("Rascunhos");
             }
             else if (acao == "SalvarAprovar")
             {
-                // Validação para verificar valores "nulos" ou inválidos
-                if (string.IsNullOrEmpty(rascunho.Nome) ||
-                    string.IsNullOrEmpty(rascunho.Descricao) ||
-                    rascunho.Pais == 0 || // Assumindo que 0 é um valor inválido para PaisEnum
-                    rascunho.Tipo == 0 || // Assumindo que 0 é um valor inválido para TipoEnum
-                    string.IsNullOrEmpty(rascunho.Link) ||
-                    rascunho.Data == default(DateOnly))// Verifica se a data é válida
+                // Validação rigorosa para campos obrigatórios
+                var erros = new List<string>();
+
+                if (string.IsNullOrEmpty(rascunho.Nome))
+                    erros.Add("Nome/Título");
+                if (string.IsNullOrEmpty(rascunho.Descricao))
+                    erros.Add("Descrição");
+                if (rascunho.Pais == 0)
+                    erros.Add("País");
+                if (rascunho.Tipo == 0)
+                    erros.Add("Tipo");
+                if (string.IsNullOrEmpty(rascunho.Link))
+                    erros.Add("Link");
+                if (rascunho.Data == default)
+                    erros.Add("Data");
+
+                // Se houver erros, retorna mensagem detalhada
+                if (erros.Any())
                 {
-                    return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
+                    return BadRequest($"Os seguintes campos são obrigatórios e não podem estar vazios: {string.Join(", ", erros)}");
                 }
 
                 // Enviar conteúdo para aprovação (tabela ConteudoAprovar)
@@ -130,9 +156,9 @@ namespace PerIpsumOriginal.Controllers
                     Pais = rascunho.Pais,
                     Tipo = rascunho.Tipo,
                     Link = rascunho.Link,
-                    Imagem = rascunho.Imagem,
+                    Imagem = string.IsNullOrEmpty(rascunho.Imagem) ? ValoresNulosModel.ImagemNula : rascunho.Imagem,
                     Data = rascunho.Data,
-                    Categorias = rascunho.Categorias
+                    Categorias = string.IsNullOrEmpty(rascunho.Categorias) ? ValoresNulosModel.Categorias : rascunho.Categorias
                 };
 
                 _conteudoAprovarRepositorio.Adicionar(conteudoAprovar);
@@ -199,22 +225,23 @@ namespace PerIpsumOriginal.Controllers
                 }
                 rascunhoAtual.Imagem = novoNomeImagem;
             }
+
+            // Tratamento de categorias
             if (!string.IsNullOrWhiteSpace(rascunho.Categorias))
             {
                 var categoriasArray = rascunho.Categorias
-                    .Split(' ', StringSplitOptions.RemoveEmptyEntries); // Divide por espaço
+                    .Split(' ', StringSplitOptions.RemoveEmptyEntries);
 
                 if (categoriasArray.Length > 7)
                 {
                     return BadRequest("Você pode adicionar no máximo 7 categorias.");
                 }
 
-                // Reformatar categorias
                 rascunhoAtual.Categorias = string.Join(", ", categoriasArray) + ".";
             }
             else
             {
-                rascunhoAtual.Categorias = null; // Permitir que categorias sejam removidas
+                rascunhoAtual.Categorias = null;
             }
 
             // Atualizar campos do rascunho
@@ -224,24 +251,35 @@ namespace PerIpsumOriginal.Controllers
             rascunhoAtual.Tipo = rascunho.Tipo;
             rascunhoAtual.Link = rascunho.Link;
             rascunhoAtual.Data = rascunho.Data;
-            rascunhoAtual.Categorias = rascunho.Categorias;
 
             if (acao == "SalvarRascunho")
             {
                 _conteudoRascunhoRepositorio.Atualizar(rascunhoAtual, usuarioId);
                 return RedirectToAction("Rascunhos");
             }
-            else if (acao == "EnviarAprovar")
+            else if (acao == "SalvarAprovar")
             {
-                if (string.IsNullOrEmpty(rascunhoAtual.Nome) ||
-                    string.IsNullOrEmpty(rascunhoAtual.Descricao) ||
-                    rascunhoAtual.Pais == 0 || // Assumindo que 0 é um valor inválido para PaisEnum
-                    rascunhoAtual.Tipo == 0 || // Assumindo que 0 é um valor inválido para TipoEnum
-                    string.IsNullOrEmpty(rascunhoAtual.Link) ||
-                    rascunhoAtual.Data == default(DateOnly) || // Verifica se a data é válida
-                    string.IsNullOrEmpty(rascunhoAtual.Categorias))
+                // Validação mais detalhada
+                var camposObrigatorios = new List<string>();
+
+                if (string.IsNullOrWhiteSpace(rascunhoAtual.Nome))
+                    camposObrigatorios.Add("Nome");
+                if (string.IsNullOrWhiteSpace(rascunhoAtual.Descricao))
+                    camposObrigatorios.Add("Descrição");
+                if (rascunhoAtual.Pais == 0)
+                    camposObrigatorios.Add("País");
+                if (rascunhoAtual.Tipo == 0)
+                    camposObrigatorios.Add("Tipo");
+                if (string.IsNullOrWhiteSpace(rascunhoAtual.Link))
+                    camposObrigatorios.Add("Link");
+                if (rascunhoAtual.Data == default)
+                    camposObrigatorios.Add("Data");
+                if (string.IsNullOrWhiteSpace(rascunhoAtual.Categorias))
+                    camposObrigatorios.Add("Categorias");
+
+                if (camposObrigatorios.Any())
                 {
-                    return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
+                    return BadRequest($"Os seguintes campos são obrigatórios: {string.Join(", ", camposObrigatorios)}");
                 }
 
                 var conteudoAprovar = new ConteudoAprovarModel
@@ -256,11 +294,19 @@ namespace PerIpsumOriginal.Controllers
                     Categorias = rascunhoAtual.Categorias
                 };
 
-                _conteudoAprovarRepositorio.Adicionar(conteudoAprovar);
-                _dbContext.SaveChanges();
-                _conteudoRascunhoRepositorio.Apagar(rascunhoAtual.Id, usuarioId);
-                return RedirectToAction("Rascunhos");
+                try
+                {
+                    _conteudoAprovarRepositorio.Adicionar(conteudoAprovar);
+                    _conteudoRascunhoRepositorio.Apagar(rascunhoAtual.Id, usuarioId);
+                    return RedirectToAction("Rascunhos");
+                }
+                catch (Exception ex)
+                {
+                    // Log do erro
+                    return BadRequest($"Erro ao salvar: {ex.Message}");
+                }
             }
+
             return BadRequest("Ação inválida.");
         }
 
@@ -328,6 +374,7 @@ namespace PerIpsumOriginal.Controllers
                 conteudoAprovar.Tipo = conteudoAprovar.Tipo == ValoresNulosModel.Tipo ? conteudoRascunho.Tipo : conteudoAprovar.Tipo;
                 conteudoAprovar.Data = conteudoAprovar.Data == ValoresNulosModel.Data ? conteudoRascunho.Data : conteudoAprovar.Data;
                 conteudoAprovar.Categorias = string.IsNullOrEmpty(conteudoAprovar.Categorias) ? conteudoRascunho.Categorias : conteudoAprovar.Categorias;
+                conteudoAprovar.Imagem = conteudoAprovar.Imagem == ValoresNulosModel.ImagemNula ? conteudoRascunho.Imagem : conteudoAprovar.Imagem;
             }
 
             // Verificar se o conteúdo tem valores nulos ou padrão
@@ -337,7 +384,8 @@ namespace PerIpsumOriginal.Controllers
                 conteudoAprovar.Tipo == ValoresNulosModel.Tipo ||
                 conteudoAprovar.Link == ValoresNulosModel.Link ||
                 conteudoAprovar.Data == ValoresNulosModel.Data ||
-                conteudoAprovar.Categorias == ValoresNulosModel.Categorias) // Verifica se não há categorias selecionadas
+                conteudoAprovar.Categorias == ValoresNulosModel.Categorias ||
+                conteudoAprovar.Imagem == ValoresNulosModel.ImagemNula) // Verifica se não há categorias selecionadas
             {
                 return BadRequest("Alguns campos obrigatórios estão com valores inválidos. Por favor, preencha todos os campos corretamente.");
             }
@@ -393,6 +441,18 @@ namespace PerIpsumOriginal.Controllers
         {
             var conteudos = _conteudoAprovarRepositorio.PegarConteudosTemporarios();
             return View(conteudos);
+        }
+
+        public IActionResult ObterDetalhesSolicitacao(int id)
+        {
+            var solicitacao = _dbContext.ConteudoAprovar.FirstOrDefault(s => s.Id == id);
+
+            if (solicitacao == null)
+            {
+                return NotFound();
+            }
+
+            return PartialView("_SolicitacaoDetalhes", solicitacao);
         }
 
         [HttpPost]
@@ -452,6 +512,19 @@ namespace PerIpsumOriginal.Controllers
         {
             var contatos = _contatoRepositorio.TodosContatos();
             return View(contatos);
+        }
+
+        public IActionResult ObterDetalhesdoFeedback(int id)
+        {
+            var feedback = _dbContext.Contatos.FirstOrDefault(c => c.Id == id);
+
+            if (feedback == null)
+            {
+                return NotFound();
+            }
+
+            // Retorna uma partial view com os detalhes
+            return PartialView("_FeedbackDetalhes", feedback);
         }
 
         public IActionResult ApagarContato(int id)

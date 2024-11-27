@@ -8,10 +8,13 @@ namespace PerIpsumOriginal.Helpers
         {
             return tipo switch
             {
-                TipoEnum.Provas => "#009846",
-                TipoEnum.Oportunidades => "#E2CB26",
-                TipoEnum.Eventos => "#002279",
-                _ => "gray"
+                TipoEnum.Bolsas => "#C50003",
+                TipoEnum.Intercambios => "#E2CB26",
+                TipoEnum.Programas => "#642C8F",
+                TipoEnum.Estagios => "#009846",
+                TipoEnum.Cursos => "#002279",
+                TipoEnum.Eventos => "#931486",
+                _ => "#393939"
             };
         }
 
@@ -19,10 +22,13 @@ namespace PerIpsumOriginal.Helpers
         {
             return tipo switch
             {
-                TipoEnum.Provas => "Prova",
-                TipoEnum.Oportunidades => "Oport.",
-                TipoEnum.Eventos => "Evento",
-                _ => "desconhecido"
+                TipoEnum.Bolsas => "Bolsas",
+                TipoEnum.Intercambios => "Interc.",
+                TipoEnum.Programas => "Progr.",
+                TipoEnum.Estagios => "Estág.",
+                TipoEnum.Cursos => "Cursos",
+                TipoEnum.Eventos => "Eventos",
+                _ => "Tipo"
             };
         }
 
@@ -55,7 +61,7 @@ namespace PerIpsumOriginal.Helpers
                 PaisEnum.IrlandaDoNorte => "/img/bandeiras/uk.svg",
                 PaisEnum.Chile => "/img/bandeiras/chile.svg",
                 PaisEnum.Argentina => "/img/bandeiras/argentina.svg",
-                _ => "/img/bandeiras/alemanha.svg"
+                _ => "/img/bandeiras/nullFlag.svg"
             };
         }
         public static string GetCountryDisplayName(PaisEnum pais)
@@ -87,7 +93,7 @@ namespace PerIpsumOriginal.Helpers
                 PaisEnum.IrlandaDoNorte => "IRLN",
                 PaisEnum.Chile => "CHIL",
                 PaisEnum.Argentina => "ARG",
-                _ => "Desconhecido"
+                _ => "País"
             };
         }
 

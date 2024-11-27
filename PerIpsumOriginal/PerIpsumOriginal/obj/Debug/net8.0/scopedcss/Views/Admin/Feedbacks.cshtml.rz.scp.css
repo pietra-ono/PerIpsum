@@ -1,0 +1,29 @@
+*[b-xhh3dno1xy] {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body[b-xhh3dno1xy] {
+    display: flex;
+    min-height: 100vh;
+    
+}
+
+.feedback-list-panel[b-xhh3dno1xy] {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.feedback-details-panel[b-xhh3dno1xy] {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.feedback-item[b-xhh3dno1xy] {
+    cursor: pointer;
+}
+
+    .feedback-item.active[b-xhh3dno1xy] {
+        background-color: #f0f0f0;
+    }

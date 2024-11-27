@@ -141,3 +141,198 @@ main {
 .btn-close {
     filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
 }
+
+/* MODAL */
+
+.modal-dialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 950px;
+    height: 70%;
+}
+
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 90vh;
+    height: 70%;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Faz o formulário ocupar o espaço disponível */
+}
+
+.btn-modal-container {
+    display: inline-flex;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    justify-content: end;
+}
+
+.btn-close {
+    filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
+}
+
+.footerModal {
+    display: inline-flex;
+    justify-content: end;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+.header-modal-anotacoes {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.titulo-modal-anotacoes input{
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    font-family: Krub;
+}
+
+    .titulo-modal-anotacoes input::placeholder {
+        color: #000000;
+        opacity: 0.5;
+        font-family: Krub;
+        font-size: 18px;
+    }
+
+    .titulo-modal-anotacoes input:focus,
+    .titulo-modal-anotacoes input:active,
+    .titulo-modal-anotacoes input:hover {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+.cor-modal-anotacoes {
+    display: inline-flex;
+    width: 40%;
+    width: 80px;
+    background-color: #fffff3;
+    border-radius: 15px;
+    padding-inline: 0.1em;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.cor-modal-anotacoes input[type="color"] {
+    border-radius: 15px 0 0 15px; /* Altere para o valor desejado */
+    padding: 0; /* Garante que não haverá bordas internas desnecessárias */
+    border: none; /* Remove bordas extras (opcional) */
+    cursor: pointer;
+}
+
+.descricao-modal-anotacoes {
+    display: flex;
+    flex-direction: column; /* Organiza elementos em coluna */
+    height: 500px; /* Altura fixa */
+    width: 800px; /* Largura fixa */
+    max-width: 100%; /* Garante responsividade */
+    margin-top: 1em;
+    box-sizing: border-box;
+}
+
+    .descricao-modal-anotacoes textarea {
+        flex-grow: 1; /* Faz o textarea expandir dentro do contêiner */
+        resize: none; /* Impede o redimensionamento manual */
+        padding: 10px; /* Adiciona espaçamento interno */
+        font-family: Krub; 
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+    }
+
+.descricao-modal-anotacoes textarea::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-family: Krub;
+    font-size: 18px;
+}
+
+    .descricao-modal-anotacoes textarea:focus,
+    .descricao-modal-anotacoes textarea:active,
+    .descricao-modal-anotacoes textarea:hover {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+
+/* MODAL DELETAR */
+
+
+#modalDeletarDialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 400px;
+}
+
+.mainModalDeletar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo-modal-delete {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+    .titulo-modal-delete p {
+        font-family: Krub;
+        font-size: 15px;
+    }
+
+
+#descricaoDelete {
+    font-family: Krub;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+
+
+.footerModalDelete {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#confirmDeleteBtn {
+    width: 100%;
+    background-color: #C50003;
+    padding-inline: 1em;
+    font-size: 26px;
+    color: #fffff3;
+    font-family: Krub;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #confirmDeleteBtn:hover {
+        transform: scale(1.05);
+    }

@@ -1,6 +1,77 @@
-﻿.fc {
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+
+}
+
+
+.fc {
     background-color: #fffff3;
     border-radius: 15px;
     display: flex;
     width: 100%;
+    border: none !important;
 }
+
+.fc-daygrid-day {
+    border: none !important;
+}
+
+/* Remove as bordas entre os dias */
+.fc-daygrid-day-frame {
+    border: none !important;
+}
+
+/* Remove as bordas do cabeçalho (dias da semana) */
+.fc-col-header-cell {
+    border: none !important;
+}
+
+/* Remove as bordas dos eventos (opcional) */
+.fc-event {
+    border: none !important;
+    box-shadow: none !important; /* Remove sombra, se houver */
+}
+
+
+.modal-dialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 950px;
+}
+
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 90vh;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+
+.btn-close {
+    filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
+}
+
+.btn-modal-container {
+    display: inline-flex;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    justify-content: end;
+}
+

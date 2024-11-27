@@ -1,13 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Nv8OGphGzUgbhHuQVhATxc3cNyeJco9NUnkOqiWswf6qoD/n0/9x20bbQqHl3+3QT9Cq5bnuRFHc6DzCF6uNTg==",
+  "dgSpecHash": "JcsxXZ1ruZtS4MfvTNWF/9YFvTaKurL9qUV8kOWL9pqZ76FSDnj2y2UxkWQynZ527foX5Rg4jZF1G8jk8OeYMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
+  "projectFilePath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\chosen\\1.2.0\\chosen.1.2.0.nupkg.sha512",
-    "C:\\Users\\Bruno\\.nuget\\packages\\chosen.jquery\\1.2.0\\chosen.jquery.1.2.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

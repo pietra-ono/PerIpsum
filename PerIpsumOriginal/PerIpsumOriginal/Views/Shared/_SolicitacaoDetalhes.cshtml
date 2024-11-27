@@ -1,0 +1,84 @@
+﻿@model ConteudoAprovarModel
+
+<div class="solicitacao-details">
+    <div class="details-header">
+        <h4 class="mb-3">Detalhes da Solicitação</h4>
+    </div>
+
+    <div class="details-body">
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Nome:</div>
+            <div class="col-md-8">@Model.Nome</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Descrição:</div>
+            <div class="col-md-8">@Model.Descricao</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Tipo:</div>
+            <div class="col-md-8">@Model.Tipo</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">País:</div>
+            <div class="col-md-8">@Model.Pais</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Data:</div>
+            <div class="col-md-8">@Model.Data.ToString("dd/MM/yyyy")</div>
+        </div>
+
+        @if (!string.IsNullOrEmpty(Model.Imagem))
+        {
+            <div class="row mb-3">
+                <div class="col-md-4 font-weight-bold">Imagem:</div>
+                <div class="col-md-8">
+                    <img src="@($"/storage/{Model.Imagem}")" alt="Imagem da Solicitação" class="img-fluid" style="max-width: 340px;" />
+                </div>
+            </div>
+        }
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Link:</div>
+            <div class="col-md-8">
+                <a href="@Model.Link" target="_blank">@Model.Link</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="details-actions mt-4">
+        <form asp-action="Aprovar" method="post" class="d-inline">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-success mr-2">Aprovar</button>
+        </form>
+        <form asp-action="Rejeitar" method="post" class="d-inline">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <button type="submit" class="btn btn-danger">Rejeitar</button>
+        </form>
+    </div>
+</div>
+
+<style>
+    .solicitacao-details {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .details-header {
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .details-body .row {
+        margin-bottom: 10px;
+    }
+
+    .details-body .font-weight-bold {
+        color: #495057;
+    }
+</style>

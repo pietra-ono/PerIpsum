@@ -144,33 +144,39 @@ main {
     background-color: #FFFFF3;
     border: none;
     border-radius: 20px;
-    max-width: 300px;
     padding: 20px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     font-family: Krub;
     overflow: auto;
+    width: 20%;
 }
 
-    .dropdown-menu .form-check {
-        display: flex;
-        align-items: center;
-        padding: 5px 0; 
-        margin: 0;
-        justify-content: start;
+.filter-section {
+    margin-bottom: 15px; /* Espaço entre seções */
+}
+
+    .filter-section h6 {
+        font-size: 18px; /* Tamanho do título */
+        font-weight: bold; /* Negrito */
+        margin-bottom: 10px; /* Espaço abaixo do título */
     }
 
-    .dropdown-menu .form-check-input {
-        margin-right: 12px;
-        margin-left: 0.5em;
-        /* Espaço entre o checkbox e o label */
+.filter-options {
+    margin-bottom: 10px;
+}
+
+    .filter-options.paises {
+        margin-top: 10px;
     }
 
-    .dropdown-menu .form-check-label {
-        font-size: 16px;
-        color: #333;
+.pais-checkbox {
+    float: left;
+    width: 20%; /* Ajusta a largura para caber 5 checkboxes por linha */
+}
+
+    .pais-checkbox input[type="checkbox"] {
+        margin-right: 3px; /* Diminui o espaçamento entre o checkbox e o texto */
     }
-
-
 
 
 .dropdown-toggle.no-arrow::after {
@@ -517,3 +523,61 @@ main {
     border: none;
     background-color: transparent;
 }
+
+/* MODAL DELETAR */
+
+#modalDeletarDialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 400px;
+}
+
+.mainModalDeletar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo-modal-delete {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1em 0;
+ 
+}
+
+.titulo-modal-delete p {
+    font-family: Krub;
+    font-size: 15px;
+}
+
+
+#descricaoDelete {
+    font-family: Krub;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+
+
+.footerModalDelete {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#confirmDeleteBtn {
+    width: 100%;
+    background-color: #C50003;
+    padding-inline: 1em;
+    font-size: 26px;
+    color: #fffff3;
+    font-family: Krub;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #confirmDeleteBtn:hover {
+        transform: scale(1.05);
+    }

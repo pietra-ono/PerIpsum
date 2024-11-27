@@ -1,9 +1,171 @@
-﻿@model IEnumerable<ConteudoModel>
+﻿@model PerIpsumOriginal.ViewModels.RascunhoViewModel
+@using PerIpsumOriginal.Enums
+@using PerIpsumOriginal.Helpers
 
-@foreach (var conteudo in Model)
-{
-    <div class="post">
-        <h3>@conteudo.Nome</h3>
-        <p>@conteudo.Descricao</p>
-    </div>
+@{
+    ViewData["Title"] = "Favoritos";
+    Layout = "_LayoutSecundario";
 }
+
+<body>
+    <div class="favoritos-layout">
+        <nav>
+            <div class="search-container">
+                <div class="input-group">
+                    <input type="text" id="searchInputFeed" class="form-control custom-input" placeholder="Procurar oportunidades..." />
+                </div>
+                <div class="filter-container">
+                    <button id="filtroBtn" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="~/img/filtroBtn.svg" />
+                    </button>
+                    <ul class="dropdown-menu">
+                        <div class="filter-section">
+                            <h6>Filtros</h6>
+                        </div>
+                        <div class="filter-section">
+                            <h6>Tipos</h6>
+                            <div class="filter-options tipos">
+                                @foreach (TipoEnum tipo in Enum.GetValues(typeof(TipoEnum)))
+                                {
+                                    if (tipo != TipoEnum.Tipo)
+                                    {
+                                        <div>
+                                            <input type="checkbox" value="@tipo" @(Model.TiposSelecionados.Contains(tipo) ? "checked" : "")>
+                                            @ConteudosHelper.GetTextForTipo(tipo)
+                                        </div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                        <div class="filter-section">
+                            <h6>Países</h6>
+                            <div class="filter-options paises">
+                                @foreach (PaisEnum pais in Enum.GetValues(typeof(PaisEnum)))
+                                {
+                                    if (pais != PaisEnum.Pais)
+                                    {
+                                        <div class="pais-checkbox">
+                                            <input type="checkbox" value="@pais" @(Model.PaisesSelecionados.Contains(pais) ? "checked" : "")>
+                                            @ConteudosHelper.GetCountryDisplayName(pais)
+                                        </div>
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="btn-container">
+                <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%" /></a>
+                <a id="btnRascunhos" role="button" href="@Url.Action("Rascunhos", "Admin")"><img src="~/img/parceriaRascBtn.svg" /></a>
+                <div id="admDropdown" class="dropdown">
+                    <button id="admButton" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" /></button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
+                        <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
+                    </ul>
+                </div>
+                <div class="perfil-container">
+                </div>
+            </div>
+
+        </nav>
+        <main>
+            <div class="favoritos-container">
+                @foreach (var conteudo in Model.Conteudos)
+                {
+                    <div class="card" data-id="@conteudo.Id">
+                        <div class="imagem-container">
+                            <img id="imagemCard" src="@($"/storage/{conteudo.Imagem}")" alt="Imagem do conteúdo." />
+                            <div class="favorito-btn">
+
+                                <button class="favoritar-btn" onclick="toggleFavorite(@conteudo.Id)">
+                                    <img id="favorito-@conteudo.Id"
+                                         src="~/img/@((Model.FavoritosIds.Contains(conteudo.Id)) ? "Favorito.svg" : "Desfavorito.svg")"
+                                         alt="Favorito"
+                                         class="favorite-icon" />
+                                </button>
+
+
+                            </div>
+                        </div>
+                        <div class="info-container">
+                            <div class="tipoDesign" style="background-color:@ConteudosHelper.GetColorForTipo(conteudo.Tipo);">
+                                <p id="tipo">@ConteudosHelper.GetTextForTipo(conteudo.Tipo)</p>
+                            </div>
+                            <div class="paisDesign">
+                                <p id="pais">@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)</p>
+                                <img src="@ConteudosHelper.GetFlagForCountry(conteudo.Pais)" alt="@ConteudosHelper.GetCountryDisplayName(conteudo.Pais)" />
+                            </div>
+                            <div class="dataDesign">
+                                <p id="data">@conteudo.Data.ToString("dd/MM/yyyy")</p>
+                                <img src="~/img/calendar.svg" alt="Calendário" />
+                            </div>
+                        </div>
+                        <div class="titulo-container">
+                            <h1 id="titulo">@conteudo.Nome</h1>
+                        </div>
+                        <div class="descricao-container">
+                            <p id="descricao">@conteudo.Descricao</p>
+                        </div>
+                        <div class="categorias-container">
+                            <p id="categorias">@conteudo.Categorias</p>
+                        </div>
+                        <div class="link-container">
+                            <p id="link">@conteudo.Link</p>
+                        </div>
+                    </div>
+
+
+                    <!-- MODAL DE VISUALIZAÇÃO -->
+
+                    <div class="modal fade" id="favoritoModal-@conteudo.Id" tabindex="-1" aria-labelledby="favoritoModalLabel-@conteudo.Id" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="esquerda">
+                                    <img id="imgModal" src="" alt="Imagem do conteúdo." />
+                                    <button class="favoritar-btn-modal" onclick="toggleFavorite(@conteudo.Id)">
+                                        <img id="favorito-@conteudo.Id"
+                                             src="~/img/@((Model.FavoritosIds.Contains(conteudo.Id)) ? "Favorito.svg" : "Desfavorito.svg")"
+                                             alt="Favorito"
+                                             class="favorite-icon" />
+                                    </button>
+
+                                </div>
+                                <div class="direita">
+                                    <div class="btn-modal-container">
+                                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="headerModal">
+                                        <div class="modal-tipo-design">
+                                            <p id="tipoModal"></p>
+                                        </div>
+                                        <div class="modal-pais-design">
+                                            <img id="bandeiraModal" src="" alt="Bandeira do país" />
+                                            <p id="paisModal"></p>
+                                        </div>
+                                        <div class="modal-data-design">
+                                            <p id="dataModal"></p>
+                                            <img src="~/img/calendar.svg" alt="Calendário" />
+                                        </div>
+                                    </div>
+                                    <div class="mainModal">
+                                        <h3 id="nomeModal"></h3>
+                                        <p id="descricaoModal"></p>
+                                        <p id="categoriasModal"></p>
+                                        <div class="modal-link-design">
+                                            <a id="linkModal" href="#" target="_blank">Acessar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </main>
+    </div>
+</body>
+

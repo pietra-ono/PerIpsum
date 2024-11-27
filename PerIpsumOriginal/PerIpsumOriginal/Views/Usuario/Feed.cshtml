@@ -20,17 +20,13 @@
                     <ul class="dropdown-menu">
                         <div class="filter-section">
                             <h6>Filtros</h6>
-                            <div>
-                                <input type="checkbox" id="filtroPersonalizado" name="filtro" value="personalizado"/>
-                                <label for="filtroPersonalizado">Preferências</label>
-                            </div>
                         </div>
                         <div class="filter-section">
                             <h6>Tipos</h6>
                             <div class="filter-options tipos">
                                 @foreach (TipoEnum tipo in Enum.GetValues(typeof(TipoEnum)))
                                 {
-                                    if (tipo != TipoEnum.Desconhecido)
+                                    if (tipo != TipoEnum.Tipo)
                                     {
                                         <div>
                                             <input type="checkbox" value="@tipo" @(Model.TiposSelecionados.Contains(tipo) ? "checked" : "")>
@@ -45,9 +41,9 @@
                             <div class="filter-options paises">
                                 @foreach (PaisEnum pais in Enum.GetValues(typeof(PaisEnum)))
                                 {
-                                    if (pais != PaisEnum.Desconhecido)
+                                    if (pais != PaisEnum.Pais)
                                     {
-                                        <div>
+                                        <div class="pais-checkbox">
                                             <input type="checkbox" value="@pais" @(Model.PaisesSelecionados.Contains(pais) ? "checked" : "")>
                                             @ConteudosHelper.GetCountryDisplayName(pais)
                                         </div>
@@ -162,9 +158,30 @@
                                         </div>
                                     </div>
                                     <div class="footerModal">
-                                        <a asp-controller="Usuario" asp-action="DeletarFeed" role="button" asp-route-id="@conteudo.Id">
+                                        <button type="button" class="btn"  data-id="@conteudo.Id" id="openDeleteModalBtn">
                                             <img src="~/img/DelButton.svg" />
-                                        </a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal de Confirmação de Exclusão -->
+                    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+                        <div id="modalDeletarDialog" class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content" >
+                                    <div class="btn-modal-container">
+                                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                <div class="mainModalDeletar">
+                                        <div class="titulo-modal-delete">
+                                            <p>Tem certeza que deseja excluir este conteúdo?</p>
+                                        </div>
+                                        <img id="warningImg" src="~/img/warning.svg"/>
+                                    <h3 id="descricaoDelete">Não será possível recuperá-lo depois!</h3>
+                                    <div class="footerModalDelete">
+                                        <button type="button" class="btn" id="confirmDeleteBtn">Deletar</button>
                                     </div>
                                 </div>
                             </div>

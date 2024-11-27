@@ -1,199 +1,742 @@
-﻿#tipoDesignRascunho {
-    width: 100px;
-    height: 30px;
-    border-radius: 25px;
-    margin-left: 17px;
-    margin-right: 10px;
-}
-
-#tipoTextoRascunho {
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-family: Krub;
-    font-weight: bold;
-}
-
-#paisDesignRascunho {
-    display: inline-flex;
-    align-items: center;
-    background-color: #FFFFF3;
-    width: 100px;
-    height: 30px;
-    border-radius: 25px;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    justify-content: space-between;
-    padding-right: 0;
-}
-
-#paisTextoRascunho {
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    font-family: Krub;
-    font-weight: normal;
-    margin: auto;
-}
-
-#dataDesignRascunho {
-    display: inline-flex;
-    align-items: center;
-    background-color: #FFFFF3;
-    width: 146px;
-    height: 30px;
-    border-radius: 25px;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
-    justify-content: space-around;
-    padding-right: 0;
-}
-
-#dataTextoRascunho {
-    color: black;
-    text-align: center;
-    font-size: 16px;
-    font-family: Krub;
-    font-weight: normal;
+﻿* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#textoTituloRascunho {
+body {
     display: flex;
-    font-size: 20px;
-    font-family: Krub;
-    font-weight: bold;
-    text-align: start;
-    margin-bottom: 0;
+    min-height: 100vh;
 }
 
-#textoDescricaoRascunho {
+.rascunho-layout {
+    display: grid;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    grid-template-rows: 1fr auto;
+    overflow-x: hidden;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-areas: "pesquisar botoes";
+    width: 100%;
+}
+
+
+main {
     display: flex;
-    font-size: 16px;
-    font-family: Krub;
-    font-weight: normal;
-    text-align: start;
+    width: 100%;
+    height: 100%;
+    grid-row: 2;
+    grid-column: 1;
 }
 
-#espacoTextoRascunho {
+.rascunho-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 14px;
+    flex-direction: row;
+    flex-wrap: wrap; /* Permite que os cards desçam para a próxima linha */
+    justify-content: space-evenly;
+    align-items: flex-start; /* Alinha os cards à esquerda */
+    gap: 15px; /* Espaçamento entre os cards */
+    padding: 15px; /* Padding entre os cards e a borda do container */
+    background-color: #FFFFF3;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 800px;
+    height: 100%;
+    max-height: 850px;
+    min-height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    overflow-y: auto; /* Scroll vertical quando necessário */
+    box-sizing: border-box;
+    margin-inline: 1em;
 }
 
-#linkTextoRascunho {
+    .rascunho-container::-webkit-scrollbar {
+        width: 15px;
+    }
+
+    .rascunho-container::-webkit-scrollbar-track {
+        background: none; /* Fundo transparente */
+        margin: 12px 0; /* Margem no topo e na base */
+    }
+
+    .rascunho-container::-webkit-scrollbar-thumb {
+        background-color: #C4C4C4; /* Cor do scroll */
+        border-radius: 10px; /* Arredondamento */
+        border: 2px solid #FFFFF3; /* Cor que parece fazer parte do container */
+    }
+
+        .rascunho-container::-webkit-scrollbar-thumb:hover {
+            background-color: #555; /* Cor mais escura ao passar o mouse */
+        }
+
+    /* Remover a aparência de borda do scroll */
+    .rascunho-container::-webkit-scrollbar-corner {
+        background: none;
+    }
+
+
+.search-container, .filter-container, .btn-container {
+    display: flex;
+    flex-wrap: nowrap; /* Ou wrap, dependendo do layout desejado */
+    overflow: hidden;
+}
+
+#btnRascunhos,
+#admDropdown,
+.perfil-container,
+.link-container,
+.categorias-container,
+.descricao-container {
     display: none;
 }
 
-#imagemCardRascunho {
+.search-container {
     display: flex;
-    width: 366px;
-    height: 223px;
+    align-items: center;
+    gap: 5px;
+    margin: 1em;
+    flex-direction: row;
+    grid-area: pesquisar;
+}
+
+
+
+#searchInputFeed {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
     border-radius: 15px;
-    margin: 7px;
+    border: none;
+    font-family: Krub;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    background-color: #FFFFF3;
+    margin-inline-start: 1em;
+}
+
+
+.custom-input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.filter-container, #filtroBtn {
+    display: inline-flex;
+    grid-area: filtro;
+    background-color: #DCEFE1;
+    margin: auto;
+    border: none;
+    img
+
+{
+    width: 80%;
+}
+
+}
+
+.dropdown-menu {
+    background-color: #FFFFF3;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    font-family: Krub;
+    overflow: auto;
+    width: 20%;
+}
+
+.filter-section {
+    margin-bottom: 15px; /* Espaço entre seções */
+}
+
+    .filter-section h6 {
+        font-size: 18px; /* Tamanho do título */
+        font-weight: bold; /* Negrito */
+        margin-bottom: 10px; /* Espaço abaixo do título */
+    }
+
+.filter-options {
+    margin-bottom: 10px;
+}
+
+    .filter-options.paises {
+        margin-top: 10px;
+    }
+
+.pais-checkbox {
+    float: left;
+    width: 20%; /* Ajusta a largura para caber 5 checkboxes por linha */
+}
+
+    .pais-checkbox input[type="checkbox"] {
+        margin-right: 3px; /* Diminui o espaçamento entre o checkbox e o texto */
+    }
+
+
+.dropdown-toggle.no-arrow::after {
+    display: none;
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    grid-area: botoes;
+}
+
+#btnAnotacoes {
+    grid-area: funcao;
+}
+
+.perfil-container {
+    display: none;
+    grid-area: perfil;
+}
+
+
+.card {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 200px auto auto auto;
+    grid-template-areas:
+        'imagem'
+        'top'
+        'titulo'
+        'descricao';
+    background-color: #FFFFF3;
+    height: 390px;
+    width: 390px; /* Limita a largura máxima dos cards */
+    border-radius: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 5px;
+}
+
+
+
+    .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+.imagem-container {
+    position: relative;
+    grid-area: imagem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+    .imagem-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+
+
+.info-container {
+    display: inline-grid;
+    grid-area: top;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "tipo pais data";
+    gap: 2px;
+    justify-content: space-between;
+}
+
+.tipoDesign {
+    grid-area: tipo;
+    margin: auto;
+    font-family: Krub;
+    padding: 1.5px 1.5em;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFF3;
+    border-radius: 20px;
+}
+
+.paisDesign {
+    grid-area: pais;
+    display: inline-flex;
+    margin: auto;
+    font-family: Krub;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    p
+
+{
+    padding: 0 1.5em;
+}
+
+}
+
+.dataDesign {
+    grid-area: data;
+    display: inline-flex;
+    margin: auto;
+    padding: 0 10px;
+    font-family: Krub;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    p
+
+{
+    padding: 0 0.7em;
+}
+
+}
+
+.titulo-container {
+    display: flex;
+    font-family: Krub;
+    font-weight: bold;
+    grid-area: titulo;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.descricao-container {
+    display: flex;
+    font-family: Krub;
+    font-weight: normal;
+    grid-area: descricao;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* MODAL ADICIONAR  */
+
+.modal-dialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 950px;
+    height: 100%;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 90vh;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+
+
+.btn-close {
+    filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
+}
+
+.esquerda-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #B9B9B9;
+    border-radius: 10px;
     position: relative;
 }
 
 
-#modalImageRascunho {
+.drag-drop-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    height: 580px;
-    border-radius: 15px;
-    margin: 20px 30px;
-    margin-bottom: 0;
+    height: 100%;
+    color: #606060;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    img {
+            width: 50%;
+            margin: 2em auto;
+        }
 }
 
-#modalTipoDesignRascunho {
-    width: 100px;
-    height: 30px;
+    .drag-drop-area:hover {
+        background-color: #e8e8e8;
+        color: #555;
+        border-radius: 10px;
+    }
+
+.drag-drop-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.direita-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding-inline: 1em;
+    overflow-y: auto;
+}
+
+.btn-modal-container-add {
+    display: inline-flex;
+    position: absolute;
+    top: 5%;
+    right: 2%;
+    justify-content: end;
+}
+
+
+.header-modal-rascunhos {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 0.5em 0;
+    font-family: Krub;
+    font-size: 16px;
+}
+
+.mainModal-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.nomeModal-add {
+    display: flex;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: 600;
+    text-align: start;
+    margin: 1em 0;
+    overflow-wrap: break-word;
+}
+
+.descricaoModal-add {
+    font-size: 16px;
+    font-family: Krub, sans-serif;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 200px;
+    height: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.5;
+}
+
+.categoriaModal-add {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: 600;
+    text-align: start;
+    margin: 1em 0;
+    overflow-wrap: break-word;
+}
+
+.categoriaModal-add input {
+    margin: 0.5em 0;
+}
+
+
+.modal-link-design-add {
+    display: flex;
+    justify-self: center;
+    margin: 0.5em auto 1em auto;
+    font-family: Krub;
+    font-size: 16px;
+}
+
+
+.footerModal-add {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.btn-rascunho-design-add {
+    display: inline-flex;
+    background-color: #C50003;
+    text-align: center;
+    padding: 0.5em 1em;
     border-radius: 25px;
-    margin-left: 17px;
-    margin-right: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#modalTipoRascunho {
+    .btn-rascunho-design-add button {
+        font-family: Krub;
+        color: #fffff3;
+    }
+
+    .btn-rascunho-design-add:hover {
+        transform: scale(1.02);
+    }
+
+
+.btn-aprovar-design-add {
+    display: inline-flex;
+    background-color: #002279;
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .btn-aprovar-design-add button {
+        font-family: Krub;
+        color: #fffff3;
+    }
+
+    .btn-aprovar-design-add:hover {
+        transform: scale(1.02);
+    }
+
+/* MODAL VISUALIZAR */
+
+.btn-modal-container {
+    display: inline-flex;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    justify-content: end;
+}
+
+.esquerda {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    padding-inline: 1em;
+    overflow-y: auto;
+}
+
+.headerModal {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin: 0.5em 0;
+}
+
+#tipoModal {
     color: white;
     text-align: center;
     font-size: 20px;
     font-family: Krub;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 15px;
+    padding-inline: 1.5em;
 }
 
-#modalPaisDesignRascunho {
+.modal-pais-design {
     display: inline-flex;
     flex-direction: row-reverse;
-    align-items: center;
-    background-color: #FFFFF3;
-    width: 100px;
-    height: 30px;
     border-radius: 25px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     justify-content: space-between;
-    padding-right: 0;
-    margin-right: 10px;
 }
 
-#modalPaisRascunho {
+#paisModal {
     color: black;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Krub;
     font-weight: normal;
+    padding-inline: 1.5em;
 }
 
-#modalPaisDisplayRascunho {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    padding-left: 10px;
-}
-
-#modalDataDesignRascunho {
+.modal-data-design {
     display: inline-flex;
-    align-items: center;
-    background-color: #FFFFF3;
-    width: 146px;
-    height: 30px;
     border-radius: 25px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     justify-content: space-around;
-    padding-right: 0;
-}
-
-#modalDataRascunho {
     color: black;
     text-align: center;
-    font-size: 16px;
-    font-family: Krub;
-    font-weight: normal;
-    margin: 0;
-}
-
-#modalLinkRascunho {
-    color: #FFFFF3;
-    text-align: center;
-    font-size: 32px;
-    font-family: Krub;
-    font-weight: 600;
-}
-
-#modalTitleRascunho {
-    display: flex;
     font-size: 20px;
     font-family: Krub;
-    font-weight: 500;
-    text-align: start;
-    margin-top: 15px;
-    margin-left: 60px;
-    margin-bottom: 5px;
+    font-weight: normal;
+    width: 35%;
+    img
+
+{
+    width: 10%;
 }
 
-#modalDescriptionRascunho {
+p {
+    margin: auto 0.25em;
+}
+
+}
+
+.mainModal {
     display: flex;
-    font-size: 16px;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#nomeModal {
+    display: flex;
+    font-size: 25px;
     font-family: Krub;
+    font-weight: 600;
+    text-align: start;
+    margin: 0.3em 0;
+    overflow-wrap: break-word;
+}
+
+#descricaoModal {
+    font-size: 16px;
+    font-family: Krub, sans-serif;
     font-weight: 400;
     text-align: start;
-    margin-left: 65px;
-    margin-right: 40px;
+    margin-bottom: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 200px;
+    height: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.5;
 }
+
+
+.modal-link-design {
+    display: flex;
+    position: absolute;
+    justify-self: center;
+    bottom: 5%;
+    right: 15%;
+    background-color: #009846;
+    color: #FFFFF3;
+    border-radius: 25px;
+    padding-inline: 3em;
+    transition: background-color 0.3s;
+}
+
+    .modal-link-design:hover {
+        background-color: #007F39;
+    }
+
+#linkModal {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Krub;
+    color: #fffff3;
+}
+
+.footerModal {
+    display: inline-flex;
+    justify-content: end;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    gap: 10px;
+}
+
+#categoriasModal {
+    display: flex;
+    position: absolute;
+    font-family: Krub;
+    bottom: 20%;
+}
+
+#imgModal {
+    width: 460px;
+    height: 580px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+/* MODAL DELETAR */
+
+#modalDeletarDialog {
+    margin: auto !important;
+    max-width: 100%;
+    width: 400px;
+}
+
+.mainModalDeletar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo-modal-delete {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+    .titulo-modal-delete p {
+        font-family: Krub;
+        font-size: 15px;
+    }
+
+
+#descricaoDelete {
+    font-family: Krub;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+
+
+.footerModalDelete {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#confirmDeleteBtn {
+    width: 100%;
+    background-color: #C50003;
+    padding-inline: 1em;
+    font-size: 26px;
+    color: #fffff3;
+    font-family: Krub;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #confirmDeleteBtn:hover {
+        transform: scale(1.05);
+    }

@@ -1,6 +1,6 @@
 ﻿// MODAL VISUALIZAÇÃO RASCUNHOS 
 
-$('.fundo').on('click', '.card', function () {
+$('.rascunho-container').on('click', '.card', function () {
 
     var id = $(this).data('id');
 
@@ -16,7 +16,7 @@ $('.fundo').on('click', '.card', function () {
 
 
 
-    var modal = $('#feedModal-' + id);
+    var modal = $('#rascunhoModal-' + id);
     modal.find('#imgModal').attr('src', imagem);
     modal.find('#nomeModal').text(titulo);
     modal.find('#descricaoModal').text(descricao);
@@ -35,4 +35,43 @@ $('.fundo').on('click', '.card', function () {
 // Fechar modal ao clicar no botão de fechar
 $('.btn-close').click(function () {
     $('.modal').modal('hide');
+});
+
+$(document).ready(function () {
+    // Função de drag-and-drop para upload de imagens
+    $('#imagem').on('dragover', function (e) {
+        e.preventDefault();
+        $(this).addClass('dragover');
+    });
+
+    $('#imagem').on('dragleave', function (e) {
+        $(this).removeClass('dragover');
+    });
+
+    $('#imagem').on('drop', function (e) {
+        e.preventDefault();
+        $(this).removeClass('dragover');
+
+        var files = e.originalEvent.dataTransfer.files;
+        if (files.length > 0) {
+            var file = files[0];
+            var formData = new FormData();
+            formData.append('imagem', file);
+
+            $.ajax({
+                type: 'POST',
+                url: '/Admin/AdicionarRascunho',
+                data: formData,
+                contentType: false,
+                processData: false,
+                success: function (data) {
+                    console.log('Upload realizado com sucesso!');
+                    location.reload();
+                },
+                error: function (xhr, status, error) {
+                    console.log('Erro ao realizar upload: ' + error);
+                }
+            });
+        }
+    });
 });

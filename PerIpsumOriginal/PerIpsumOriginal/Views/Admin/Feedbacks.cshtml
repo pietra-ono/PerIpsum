@@ -1,24 +1,36 @@
 ﻿@model IEnumerable<ContatoModel>
-
-<div class="container">
-    @foreach (var contato in Model)
-    {
-        <div data-id="@contato.Id">
-            <div id="nomeContato">
-                <h1>@contato.Nome</h1>
-            </div>
-            <div id="emailContato">
-                <p>@contato.Email</p>
-            </div>
-            <div id="problemaContato">
-                <p>@contato.Problema</p>
-            </div>
-            <div id="dataContato">
-                <p>@contato.Data</p>
-            </div>
-            <div id="btnApagar">
-                <a class="btn btn-danger" asp-action="ApagarContato" asp-controller="Admin" asp-route-id="@contato.Id" role="button">Apagar</a>
+@{
+    ViewData["Title"] = "Feedbacks";
+    Layout = "_LayoutSecundario";
+}
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <!-- Painel Esquerdo - Lista de Feedbacks -->
+        <div class="col-md-4 feedback-list-panel">
+            <div class="list-group">
+                @foreach (var contato in Model)
+                {
+                    <a href="#" class="list-group-item list-group-item-action feedback-item" data-id="@contato.Id">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">@contato.Nome</h5>
+                            <small>@contato.Data.ToString("dd/MM/yyyy HH:mm")</small>
+                        </div>
+                        <p class="mb-1">@contato.Problema</p>
+                        <small>@contato.Email</small>
+                    </a>
+                }
             </div>
         </div>
-    }
+
+        <!-- Painel Direito - Detalhes do Feedback -->
+        <div class="col-md-8 feedback-details-panel" id="feedbackDetails">
+            
+                <div class="card-body" id="feedbackDetailsContent">
+                    <!-- Conteúdo dos detalhes será carregado aqui -->
+                </div>
+          
+        </div>
+    </div>
 </div>
+</body>

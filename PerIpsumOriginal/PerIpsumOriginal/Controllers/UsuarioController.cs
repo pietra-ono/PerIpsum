@@ -56,31 +56,20 @@ namespace PerIpsumOriginal.Controllers
                 .Where(f => f.UsuarioId == userId)
                 .Select(f => f.ConteudoId)
                 .ToList();
-            var preferencias = _dbContext.Preferencias
-                .Where(p => p.UsuarioId == userId)
-                .ToList();
-
-            var tiposSelecionados = preferencias.Select(p => p.Tipo).ToList();
-            var paisesSelecionados = preferencias.Select(p => p.Pais).ToList();
 
             var viewModel = new RascunhoViewModel
             {
                 Conteudos = _dbContext.Conteudos.ToList(),
-                FavoritosIds = favoritosIds ?? new List<int>(), // Garantir que a lista não seja nula
-                TiposSelecionados = tiposSelecionados,
-                PaisesSelecionados = paisesSelecionados
+                FavoritosIds = favoritosIds ?? new List<int>(),
+                TiposSelecionados = new List<TipoEnum>(), // Adicione a lógica para carregar os tipos selecionados
+                PaisesSelecionados = new List<PaisEnum>() // Adicione a lógica para carregar os países selecionados
             };
 
             return View(viewModel);
         }
 
 
-        public IActionResult DeletarFeed(int id)
-        {
-            ConteudoModel conteudo = _conteudoRepositorio.ListarPorId(id);
-            return View(conteudo);
-        }
-
+        [HttpPost]
         public IActionResult ApagarConteudo(int id)
         {
             var conteudo = _conteudoRepositorio.ListarPorId(id);
@@ -98,14 +87,9 @@ namespace PerIpsumOriginal.Controllers
                 _conteudoRepositorio.Apagar(id);
             }
 
-            return RedirectToAction("Feed");
+            return Json(new { success = true }); // Retorna um JSON indicando sucesso
         }
 
-
-        public IActionResult Sobre()
-        {
-            return View();
-        }
         // ================================= CALENDÁRIO =================================
 
         [HttpGet]
@@ -127,9 +111,12 @@ namespace PerIpsumOriginal.Controllers
                 link = c.Link,
                 tipo = c.Tipo.ToString(),
                 isUserEvent = false,
-                color = c.Tipo == TipoEnum.Provas ? "green" :
-                    c.Tipo == TipoEnum.Oportunidades ? "yellow" :
-                    c.Tipo == TipoEnum.Eventos ? "blue" : "gray"
+                color = c.Tipo == TipoEnum.Bolsas ? "#C50003" :
+                    c.Tipo == TipoEnum.Intercambios ? "#E2CB26" :
+                    c.Tipo == TipoEnum.Programas ? "#642C8F" :
+                    c.Tipo == TipoEnum.Estagios ? "#009846" :
+                    c.Tipo == TipoEnum.Cursos ? "#002279" :
+                    c.Tipo == TipoEnum.Eventos ? "#931486" : "#71717180"
             }).ToList();
 
             var eventosUsuario = _dbContext.Calendario
@@ -229,7 +216,15 @@ namespace PerIpsumOriginal.Controllers
                 .Select(f => f.Conteudo)
                 .ToListAsync();
 
-            return View(favoritos);
+            var viewModel = new RascunhoViewModel
+            {
+                Conteudos = favoritos,
+                FavoritosIds = favoritos.Select(f => f.Id).ToList(),
+                TiposSelecionados = new List<TipoEnum>(),
+                PaisesSelecionados = new List<PaisEnum>()
+            };
+
+            return View(viewModel);
         }
 
 
@@ -239,11 +234,11 @@ namespace PerIpsumOriginal.Controllers
         {
             try
             {
-                // Obtenha o usuário logado
+                // Verifica se o usuário está autenticado
                 var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
                 if (userId == null)
                 {
-                    return BadRequest("Usuário não autenticado.");
+                    return Unauthorized("/Identity/Account/Register"); // Retorna o URL da página de cadastro
                 }
 
                 var conteudo = _dbContext.Conteudos.FirstOrDefault(c => c.Id == conteudoId);
@@ -282,6 +277,7 @@ namespace PerIpsumOriginal.Controllers
 
 
 
+
         // ================================= ANOTAÇÕES =================================
 
         [HttpGet]
@@ -314,30 +310,19 @@ namespace PerIpsumOriginal.Controllers
             return RedirectToAction("Anotacoes");
         }
 
-        public IActionResult EditarAnotacoes(int id)
-        {
-            string usuarioId = _userManager.GetUserId(User);
-            var anotacoes = _anotacaoRepositorio.ListarPorId(id, usuarioId);
-            if (anotacoes == null)
-            {
-                return NotFound();
-            }
-            return View(anotacoes);
-        }
-
         [HttpPost]
-        public IActionResult AlterarAnotacao(AnotacaoModel anotacao)
+        public IActionResult AlterarAnotacao([FromBody] AnotacaoModel anotacao)
         {
             string usuarioId = _userManager.GetUserId(User);
             if (string.IsNullOrEmpty(usuarioId))
             {
-                return BadRequest("O usuário não está logado.");
+                return Json(new { success = false, message = "Usuário não autenticado" });
             }
 
             var anotacaoAtual = _anotacaoRepositorio.ListarPorId(anotacao.Id, usuarioId);
             if (anotacaoAtual == null)
             {
-                return NotFound("Anotação não encontrada.");
+                return Json(new { success = false, message = "Anotação não encontrada" });
             }
 
             // Atualizar os campos necessários
@@ -346,83 +331,29 @@ namespace PerIpsumOriginal.Controllers
             anotacaoAtual.Cor = anotacao.Cor;
 
             _anotacaoRepositorio.Atualizar(anotacaoAtual, usuarioId);
-            return RedirectToAction("Anotacoes");
+            return Json(new { success = true });
         }
 
-
-        public IActionResult DeletarAnotacoes(int id)
-        {
-            string usuarioId = _userManager.GetUserId(User);
-            AnotacaoModel anotacao = _anotacaoRepositorio.ListarPorId(id, usuarioId);
-            return View(anotacao);
-        }
-
+        [HttpPost]
         public IActionResult ApagarAnotacao(int id)
         {
             string usuarioId = _userManager.GetUserId(User);
             if (string.IsNullOrEmpty(usuarioId))
             {
-                return BadRequest("O usuário não está logado.");
+                return Json(new { success = false, message = "Usuário não autenticado" });
             }
+
             var anotacoes = _anotacaoRepositorio.ListarPorId(id, usuarioId);
             if (anotacoes != null)
             {
                 _anotacaoRepositorio.Apagar(id, usuarioId);
-            }
-            return RedirectToAction("Anotacoes");
-        }
-
-        // ================================= PREFERÊNCIAS =================================
-
-        [HttpGet]
-        public IActionResult Preferencias()
-        {
-            var tipos = Enum.GetValues(typeof(TipoEnum)).Cast<TipoEnum>().ToList();
-            var paises = Enum.GetValues(typeof(PaisEnum)).Cast<PaisEnum>().ToList();
-
-            return View(new PreferenciasViewModel { Tipos = tipos, Paises = paises });
-        }
-
-        [HttpPost]
-        public async Task<IActionResult> SalvarPreferencias(PreferenciasViewModel model)
-        {
-            var usuarioId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-
-            // Remover preferências existentes
-            var existingPreferences = await _dbContext.Preferencias
-                .Where(p => p.UsuarioId == usuarioId)
-                .ToListAsync();
-
-            _dbContext.Preferencias.RemoveRange(existingPreferences);
-
-            // Adicionar novas preferências
-            if (model.SelectedTipos != null)
-            {
-                foreach (var tipo in model.SelectedTipos)
-                {
-                    _dbContext.Preferencias.Add(new PreferenciasModel
-                    {
-                        UsuarioId = usuarioId,
-                        Tipo = tipo
-                    });
-                }
+                return Json(new { success = true });
             }
 
-            if (model.SelectedPaises != null)
-            {
-                foreach (var pais in model.SelectedPaises)
-                {
-                    _dbContext.Preferencias.Add(new PreferenciasModel
-                    {
-                        UsuarioId = usuarioId,
-                        Pais = pais
-                    });
-                }
-            }
-
-            await _dbContext.SaveChangesAsync();
-            return RedirectToAction("Index", "Usuario");
+            return Json(new { success = false, message = "Anotação não encontrada" });
         }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

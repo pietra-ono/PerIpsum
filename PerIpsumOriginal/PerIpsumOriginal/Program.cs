@@ -27,6 +27,8 @@ builder.Services.AddDefaultIdentity<UsuarioModel>(options => options.SignIn.Requ
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<PerIpsumDbContext>();
 
+
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

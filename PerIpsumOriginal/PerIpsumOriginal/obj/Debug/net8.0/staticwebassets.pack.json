@@ -1,14 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Admin\\Feedbacks.cshtml.js"
-    },
-    {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Admin\\Rascunhos.cshtml.js"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Admin\\Solicitacoes.cshtml.js"
     },
@@ -17,16 +9,8 @@
       "PackagePath": "staticwebassets\\Views\\Usuario\\Contato.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Favoritos.cshtml.js"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Index.cshtml.js"
-    },
-    {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Sobre.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Sobre.cshtml.js"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PerIpsumOriginal.bundle.scp.css",
@@ -193,6 +177,10 @@
       "PackagePath": "staticwebassets\\img\\bandeiras\\mexico.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\nullFlag.svg",
+      "PackagePath": "staticwebassets\\img\\bandeiras\\nullFlag.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\bandeiras\\portugal.svg",
       "PackagePath": "staticwebassets\\img\\bandeiras\\portugal.svg"
     },
@@ -219,6 +207,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\calendar.svg",
       "PackagePath": "staticwebassets\\img\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\checkIcon.svg",
+      "PackagePath": "staticwebassets\\img\\checkIcon.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\decoracao-login.svg",
@@ -325,12 +317,24 @@
       "PackagePath": "staticwebassets\\img\\lupaPesquisar.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\paintIcon.svg",
+      "PackagePath": "staticwebassets\\img\\paintIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\parceriaRascBtn.svg",
       "PackagePath": "staticwebassets\\img\\parceriaRascBtn.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\uploadIcon.svg",
+      "PackagePath": "staticwebassets\\img\\uploadIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\usuarioAnotaBtn.svg",
       "PackagePath": "staticwebassets\\img\\usuarioAnotaBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\warning.svg",
+      "PackagePath": "staticwebassets\\img\\warning.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
@@ -341,8 +345,16 @@
       "PackagePath": "staticwebassets\\js\\calendario.js"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
+      "PackagePath": "staticwebassets\\js\\favoritos.js"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
       "PackagePath": "staticwebassets\\js\\feed.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
+      "PackagePath": "staticwebassets\\js\\feedbacks.js"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",
@@ -617,28 +629,24 @@
       "PackagePath": "staticwebassets\\storage\\1e8683ea-c885-4705-9fac-dea19f0e5fb1_background.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\1f39b48b-8b44-42e9-a1c1-1b8c549c947b_Captura de tela 2024-10-26 103953.png",
-      "PackagePath": "staticwebassets\\storage\\1f39b48b-8b44-42e9-a1c1-1b8c549c947b_Captura de tela 2024-10-26 103953.png"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\2179cfb5-0898-48c9-ab1f-587db64067fc_Imagem do WhatsApp de 2024-10-21 à(s) 14.28.11_1f2eb3da.jpg",
       "PackagePath": "staticwebassets\\storage\\2179cfb5-0898-48c9-ab1f-587db64067fc_Imagem do WhatsApp de 2024-10-21 à(s) 14.28.11_1f2eb3da.jpg"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\25b0133a-1e28-4537-86c2-604094951883_Captura de Tela (6).png",
-      "PackagePath": "staticwebassets\\storage\\25b0133a-1e28-4537-86c2-604094951883_Captura de Tela (6).png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\244de89b-500d-49b9-a0ae-5270b283ac04_Captura de Tela (9).png",
+      "PackagePath": "staticwebassets\\storage\\244de89b-500d-49b9-a0ae-5270b283ac04_Captura de Tela (9).png"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\43e33275-2b83-4b64-b88e-7bb1ee433917_Captura de tela 2024-10-08 074525.png",
-      "PackagePath": "staticwebassets\\storage\\43e33275-2b83-4b64-b88e-7bb1ee433917_Captura de tela 2024-10-08 074525.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\30d20126-f917-4edf-92c7-3ac2983cf350_Captura de Tela (13).png",
+      "PackagePath": "staticwebassets\\storage\\30d20126-f917-4edf-92c7-3ac2983cf350_Captura de Tela (13).png"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\4bb13484-9fea-4b3b-a71c-4ef75b6a5ff7_Captura de Tela (12).png",
-      "PackagePath": "staticwebassets\\storage\\4bb13484-9fea-4b3b-a71c-4ef75b6a5ff7_Captura de Tela (12).png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\4a061a71-56c3-472e-8de3-e63d8cd192c8_Captura de Tela (3).png",
+      "PackagePath": "staticwebassets\\storage\\4a061a71-56c3-472e-8de3-e63d8cd192c8_Captura de Tela (3).png"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\63fbb6f4-d6a8-427a-bc90-195ff845774f_Captura de tela 2024-10-16 190713.png",
-      "PackagePath": "staticwebassets\\storage\\63fbb6f4-d6a8-427a-bc90-195ff845774f_Captura de tela 2024-10-16 190713.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\66164554-fba3-4044-b272-79bb59a4c582_Captura de Tela (1).png",
+      "PackagePath": "staticwebassets\\storage\\66164554-fba3-4044-b272-79bb59a4c582_Captura de Tela (1).png"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\698fbeab-3e75-406e-8493-21a7fe8118ed_Captura de Tela (10).png",
@@ -649,12 +657,24 @@
       "PackagePath": "staticwebassets\\storage\\71c40f1d-41f9-4161-bd70-fa909b877fbb_estudante FEED.png"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\78073810-e363-49b6-84bc-929d5f22ab4e_Captura de Tela (12).png",
+      "PackagePath": "staticwebassets\\storage\\78073810-e363-49b6-84bc-929d5f22ab4e_Captura de Tela (12).png"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8100deaa-2bb2-4d1c-bab8-87d75991e1d4_Charmander.webp",
       "PackagePath": "staticwebassets\\storage\\8100deaa-2bb2-4d1c-bab8-87d75991e1d4_Charmander.webp"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8645b326-37fd-402c-befe-85d1179e3358_OIP.jpg",
       "PackagePath": "staticwebassets\\storage\\8645b326-37fd-402c-befe-85d1179e3358_OIP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\877822b5-29f9-470e-ab89-d49f0262ffb5_1.png",
+      "PackagePath": "staticwebassets\\storage\\877822b5-29f9-470e-ab89-d49f0262ffb5_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\878fa0f5-088e-4e07-aade-c274a214bf5a_Captura de Tela (1).png",
+      "PackagePath": "staticwebassets\\storage\\878fa0f5-088e-4e07-aade-c274a214bf5a_Captura de Tela (1).png"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\8d548fb6-74b8-4197-8cd4-a79b559497af_Squirtle.webp",
@@ -673,10 +693,6 @@
       "PackagePath": "staticwebassets\\storage\\961e64ed-c65a-4cfa-aae8-32f0d8b4494c_Bulbasaur.webp"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\963a6cbb-8064-4c44-b7dc-e87c36e88d38_Captura de Tela (6).png",
-      "PackagePath": "staticwebassets\\storage\\963a6cbb-8064-4c44-b7dc-e87c36e88d38_Captura de Tela (6).png"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\b30e78da-2ece-4ba5-a506-648c14de5501_Captura de Tela (7).png",
       "PackagePath": "staticwebassets\\storage\\b30e78da-2ece-4ba5-a506-648c14de5501_Captura de Tela (7).png"
     },
@@ -685,12 +701,24 @@
       "PackagePath": "staticwebassets\\storage\\b7427657-b3dd-4dc2-aaf7-d0212f985057_Captura de Tela (13).png"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG",
-      "PackagePath": "staticwebassets\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\c12e94b8-8497-4574-9b7e-b279798d0d9e_Captura de Tela (12).png",
+      "PackagePath": "staticwebassets\\storage\\c12e94b8-8497-4574-9b7e-b279798d0d9e_Captura de Tela (12).png"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ed73ff8e-a716-4a0d-ac7f-5cb46718fe48_Captura de tela 2024-08-27 204549.png",
-      "PackagePath": "staticwebassets\\storage\\ed73ff8e-a716-4a0d-ac7f-5cb46718fe48_Captura de tela 2024-08-27 204549.png"
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\cf6c4621-bd5c-4bca-ad04-83d627eb731b_Captura de Tela (7).png",
+      "PackagePath": "staticwebassets\\storage\\cf6c4621-bd5c-4bca-ad04-83d627eb731b_Captura de Tela (7).png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\daecef85-e7a0-4479-b2ab-4cc15d4b20d4_Captura de Tela (14).png",
+      "PackagePath": "staticwebassets\\storage\\daecef85-e7a0-4479-b2ab-4cc15d4b20d4_Captura de Tela (14).png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\dd949ecd-b61a-49ec-86bc-aaed1cabd417_Captura de Tela (4).png",
+      "PackagePath": "staticwebassets\\storage\\dd949ecd-b61a-49ec-86bc-aaed1cabd417_Captura de Tela (4).png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG",
+      "PackagePath": "staticwebassets\\storage\\ec5a9243-f35b-4507-a2fa-65fae58464bd_LUZL5220.JPG"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PerIpsumOriginal.Microsoft.AspNetCore.StaticWebAssets.props",

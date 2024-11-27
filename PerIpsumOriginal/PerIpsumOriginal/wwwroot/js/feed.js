@@ -30,7 +30,36 @@ $('.feed-container').on('click', '.card', function (e) {
     modal.modal('show');
 });
 
+// Variável para armazenar o ID do conteúdo a ser excluído
+let contentIdToDelete;
 
+$('.feed-container').on('click', '#openDeleteModalBtn', function () {
+    // Fecha o modal de visualização se ele estiver aberto
+    $('.modal').modal('hide'); // Fecha todos os modais abertos, incluindo o de visualização
+
+    // Armazena o ID do conteúdo
+    contentIdToDelete = $(this).data('id'); // Armazena o ID do conteúdo
+    $('#deleteModal').modal('show'); // Mostra o modal de exclusão
+});
+
+// Confirmar exclusão
+$('#confirmDeleteBtn').click(function () {
+    fetch(`/Usuario/ApagarConteudo/${contentIdToDelete}`, {
+        method: 'POST' // Ou DELETE, dependendo da sua implementação
+    })
+        .then(response => {
+            if (response.ok) {
+                // Atualiza a página ou remove o card do feed
+                location.reload(); // Recarrega a página
+            } else {
+                alert('Erro ao excluir o conteúdo.'); // Mensagem de erro
+            }
+        })
+        .catch(error => {
+            console.error('Erro na requisição:', error);
+            alert('Erro ao processar a solicitação.');
+        });
+});
 
 
 // Fechar modal ao clicar no botão de fechar
@@ -63,8 +92,12 @@ function toggleFavorite(conteudoId) {
                         ? '/img/Desfavorito.svg'
                         : '/img/Favorito.svg';
                 }
+            } else if (response.status === 401) {
+                // Redireciona para a página de cadastro se não autenticado
+                response.text().then(registerUrl => {
+                    window.location.href = registerUrl;
+                });
             } else {
-                // Log detalhado do erro para depuração
                 console.error(`Erro: Status ${response.status}, Texto: ${response.statusText}`);
                 response.text().then(texto => console.error(`Mensagem de erro: ${texto}`));
                 alert("Erro ao favoritar/desfavoritar o conteúdo.");
@@ -76,16 +109,12 @@ function toggleFavorite(conteudoId) {
         });
 }
 
+
 document.addEventListener('DOMContentLoaded', function () {
     const searchInput = document.getElementById('searchInputFeed');
     const cards = document.querySelectorAll('.card');
     const checkboxesTipos = document.querySelectorAll('.tipos input[type="checkbox"]');
     const checkboxesPaises = document.querySelectorAll('.paises input[type="checkbox"]');
-    const filtroPersonalizado = document.getElementById('filtroPersonalizado');
-
-    // Inicialmente, os checkboxes de preferências não devem estar marcados
-    checkboxesTipos.forEach(cb => cb.checked = false);
-    checkboxesPaises.forEach(cb => cb.checked = false);
 
     // Adiciona evento de input para o campo de busca
     searchInput.addEventListener('input', filterCards);
@@ -96,42 +125,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     checkboxesPaises.forEach(checkbox => {
         checkbox.addEventListener('change', filterCards);
-    });
-
-    // Adiciona evento de mudança para o filtro personalizado
-    filtroPersonalizado.addEventListener('change', function () {
-        if (this.checked) {
-            // Desmarcar e desabilitar outros checkboxes
-            checkboxesTipos.forEach(cb => {
-                cb.checked = false; // Desmarcar
-                cb.disabled = true; // Desabilitar
-            });
-            checkboxesPaises.forEach(cb => {
-                cb.checked = false; // Desmarcar
-                cb.disabled = true; // Desabilitar
-            });
-
-            // Marcar as preferências salvas
-            Model.TiposSelecionados.forEach(tipo => {
-                const checkbox = [...checkboxesTipos].find(cb => cb.value === tipo.toString());
-                if (checkbox) checkbox.checked = true;
-            });
-            Model.PaisesSelecionados.forEach(pais => {
-                const checkbox = [...checkboxesPaises].find(cb => cb.value === pais.toString());
-                if (checkbox) checkbox.checked = true;
-            });
-        } else {
-            // Reabilitar checkboxes se "Personalizado" não estiver selecionado
-            checkboxesTipos.forEach(cb => {
-                cb.checked = false; // Desmarcar
-                cb.disabled = false; // Habilitar
-            });
-            checkboxesPaises.forEach(cb => {
-                cb.checked = false; // Desmarcar
-                cb.disabled = false; // Habilitar
-            });
-        }
-        filterCards(); // Atualizar a filtragem
     });
 
     function filterCards() {
@@ -154,13 +147,11 @@ document.addEventListener('DOMContentLoaded', function () {
             const matchesTipo = selectedTipos.length === 0 || selectedTipos.includes(tipo);
             const matchesPais = selectedPaises.length === 0 || selectedPaises.includes(pais);
 
-            // Se "Personalizado" estiver marcado, a filtragem deve ser aplicada
+            // Atualiza a exibição do card com base nos critérios
             card.style.display = (matchesSearch && matchesTipo && matchesPais) ? '' : 'none';
         });
     }
 });
-
-
 
 
 

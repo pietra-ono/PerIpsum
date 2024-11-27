@@ -27,6 +27,9 @@
                 </div>
                 <h1 style="text-align: center; color: black; margin-bottom: 20px; font-family: 'BadHorse', sans-serif;">QUER FALAR COM A GENTE?</h1>
                 <form asp-controller="Usuario" asp-action="AdicionarContato" method="post" enctype="multipart/form-data">
+                    <div style="display: flex; justify-content: center; margin-top: 15px;">
+                        <button type="submit" class="btn" style="width: 40%; background-color: #009846; color: white; font-weight: bold; padding: 12px; font-size: 16px; border-radius: 5px;">Enviar</button>
+                    </div>
                     <div class="form-group" style="margin-bottom: 15px;">
                         <input type="text" asp-for="Nome" placeholder="Qual o seu nome?" style="color: black; padding: 8px; border: none; border-bottom: 1px solid #cccccc; border-radius: 0; box-shadow: none;" />
                     </div>
@@ -38,9 +41,6 @@
                         <textarea asp-for="Problema" class="form-control" placeholder="Descreva ele aqui!" rows="6" style="color: black; padding: 8px; border: 2px solid #cccccc; border-radius: 5px; box-shadow: none;" />
                     </div>
 
-                    <div style="display: flex; justify-content: center; margin-top: 15px;">
-                        <button type="submit" class="btn" style="width: 40%; background-color: #009846; color: white; font-weight: bold; padding: 12px; font-size: 16px; border-radius: 5px;">Enviar</button>
-                    </div>
                 </form>
             </div>
         </div>

@@ -1,26 +1,87 @@
 ﻿@model IEnumerable<ConteudoAprovarModel>
+@{
+    ViewData["Title"] = "Solicitações";
+    Layout = "_LayoutSecundario";
 
-<h2>Conteúdos Pendentes de Aprovação</h2>
+}
+<div class="container-fluid">
+    <div class="row">
+        <!-- Painel Esquerdo - Lista de Solicitações -->
+        <div class="col-md-4 solicitacao-list-panel">
+            <h2 class="mb-4">Solicitações Pendentes</h2>
+            <div class="list-group">
+                @foreach (var solicitacao in Model)
+                {
+                    <a href="#" class="list-group-item list-group-item-action solicitacao-item" data-id="@solicitacao.Id">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">@solicitacao.Nome</h5>
+                            <small>@solicitacao.Data.ToString("dd/MM/yyyy")</small>
+                        </div>
+                        <p class="mb-1">@solicitacao.Descricao</p>
+                        <small>@solicitacao.Tipo - @solicitacao.Pais</small>
+                    </a>
+                }
+            </div>
+        </div>
 
-@foreach (var conteudo in Model)
-{
-    <div class="card">
-        <h3>@conteudo.Nome</h3>
-        <p>@conteudo.Descricao</p>
-        <img src="@($"/storage/{conteudo.Imagem}")" alt="@conteudo.Nome" style="width: 340px;" />
-        <p>@conteudo.Tipo</p>
-        <p>@conteudo.Pais</p>
-        <p>@conteudo.Data</p>
-        <p>@conteudo.Categorias</p>
-        <div class="buttons">
-            <form asp-action="Aprovar" method="post">
-                <input type="hidden" name="id" value="@conteudo.Id" />
-                <button type="submit" class="btn btn-success">Aprovar</button>
-            </form>
-            <form asp-action="Rejeitar" method="post">
-                <input type="hidden" name="id" value="@conteudo.Id" />
-                <button type="submit" class="btn btn-danger">Rejeitar</button>
-            </form>
+        <!-- Painel Direito - Detalhes da Solicitação -->
+        <div class="col-md-8 solicitacao-details-panel" id="solicitacaoDetails">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Selecione uma solicitação para ver os detalhes</h3>
+                </div>
+                <div class="card-body" id="solicitacaoDetailsContent">
+                    <!-- Conteúdo dos detalhes será carregado aqui -->
+                </div>
+            </div>
         </div>
     </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $('.solicitacao-item').on('click', function (e) {
+                e.preventDefault();
+
+                $('.solicitacao-item').removeClass('active');
+                $(this).addClass('active');
+
+                var solicitacaoId = $(this).data('id');
+
+                $.ajax({
+                    url: '@Url.Action("ObterDetalhesSolicitacao", "Admin")',
+                    type: 'GET',
+                    data: { id: solicitacaoId },
+                    success: function (result) {
+                        $('#solicitacaoDetailsContent').html(result);
+                    },
+                    error: function () {
+                        $('#solicitacaoDetailsContent').html('<p>Erro ao carregar detalhes da solicitação.</p>');
+                    }
+                });
+            });
+        });
+    </script>
 }
+
+<style>
+    .solicitacao-list-panel {
+        height: 100vh;
+        overflow-y: auto;
+        border-right: 1px solid #ddd;
+    }
+
+    .solicitacao-details-panel {
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .solicitacao-item {
+        cursor: pointer;
+    }
+
+        .solicitacao-item.active {
+            background-color: #f0f0f0;
+        }
+</style>

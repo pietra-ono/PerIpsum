@@ -2,9 +2,12 @@
 {
     public enum TipoEnum
     {
-        Desconhecido = 0,
-        Oportunidades = 1,
-        Eventos = 2,
-        Provas = 3
+        Tipo = 0,
+        Bolsas = 1,
+        Intercambios = 2,
+        Programas = 3,
+        Estagios = 4,
+        Cursos = 5,
+        Eventos = 6
     }
 }

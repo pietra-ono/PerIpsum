@@ -32,14 +32,12 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<UsuarioModel> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
-        private readonly PerIpsumDbContext _dbContext;
         public RegisterModel(
             UserManager<UsuarioModel> userManager,
             IUserStore<UsuarioModel> userStore,
             SignInManager<UsuarioModel> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender,
-            PerIpsumDbContext dbContext)
+            IEmailSender emailSender)
         {
             _userManager = userManager;
             _userStore = userStore;
@@ -47,7 +45,6 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
-            _dbContext = dbContext;
         }
 
         /// <summary>
@@ -148,9 +145,6 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account
                     await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
                         $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
-                    // Verifique se o usuário já possui preferências
-                    var userPreferencesExist = await _dbContext.Preferencias.AnyAsync(p => p.UsuarioId == userId);
-
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
                         return RedirectToPage("RegisterConfirmation", new { email = Input.Email, returnUrl = returnUrl });
@@ -159,11 +153,7 @@ namespace PerIpsumOriginal.Areas.Identity.Pages.Account
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
 
-                        // Redireciona para a página de preferências se o usuário não tiver preferências
-                        if (!userPreferencesExist)
-                        {
-                            return RedirectToAction("Preferencias", "Usuario"); // Altere "User " para o nome do seu controlador
-                        }
+                        
 
                         return LocalRedirect(returnUrl);
                     }

@@ -1,10 +1,20 @@
 ﻿@model PerIpsumOriginal.Models.ConteudoRascunhoModel
+        <div class="modal-content">
+            <div class="btn-modal-container">
+        <a href="@Url.Action("Rascunhos", "Admin")" class="btn-close btn-close-white"></a>
+            </div>
+            <div class="mainModalDeletar">
+                <div class="titulo-modal-delete">
+                    <p>Tem certeza que deseja excluir este rascunho?</p>
+                </div>
+                <img id="warningImg" src="~/img/warning.svg" />
+                <h3 id="descricaoDelete">Não será possível recuperá-lo depois!</h3>
+                <form asp-action="ApagarRascunho" asp-controller="Admin" method="post">
+                    @Html.HiddenFor(model => model.Id)
+                    <div class="footerModalDelete">
+                        <button type="submit" class="btn" id="confirmDeleteBtn">Deletar</button>
+                    </div>
+                </form>
 
-<p>Tem certeza que deseja deletar este rascunho?</p>
-<form asp-action="ApagarRascunho" asp-controller="Admin" method="post">
-    @Html.HiddenFor(model => model.Id)
-    <div class="modal-footer">
-        <a class="btn btn-secondary" asp-controller="Admin" asp-action="Rascunhos" role="button">Fechar</a>
-        <button type="submit" class="btn btn-danger">Deletar</button>
-    </div>
-</form>
+            </div>
+        </div>

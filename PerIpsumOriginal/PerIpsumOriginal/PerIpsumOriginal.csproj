@@ -11,7 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="chosen.jquery" Version="1.2.0" />
     <PackageReference Include="jQuery" Version="3.7.1" />
     <PackageReference Include="jQuery.FileUpload" Version="10.4.0" />
     <PackageReference Include="jQuery.UI.Combined" Version="1.13.3" />
@@ -34,7 +33,6 @@
   <ItemGroup>
     <Folder Include="wwwroot\lib\jquery-chosen\dist\css\" />
     <Folder Include="wwwroot\lib\jquery-chosen\dist\js\" />
-    <Folder Include="wwwroot\storage\" />
   </ItemGroup>
 
 </Project>

@@ -35,56 +35,59 @@
                             <p>@anotacao.Descricao</p>
                         </div>
                     </div>
-                    <!-- Modal visualizar -->
-
-                    <div class="modal fade" id="anotVisuModal-@anotacao.Id" tabindex="-1" aria-labelledby="anotVisuModalLabel-@anotacao.Id" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                            <div class="modal-content">
-                                <div class="headerAnotacoes">
-                                    <h1 id="modalTitulo" />
-                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="descricaoAnotacoes">
-                                    <p id="modalDescricao" />
-                                </div>
-                                <div class="footerAnotacoes">
-                                    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="DeletarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/DelButton.svg" /></a>
-                                    <a class="btn btn-secondary" asp-controller="Usuario" asp-action="EditarAnotacoes" role="button" asp-route-id="@anotacao.Id"><img src="~/img/EditButton.svg" /></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 }
             </div>
         </main>
     </div>
-<!-- adicionar Modal -->
-<div class="modal fade" id="AddAnotModal" tabindex="-1" aria-labelledby="AddAnotModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <form asp-controller="Usuario" asp-action="AdicionarAnotacao" method="post" enctype="multipart/form-data">
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="Titulo">Título</label>
-                        <input type="text" class="form-control" id="Titulo" name="Titulo" required>
+    <!-- adicionar Modal -->
+    <div class="modal fade" id="AddAnotModal" tabindex="-1" aria-labelledby="AddAnotModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form asp-controller="Usuario" asp-action="AdicionarAnotacao" method="post" enctype="multipart/form-data" class="modal-form">
+                    <div class="btn-modal-container">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="form-group">
-                        <label for="Descricao">Descrição</label>
-                        <textarea class="form-control" id="Descricao" name="Descricao" required></textarea>
+                    <div class="header-modal-anotacoes">
+                        <div class="titulo-modal-anotacoes">
+                            <input type="text" class="form-control" id="Titulo" name="Titulo" placeholder="Adicionar Nome..." required>
+                        </div>
+                        <div class="cor-modal-anotacoes">
+                            <input type="color" class="form-control" id="Cor" name="Cor" value="#000000">
+                            <img src="~/img/paintIcon.svg" />
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="Cor">Cor</label>
-                        <input type="color" class="form-control" id="Cor" name="Cor" value="#000000">
+                    <div class="descricao-modal-anotacoes">
+                        <textarea class="form-control" id="Descricao" name="Descricao" placeholder="Escreva aqui..." required></textarea>
                     </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                    <button type="submit" class="btn btn-primary">Adicionar Anotação</button>
-                </div>
-            </form>
+                    <div class="footerModal">
+                        <button type="submit" class="btn"><img src="~/img/checkIcon.svg" /></button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-</div>
+
+    <!-- Modal de Confirmação de Exclusão -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content-deletar">
+                <div class="btn-modal-container">
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="mainModalDeletar">
+                    <div class="titulo-modal-delete">
+                        <p>Tem certeza que deseja excluir este conteúdo?</p>
+                    </div>
+                    <img id="warningImg" src="~/img/warning.svg" />
+                    <h3 id="descricaoDelete">Não será possível recuperá-la depois!</h3>
+                    <div class="footerModalDelete">
+                        <button type="button" class="btn btn-danger" id="confirmDeleteBtn" data-bs-dismiss="modal">Deletar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 

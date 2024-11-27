@@ -2,7 +2,7 @@
 {
     public enum PaisEnum
     {
-        Desconhecido = 0,
+        Pais = 0,
         EstadosUnidos = 1,
         China = 2,
         Alemanha = 3,

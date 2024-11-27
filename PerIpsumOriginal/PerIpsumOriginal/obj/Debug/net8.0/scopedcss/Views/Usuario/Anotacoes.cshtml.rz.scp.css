@@ -141,3 +141,198 @@ main[b-mww44o13le] {
 .btn-close[b-mww44o13le] {
     filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
 }
+
+/* MODAL */
+
+.modal-dialog[b-mww44o13le] {
+    margin: auto !important;
+    max-width: 100%;
+    width: 950px;
+    height: 70%;
+}
+
+
+.modal-content[b-mww44o13le] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 90vh;
+    height: 70%;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+
+.modal-form[b-mww44o13le] {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Faz o formulário ocupar o espaço disponível */
+}
+
+.btn-modal-container[b-mww44o13le] {
+    display: inline-flex;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    justify-content: end;
+}
+
+.btn-close[b-mww44o13le] {
+    filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
+}
+
+.footerModal[b-mww44o13le] {
+    display: inline-flex;
+    justify-content: end;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+.header-modal-anotacoes[b-mww44o13le] {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.titulo-modal-anotacoes input[b-mww44o13le]{
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    font-family: Krub;
+}
+
+    .titulo-modal-anotacoes input[b-mww44o13le]::placeholder {
+        color: #000000;
+        opacity: 0.5;
+        font-family: Krub;
+        font-size: 18px;
+    }
+
+    .titulo-modal-anotacoes input:focus[b-mww44o13le],
+    .titulo-modal-anotacoes input:active[b-mww44o13le],
+    .titulo-modal-anotacoes input:hover[b-mww44o13le] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+.cor-modal-anotacoes[b-mww44o13le] {
+    display: inline-flex;
+    width: 40%;
+    width: 80px;
+    background-color: #fffff3;
+    border-radius: 15px;
+    padding-inline: 0.1em;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    margin-left: 1em;
+}
+
+.cor-modal-anotacoes input[type="color"][b-mww44o13le] {
+    border-radius: 15px 0 0 15px; /* Altere para o valor desejado */
+    padding: 0; /* Garante que não haverá bordas internas desnecessárias */
+    border: none; /* Remove bordas extras (opcional) */
+    cursor: pointer;
+}
+
+.descricao-modal-anotacoes[b-mww44o13le] {
+    display: flex;
+    flex-direction: column; /* Organiza elementos em coluna */
+    height: 500px; /* Altura fixa */
+    width: 800px; /* Largura fixa */
+    max-width: 100%; /* Garante responsividade */
+    margin-top: 1em;
+    box-sizing: border-box;
+}
+
+    .descricao-modal-anotacoes textarea[b-mww44o13le] {
+        flex-grow: 1; /* Faz o textarea expandir dentro do contêiner */
+        resize: none; /* Impede o redimensionamento manual */
+        padding: 10px; /* Adiciona espaçamento interno */
+        font-family: Krub; 
+        font-size: 16px;
+        background-color: transparent;
+        border: none;
+    }
+
+.descricao-modal-anotacoes textarea[b-mww44o13le]::placeholder {
+    color: #000000;
+    opacity: 0.5;
+    font-family: Krub;
+    font-size: 18px;
+}
+
+    .descricao-modal-anotacoes textarea:focus[b-mww44o13le],
+    .descricao-modal-anotacoes textarea:active[b-mww44o13le],
+    .descricao-modal-anotacoes textarea:hover[b-mww44o13le] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+
+/* MODAL DELETAR */
+
+
+#modalDeletarDialog[b-mww44o13le] {
+    margin: auto !important;
+    max-width: 100%;
+    width: 400px;
+}
+
+.mainModalDeletar[b-mww44o13le] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo-modal-delete[b-mww44o13le] {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+    .titulo-modal-delete p[b-mww44o13le] {
+        font-family: Krub;
+        font-size: 15px;
+    }
+
+
+#descricaoDelete[b-mww44o13le] {
+    font-family: Krub;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+
+
+.footerModalDelete[b-mww44o13le] {
+    display: inline-flex;
+    justify-content: center;
+}
+
+#confirmDeleteBtn[b-mww44o13le] {
+    width: 100%;
+    background-color: #C50003;
+    padding-inline: 1em;
+    font-size: 26px;
+    color: #fffff3;
+    font-family: Krub;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    #confirmDeleteBtn:hover[b-mww44o13le] {
+        transform: scale(1.05);
+    }

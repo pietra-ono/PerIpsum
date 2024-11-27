@@ -6,26 +6,34 @@
 
 <form asp-controller="Admin" asp-action="AlterarRascunho" method="post" enctype="multipart/form-data">
     <input type="hidden" asp-for="Rascunho.Id" />
-        <div class="modal-content p-3">
-            <div class="row g-0">
-                <div class="col-4">
-                <input type="file" asp-for="Rascunho.Imagem" name="imagemArquivo" id="imagemArquivo" />
-                </div>
-            <div class="col-8">
-                <button type="submit" name="acao" value="SalvarRascunho">Salvar como Rascunho</button>
-                <button type="submit" name="acao" value="EnviarAprovar">Enviar para Aprovação</button>
-                <a class="btn btn-secondary" asp-controller="Admin" asp-action="Rascunhos" role="button">Fechar</a>
+    <div class="modal-content">
+        <div class="esquerda-modal">
+            <label for="imagem" class="drag-drop-area">
+                Carregar imagem...
+                <img src="~/img/uploadIcon.svg" />
+                <input type="file" asp-for="Rascunho.Imagem" id="imagem" name="imagem" class="drag-drop-input" />
+            </label>
+        </div>
 
-                <div class="modal-header">
-                    <select asp-for="Rascunho.Tipo">
-                        <option value="@TipoEnum.Desconhecido">Tipo</option>
-                        <option value="@TipoEnum.Oportunidades">Oport.</option>
-                        <option value="@TipoEnum.Provas">Prova</option>
-                        <option value="@TipoEnum.Eventos">Evento</option>
+        <div class="direita-modal">
+            <div class="btn-modal-container-add">
+                <a href="@Url.Action("Rascunhos", "Admin")" class="btn-close btn-close-white"></a>
+            </div>
+            <div class="header-modal-rascunhos">
+                <div class="modal-tipo-design-add">
+                    <select asp-for="Rascunho.Tipo" id="tipoInput">
+                        <option value="@TipoEnum.Tipo">Tipo</option>
+                        <option value="@TipoEnum.Bolsas">Bolsas</option>
+                        <option value="@TipoEnum.Intercambios">Intercâmbios</option>
+                        <option value="@TipoEnum.Programas">Programas</option>
+                        <option value="@TipoEnum.Estagios">Estágios</option>
+                        <option value="@TipoEnum.Cursos">Cursos</option>
+                        <option value="@TipoEnum.Eventos">Eventos</option>
                     </select>
-
-                    <select asp-for="Rascunho.Pais">
-                        <option value="@PaisEnum.Desconhecido">Desconhecido</option>
+                </div>
+                <div class="modal-pais-design-add">
+                    <select asp-for="Rascunho.Pais" id="paisInput">
+                        <option value="@PaisEnum.Pais">País</option>
                         <option value="@PaisEnum.EstadosUnidos">EUA</option>
                         <option value="@PaisEnum.China">CHI</option>
                         <option value="@PaisEnum.Alemanha">ALE</option>
@@ -52,12 +60,34 @@
                         <option value="@PaisEnum.Chile">CHIL</option>
                         <option value="@PaisEnum.Argentina">ARG</option>
                     </select>
-                    <input type="date" asp-for="Rascunho.Data"/>
                 </div>
-                <div class="modal-body">
-                    <input type="text" asp-for="Rascunho.Nome" placeholder="Título"/>
-                    <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição"/>
-                    <input type="text" asp-for="Rascunho.Link" placeholder="Link" />
+                <div class="modal-data-design-add">
+                    <input type="date" asp-for="Rascunho.Data" id="dataInput" />
+                </div>
+            </div>
+            <div class="mainModal-add">
+                <div class="nomeModal-add">
+                    <input type="text" asp-for="Rascunho.Nome" placeholder="Título" id="inputNome" />
+                </div>
+                <div class="descricaoModal-add">
+                    <input type="text" asp-for="Rascunho.Descricao" placeholder="Descrição" id="inputDescricao" />
+                </div>
+                <div class="categoriaModal-add">
+                    <label asp-for="Rascunho.Categorias">Escreva até no máximo 7 categorias seguindo este padrão:</label>
+                    <input type="text" disabled placeholder="categoria1 categoria2 categoria3 categoria4 categ..." />
+                    <input type="text" asp-for="Rascunho.Categorias" id="categorias" placeholder="Categorias" />
+                </div>
+            </div>
+            <div class="modal-link-design-add">
+                <input type="text" asp-for="Rascunho.Link" placeholder="Link" id="linkInput" />
+            </div>
+            <div class="footerModal-add">
+                <input type="hidden" name="acao" id="acao" />
+                <div class="btn-rascunho-design-add">
+                    <button type="submit" class="btn" onclick="document.getElementById('acao').value='SalvarRascunho'">Salvar Rascunho</button>
+                </div>
+                <div class="btn-aprovar-design-add">
+                    <button type="submit" class="btn" onclick="document.getElementById('acao').value='SalvarAprovar'">Salvar e Aprovar</button>
                 </div>
             </div>
         </div>

@@ -46,16 +46,6 @@
           }
         }
       },
-      "chosen/1.2.0": {
-        "type": "package"
-      },
-      "chosen.jquery/1.2.0": {
-        "type": "package",
-        "dependencies": {
-          "chosen": "1.2.0",
-          "jquery": "1.4.1"
-        }
-      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3139,33 +3129,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "chosen/1.2.0": {
-      "sha512": "nrcF57kN5LRb/drcnK43W+cDKuAxDXhVlTBI4wOmm2eTjQW1/nRjV/G9zs+xavsgtquTH7CeJbYDbZZOsMrABw==",
-      "type": "package",
-      "path": "chosen/1.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "chosen.1.2.0.nupkg.sha512",
-        "chosen.nuspec",
-        "content/Content/chosen-sprite.png",
-        "content/Content/chosen-sprite@2x.png",
-        "content/Content/chosen.css"
-      ]
-    },
-    "chosen.jquery/1.2.0": {
-      "sha512": "tTk253knlrgBY+xE2TmP91MDad5v3xnK3zDGaaRdB9o7hhnelX5U2jmZhKZyVjCE4q+olYXIhPoia8NXF4PbaQ==",
-      "type": "package",
-      "path": "chosen.jquery/1.2.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "chosen.jquery.1.2.0.nupkg.sha512",
-        "chosen.jquery.nuspec",
-        "content/Scripts/chosen.jquery.js",
-        "content/Scripts/chosen.jquery.min.js"
       ]
     },
     "Humanizer/2.14.1": {
@@ -8602,7 +8565,6 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
-      "chosen.jquery >= 1.2.0",
       "jQuery >= 3.7.1",
       "jQuery.FileUpload >= 10.4.0",
       "jQuery.UI.Combined >= 1.13.3"
@@ -8615,11 +8577,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
+      "projectUniqueName": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
       "projectName": "PerIpsumOriginal",
-      "projectPath": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
+      "projectPath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\PerIpsumOriginal.csproj",
       "packagesPath": "C:\\Users\\Bruno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bruno\\Desktop\\RepositorioPerIpsum\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\",
+      "outputPath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -8693,10 +8655,6 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[8.0.6, )"
-          },
-          "chosen.jquery": {
-            "target": "Package",
-            "version": "[1.2.0, )"
           },
           "jQuery": {
             "target": "Package",

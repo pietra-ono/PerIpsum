@@ -2,19 +2,18 @@
     ViewData["Title"] = "Calendário";
     Layout = "_LayoutSecundario";
 }
-
-<h2>Calendário</h2>
+<body>
 <div id="calendar"></div>
 
 <!-- Modal para Visualizar/Editar Evento -->
 <div class="modal" id="eventModal" tabindex="-1">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalTitle"></h5>
-                <button type="button" class="close" data-dismiss="modal">
-                    <span>&times;</span>
-                </button>
+                    <div class="btn-modal-container">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
             </div>
             <div class="modal-body">
                 <div id="viewEventContent">
@@ -49,13 +48,13 @@
 
 <!-- Modal para Criar Evento -->
 <div class="modal" id="createEventModal" tabindex="-1">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Criar Novo Evento</h5>
-                <button type="button" class="close" data-dismiss="modal">
-                    <span>&times;</span>
-                </button>
+                    <div class="btn-modal-container">
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -77,3 +76,4 @@
         </div>
     </div>
 </div>
+</body>

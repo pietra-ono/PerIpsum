@@ -18,7 +18,6 @@ namespace PerIpsumOriginal.Data
         public DbSet<FavoritoModel> Favoritos { get; set; }
         public DbSet<AnotacaoModel> Anotacoes { get; set; }
         public DbSet<CalendarioModel> Calendario { get; set; }
-        public DbSet<PreferenciasModel> Preferencias { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new ContatoMap());
@@ -36,13 +35,6 @@ namespace PerIpsumOriginal.Data
                 .HasOne(a => a.Usuario)
                 .WithMany()
                 .HasForeignKey(a => a.UsuarioId)
-                .OnDelete(DeleteBehavior.Cascade);
-           
-
-            modelBuilder.Entity<PreferenciasModel>()
-                .HasOne(p => p.Usuario)
-                .WithMany()
-                .HasForeignKey(p => p.UsuarioId)
                 .OnDelete(DeleteBehavior.Cascade);
             
             base.OnModelCreating(modelBuilder);

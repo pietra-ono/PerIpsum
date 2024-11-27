@@ -1,0 +1,59 @@
+﻿@model ContatoModel
+
+<div class="feedback-details">
+    <div class="details-header">
+        <h4 class="mb-3">Detalhes do Feedback</h4>
+    </div>
+
+    <div class="details-body">
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Nome:</div>
+            <div class="col-md-8">@Model.Nome</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Email:</div>
+            <div class="col-md-8">@Model.Email</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Problema:</div>
+            <div class="col-md-8">@Model.Problema</div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4 font-weight-bold">Data:</div>
+            <div class="col-md-8">@Model.Data.ToString("dd/MM/yyyy HH:mm")</div>
+        </div>
+    </div>
+
+    <div class="details-actions mt-4">
+        <a asp-action="ApagarContato"
+           asp-route-id="@Model.Id"
+           class="btn btn-danger">
+            Excluir Feedback
+        </a>
+    </div>
+</div>
+
+<style>
+    .feedback-details {
+        background-color: #f8f9fa;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    .details-header {
+        border-bottom: 1px solid #dee2e6;
+        padding-bottom: 10px;
+        margin-bottom: 15px;
+    }
+
+    .details-body .row {
+        margin-bottom: 10px;
+    }
+
+    .details-body .font-weight-bold {
+        color: #495057;
+    }
+</style>

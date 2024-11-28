@@ -110,6 +110,8 @@ namespace PerIpsumOriginal.Controllers
                 description = c.Descricao,
                 link = c.Link,
                 tipo = c.Tipo.ToString(),
+                pais = c.Pais.ToString(),
+                bandeira = $"/img/bandeiras/{c.Pais}.svg",
                 isUserEvent = false,
                 color = c.Tipo == TipoEnum.Bolsas ? "#C50003" :
                     c.Tipo == TipoEnum.Intercambios ? "#E2CB26" :
@@ -129,8 +131,10 @@ namespace PerIpsumOriginal.Controllers
                     description = e.Descricao,
                     link = (string)null,
                     tipo = (string)null,
+                    pais = (string)null,
+                    bandeira = (string)null,
                     isUserEvent = true,
-                    color = "purple"
+                    color = "gray"
                 }).ToList();
 
             var todosEventos = eventosConteudo.Concat(eventosUsuario);

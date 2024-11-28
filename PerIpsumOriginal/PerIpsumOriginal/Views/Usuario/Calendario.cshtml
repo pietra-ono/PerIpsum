@@ -6,74 +6,91 @@
 <div id="calendar"></div>
 
 <!-- Modal para Visualizar/Editar Evento -->
-<div class="modal" id="eventModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="modalTitle"></h5>
-                    <div class="btn-modal-container">
+    <div class="modal" id="eventModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content-visu">
+                <!-- Cabeçalho da Modal -->
+                <div class="modal-header-visu">
+                    <div class="event-details">
+                        <div class="modal-tipo-design">
+                            <p id="modalTipo" />
+                        </div>
+                        <div class="modal-pais-design">
+                            <img id="bandeiraModal" src="" alt="Bandeira do país" />
+                            <p id="modalPais"></p>
+                        </div>
+                        <div class="modal-data-design">
+                            <p id="modalDate"></p>
+                            <img src="~/img/calendar.svg" alt="Calendário" />
+                        </div>
+                    </div>
+                    <div class="btn-modal-container-visu">
                         <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-            </div>
-            <div class="modal-body">
-                <div id="viewEventContent">
-                    <p id="modalDescription"></p>
-                    <p><strong>Link: </strong><a id="modalLink" href="#" target="_blank"></a></p>
-                    <p><strong>Tipo: </strong><span id="modalTipo"></span></p>
                 </div>
-                <div id="editEventContent" style="display:none;">
-                    <input type="hidden" id="editEventId">
-                    <div class="form-group">
-                        <label>Título</label>
-                        <input type="text" class="form-control" id="editEventTitle">
+
+                <!-- Corpo da Modal -->
+                <div class="modal-body-visu">
+                    <!-- Exibição de informações do evento -->
+                    <div id="viewEventContent">
+                        <h5 class="modal-title" id="modalTitle"></h5>
+                        <p id="modalDescription"></p>
+                        <div class="modal-link-design">
+                            <a id="modalLink" href="#" target="_blank"></a>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label>Descrição</label>
-                        <textarea class="form-control" id="editEventDescription"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label>Data</label>
-                        <input type="date" class="form-control" id="editEventDate">
+
+                    <!-- Formulário de edição -->
+                    <div id="editEventContent" style="display:none;">
+                        <input type="hidden" id="editEventId">
+                        <div class="form-group">
+                            <input type="date" class="form-control" id="editEventDate" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="editEventTitle" />
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="editEventDescription"></textarea>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal-footer" id="userEventButtons" style="display:none;">
-                <button type="button" class="btn btn-danger" id="deleteEventBtn">Excluir</button>
-                <button type="button" class="btn btn-primary" id="editEventBtn">Editar</button>
-                <button type="button" class="btn btn-success" id="saveEventBtn" style="display:none;">Salvar</button>
+
+                <!-- Rodapé da Modal -->
+                <div class="modal-footer-visu" id="userEventButtons" style="display:none;">
+                    <button type="button" class="btn" id="deleteEventBtn"><img src="~/img/DelButton.svg" /></button>
+                    <button type="button" class="btn" id="editEventBtn"><img src="~/img/EditButton.svg" /></button>
+                    <button type="button" class="btn" id="saveEventBtn" style="display:none;"><img src="~/img/checkIcon.svg" /></button>
+                </div>
             </div>
         </div>
     </div>
-</div>
+
 
 <!-- Modal para Criar Evento -->
-<div class="modal" id="createEventModal" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Criar Novo Evento</h5>
+    <div class="modal" id="createEventModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
                     <div class="btn-modal-container">
                         <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label>Título</label>
-                    <input type="text" class="form-control" id="newEventTitle">
                 </div>
-                <div class="form-group">
-                    <label>Descrição</label>
-                    <textarea class="form-control" id="newEventDescription"></textarea>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="date" class="form-control form-data" id="newEventDate">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control form-titulo" id="newEventTitle" placeholder="Título...">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control form-descricao" id="newEventDescription" placeholder="Descrição..."></textarea>
+                    </div>
+
                 </div>
-                <div class="form-group">
-                    <label>Data</label>
-                    <input type="date" class="form-control" id="newEventDate">
+                <div class="modal-footer">
+                    <button type="button" class="btn" id="createEventBtn"><img src="~/img/checkIcon.svg" /></button>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-success" id="createEventBtn">Criar</button>
             </div>
         </div>
     </div>
-</div>
 </body>

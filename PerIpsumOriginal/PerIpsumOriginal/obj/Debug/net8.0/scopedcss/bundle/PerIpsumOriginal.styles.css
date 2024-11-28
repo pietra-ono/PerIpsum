@@ -1541,7 +1541,7 @@ body[b-bwdgjc3sag] {
 .modal-dialog[b-bwdgjc3sag] {
     margin: auto !important;
     max-width: 100%;
-    width: 950px;
+    width: 500px;
 }
 
 
@@ -1561,18 +1561,335 @@ body[b-bwdgjc3sag] {
     padding: 1.5em;
 }
 
+.modal-header[b-bwdgjc3sag] {
+    
+    border: none;
+}
+
 .btn-close[b-bwdgjc3sag] {
     filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
 }
+
+
 
 .btn-modal-container[b-bwdgjc3sag] {
     display: inline-flex;
     position: absolute;
     top: 3%;
-    right: 2%;
+    right: 5%;
     justify-content: end;
 }
 
+.form-group[b-bwdgjc3sag] {
+    gap: 10px;
+    margin: 1em 0;
+}
+
+.form-data[b-bwdgjc3sag] {
+    appearance: none; /* Remove a aparência padrão */
+    -webkit-appearance: none; /* Compatibilidade com navegadores webkit */
+    -moz-appearance: none; /* Compatibilidade com Firefox */
+
+    font-family: Krub;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.1); /* Borda muito sutil */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: transparent; /* Fundo semi-transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+    /* Estilo para adicionar ícone de calendário no início */
+    background-image: url('/img/calendar.svg'); /* Substitua pelo caminho correto do seu SVG */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Posiciona no início */
+    padding-left: 30px; /* Espaço para o ícone */
+    /* Estilo adicional para melhorar a aparência */
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer; /* Indica que é clicável */
+
+    font-size: 16px;
+    color: #333;
+}
+
+
+    /* Mantém a funcionalidade original de calendário */
+    .form-data[b-bwdgjc3sag]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        right: 10px;
+        opacity: 0; /* Esconde o indicador padrão */
+        cursor: pointer;
+    }
+
+.form-titulo[b-bwdgjc3sag] {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: Krub;
+    font-size: 20px;
+}
+
+
+    .form-titulo[b-bwdgjc3sag]::placeholder {
+        color: #000000;
+        opacity: 0.5;
+        font-family: Krub;
+        font-size: 18px;
+    }
+
+    .form-titulo:focus[b-bwdgjc3sag],
+    .form-titulo:active[b-bwdgjc3sag],
+    .form-titulo:hover[b-bwdgjc3sag] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+.form-descricao[b-bwdgjc3sag] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: Krub;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+
+    .form-descricao:focus[b-bwdgjc3sag],
+    .form-descricao:active[b-bwdgjc3sag],
+    .form-descricao:hover[b-bwdgjc3sag] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
+
+.modal-footer[b-bwdgjc3sag] {
+    display: inline-flex;
+    justify-content: end;
+    border: none;
+}
+
+.modal-content-visu[b-bwdgjc3sag] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: 90vh;
+    height: 700px;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+
+.modal-header-visu[b-bwdgjc3sag] {
+    display: inline-flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#modalTipo[b-bwdgjc3sag] {
+    color: white;
+    text-align: center;
+    font-size:16px;
+    font-family: Krub;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.modal-pais-design[b-bwdgjc3sag] {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+}
+
+#modalPais[b-bwdgjc3sag] {
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    padding-inline: 0.5em;
+}
+
+.modal-data-design[b-bwdgjc3sag] {
+    display: inline-flex;
+    border-radius: 25px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    justify-content: space-around;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    font-family: Krub;
+    font-weight: normal;
+    padding: 0 0.25em;
+    margin-top: 0.25em;
+p {
+    margin: 0.25em 0.25em;
+}
+}
+
+
+.modal-body-visu[b-bwdgjc3sag] {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+#modalTitle[b-bwdgjc3sag] {
+    display: flex;
+    font-size: 25px;
+    font-family: Krub;
+    font-weight: 600;
+    text-align: start;
+    margin: 0.3em 0;
+    overflow-wrap: break-word;
+}
+
+#modalDescription[b-bwdgjc3sag] {
+    font-size: 16px;
+    font-family: Krub, sans-serif;
+    font-weight: 400;
+    text-align: start;
+    margin-bottom: 1em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 600px;
+    height: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.5;
+}
+
+.modal-link-design[b-bwdgjc3sag] {
+    display: flex;
+    position: absolute;
+    justify-self: center;
+    bottom: 5%;
+    right: 30%;
+    background-color: #009846;
+    color: #FFFFF3;
+    border-radius: 25px;
+    padding-inline: 3em;
+    transition: background-color 0.3s;
+}
+
+    .modal-link-design:hover[b-bwdgjc3sag] {
+        background-color: #007F39;
+    }
+
+#modalLink[b-bwdgjc3sag] {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: Krub;
+    color: #fffff3;
+}
+
+
+.btn-modal-container-visu[b-bwdgjc3sag] {
+    display: inline-flex;
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    justify-content: end;
+}
+
+.modal-footer-visu[b-bwdgjc3sag] {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#editEventDate[b-bwdgjc3sag] {
+    appearance: none; /* Remove a aparência padrão */
+    -webkit-appearance: none; /* Compatibilidade com navegadores webkit */
+    -moz-appearance: none; /* Compatibilidade com Firefox */
+
+    font-family: Krub;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0,0.1); /* Borda muito sutil */
+    border-radius: 25px; /* Bordas arredondadas */
+    background-color: transparent; /* Fundo semi-transparente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombreamento suave */
+    /* Estilo para adicionar ícone de calendário no início */
+    background-image: url('/img/calendar.svg'); /* Substitua pelo caminho correto do seu SVG */
+    background-repeat: no-repeat;
+    background-position: 10px center; /* Posiciona no início */
+    padding-left: 30px; /* Espaço para o ícone */
+    /* Estilo adicional para melhorar a aparência */
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer; /* Indica que é clicável */
+
+    font-size: 16px;
+    color: #333;
+}
+
+    #editEventDate[b-bwdgjc3sag]::-webkit-calendar-picker-indicator {
+        position: absolute;
+        right: 10px;
+        opacity: 0; /* Esconde o indicador padrão */
+        cursor: pointer;
+    }
+
+
+#editEventTitle[b-bwdgjc3sag] {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: Krub;
+    font-size: 20px;
+}
+
+    #editEventTitle[b-bwdgjc3sag]::placeholder {
+        color: #000000;
+        opacity: 0.5;
+        font-family: Krub;
+        font-size: 18px;
+    }
+
+    #editEventTitle:focus[b-bwdgjc3sag],
+    #editEventTitle:active[b-bwdgjc3sag],
+    #editEventTitle:hover[b-bwdgjc3sag] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none;
+    }
+
+#editEventDescription[b-bwdgjc3sag] {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    resize: none;
+    font-family: Krub;
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+}
+
+    #editEventDescription:focus[b-bwdgjc3sag],
+    #editEventDescription:active[b-bwdgjc3sag],
+    #editEventDescription:hover[b-bwdgjc3sag] {
+        outline: none;
+        background-color: #FFFFF3; /* Garante a mesma cor de fundo */
+        border-color: #009846; /* Opcional: altera a cor da borda ao focar */
+        box-shadow: none; /* Remove sombras adicionais */
+    }
 /* _content/PerIpsumOriginal/Views/Usuario/Contato.cshtml.rz.scp.css */
 .containerContato[b-xckj07141h] {
     display: flex;

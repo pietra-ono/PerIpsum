@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DDbUZ3oxRDhCWwe/gmBS+Sj6E6fPxIl4dPtsEvaAXDw=",
+  "Hash": "oqtJ4vJ3nfR9W+MAti+hAWdPKnttHRf0yGauovCAJHE=",
   "Source": "PerIpsumOriginal",
   "BasePath": "_content/PerIpsumOriginal",
   "Mode": "Default",
@@ -2544,6 +2544,25 @@
       "OriginalItemSpec": "wwwroot\\img\\Indefinido.svg"
     },
     {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\leftArrowCalend.svg",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "img/leftArrowCalend.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\leftArrowCalend.svg"
+    },
+    {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\logo.png",
       "SourceId": "PerIpsumOriginal",
       "SourceType": "Discovered",
@@ -2656,6 +2675,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\parceriaRascBtn.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\rightArrowCalend.svg",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "img/rightArrowCalend.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\rightArrowCalend.svg"
     },
     {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\Testes (1).png",

@@ -47,19 +47,70 @@
         },
         eventClick: function (info) {
             const event = info.event;
-            document.getElementById('modalTitle').innerText = event.title;
-            document.getElementById('modalDescription').innerText = event.extendedProps.description || '';
 
-            if (event.extendedProps.isUserEvent) {
-                $('#userEventButtons').show();
+            // Configurações gerais
+            $('#modalTitle').text(event.title || 'Sem título');
+            $('#modalDescription').text(event.extendedProps.description || '');
+            $('#modalDate').text(event.startStr || '');
+
+            // Resetar a visibilidade dos botões de edição/exclusão
+            $('#userEventButtons').hide();
+
+            // Verificar se é um evento de usuário
+            const isUserEvent = event.extendedProps.isUserEvent === true;
+
+            if (!isUserEvent) {
+                // Configurações para eventos do site (como antes)
+                const pais = event.extendedProps.pais || 'Não informado';
+                const bandeira = event.extendedProps.bandeira || '';
+
+                $('#modalPais').text(pais);
+                $('#bandeiraModal').attr('src', bandeira).attr('alt', `Bandeira de ${pais}`);
+                $('#modalTipo').text(event.extendedProps.tipo || 'Não informado');
+                $('#modalLink').text('Acessar').attr('href', event.extendedProps.link || '#').attr('target', '_blank');
+
+                // Definir cor de fundo do tipo (código anterior)
+                const tipo = event.extendedProps.tipo;
+                let backgroundColor = '#717171'; // cor padrão
+                switch (tipo) {
+                    case 'Bolsas':
+                        backgroundColor = '#C50003';
+                        break;
+                    case 'Intercambios':
+                        backgroundColor = '#E2CB26';
+                        break;
+                    case 'Programas':
+                        backgroundColor = '#642C8F';
+                        break;
+                    case 'Estagios':
+                        backgroundColor = '#009846';
+                        break;
+                    case 'Cursos':
+                        backgroundColor = '#002279';
+                        break;
+                    case 'Eventos':
+                        backgroundColor = '#931486';
+                        break;
+                    default:
+                        backgroundColor = '#717171';
+                }
+                $('#modalTipo').css('background-color', backgroundColor);
+            } else {
+                // Para eventos criados pelo usuário
+                $('#userEventButtons').show(); // Mostrar botões de edição/exclusão
+
+                // Preencher campos de edição
                 $('#editEventId').val(event.id);
                 $('#editEventTitle').val(event.title);
-                $('#editEventDescription').val(event.extendedProps.description);
+                $('#editEventDescription').val(event.extendedProps.description || '');
                 $('#editEventDate').val(event.startStr);
-            } else {
-                $('#userEventButtons').hide();
-                document.getElementById('modalLink').href = event.extendedProps.link;
-                document.getElementById('modalTipo').innerText = event.extendedProps.tipo;
+
+                // Limpar informações extras de eventos do site
+                $('#modalPais').text('');
+                $('#bandeiraModal').attr('src', '').attr('alt', '');
+                $('#modalTipo').text('');
+                $('#modalLink').text('').attr('href', '#');
+                $('#modalTipo').css('background-color', '');
             }
 
             $('#eventModal').modal('show');
@@ -68,39 +119,12 @@
 
     calendar.render();
 
-
-
-    calendar.render();
-    // Adicione no início do DOMContentLoaded
-    $('#novoEventoBtn').click(function () {
-        // Limpa os campos do formulário
-        $('#newEventTitle').val('');
-        $('#newEventDescription').val('');
-        $('#newEventDate').val('');
-        $('#createEventModal').modal('show');
-    });
-
-    // Adicione estas funções para limpar os modais quando fechados
-    $('#eventModal').on('hidden.bs.modal', function () {
-        $('#viewEventContent').show();
-        $('#editEventContent').hide();
-        $('#editEventBtn').show();
-        $('#saveEventBtn').hide();
-    });
-
-    $('#createEventModal').on('hidden.bs.modal', function () {
-        $('#newEventTitle').val('');
-        $('#newEventDescription').val('');
-        $('#newEventDate').val('');
-    });
-
-    
-    // Criar Evento
+    // Botão para criar novo evento
     $('#createEventBtn').click(function () {
         const evento = {
+            data: $('#newEventDate').val(),
             titulo: $('#newEventTitle').val(),
-            descricao: $('#newEventDescription').val(),
-            data: $('#newEventDate').val()
+            descricao: $('#newEventDescription').val()
         };
 
         fetch('/Usuario/CriarEvento', {
@@ -119,15 +143,22 @@
             });
     });
 
-    // Editar Evento
+    // Botão para ativar edição de evento
     $('#editEventBtn').click(function () {
-        $('#viewEventContent').hide();
-        $('#editEventContent').show();
-        $('#editEventBtn').hide();
-        $('#saveEventBtn').show();
+        const event = calendar.getEventById($('#editEventId').val());
+
+        // Verificar se é um evento de usuário antes de permitir edição
+        if (event && event.extendedProps.isUserEvent === true) {
+            $('#viewEventContent').hide();
+            $('#editEventContent').show();
+            $('#editEventBtn').hide();
+            $('#saveEventBtn').show();
+        } else {
+            alert('Apenas eventos criados pelo usuário podem ser editados.');
+        }
     });
 
-    // Salvar Edição
+    // Botão para salvar edição de evento
     $('#saveEventBtn').click(function () {
         const evento = {
             id: $('#editEventId').val(),
@@ -152,29 +183,35 @@
             });
     });
 
-    // Deletar Evento
     $('#deleteEventBtn').click(function () {
-        if (confirm('Tem certeza que deseja excluir este evento?')) {
-            const eventId = $('#editEventId').val();
+        const event = calendar.getEventById($('#editEventId').val());
 
-            fetch(`/Usuario/DeletarEvento/${eventId}`, {
-                method: 'DELETE'
-            })
-                .then(response => response.json())
-                .then(data => {
-                    if (data.success) {
-                        calendar.refetchEvents();
-                        $('#eventModal').modal('hide');
-                    }
-                });
+        // Verificar se é um evento de usuário antes de permitir exclusão
+        if (event && event.extendedProps.isUserEvent === true) {
+            if (confirm('Tem certeza que deseja excluir este evento?')) {
+                const eventId = $('#editEventId').val();
+
+                fetch(`/Usuario/DeletarEvento/${eventId}`, {
+                    method: 'DELETE'
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            calendar.refetchEvents();
+                            $('#eventModal').modal('hide');
+                        }
+                    });
+            }
+        } else {
+            alert('Apenas eventos criados pelo usuário podem ser excluídos.');
         }
     });
-});
 
-// Função para resetar o formulário de edição
-    function resetEditForm() {
+    // Resetar modal ao fechar
+    $('#eventModal').on('hidden.bs.modal', function () {
         $('#viewEventContent').show();
         $('#editEventContent').hide();
         $('#editEventBtn').show();
         $('#saveEventBtn').hide();
-    }
+    });
+});

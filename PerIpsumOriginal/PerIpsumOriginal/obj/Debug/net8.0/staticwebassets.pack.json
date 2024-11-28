@@ -305,6 +305,10 @@
       "PackagePath": "staticwebassets\\img\\iconeSobre.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\leftArrowCalend.svg",
+      "PackagePath": "staticwebassets\\img\\leftArrowCalend.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
@@ -323,6 +327,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\parceriaRascBtn.svg",
       "PackagePath": "staticwebassets\\img\\parceriaRascBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\rightArrowCalend.svg",
+      "PackagePath": "staticwebassets\\img\\rightArrowCalend.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\uploadIcon.svg",

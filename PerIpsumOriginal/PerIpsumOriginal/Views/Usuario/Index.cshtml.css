@@ -10,14 +10,14 @@
     border-radius: 20px 20px 0px 0px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     position: relative;
+    overflow: hidden; /* Adiciona esta linha para ocultar conteúdo que ultrapassa */
 }
 
-    #fundoIndex:after {
-        content: "";
-        display: block;
-        clear: both;
-    }
-
+#fundo:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 #fundo2 {
     display: flex;
@@ -39,6 +39,7 @@
         clear: both;
     }
 
+
 .faixa-verde {
     background-color: #009846; /* Nova cor da faixa */
     width: 99.47vw; /* Largura total da viewport */
@@ -48,6 +49,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#fundoOndas {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 2; /* Mantém o z-index para sobreposição */
+    overflow: hidden;
+    pointer-events: none; /* Permite que cliques passem pela imagem */
 }
 
 .atualizacoes-conteudo {
@@ -73,60 +85,66 @@
     cursor: pointer;
     border-radius: 40px; /* Bordas arredondadas */
     text-align: center;
+    display: inline-block; /* Garantir que o <a> se comporte como um botão */
+    text-decoration: none; /* Remover sublinhado padrão de links */
 }
 
     .feed-button:hover {
         background-color: #e5e500; /* Ligeiramente mais escuro no hover */
     }
 
-/* Estilo para o título "Perguntas Frequentes" */
-.perguntas-frequentes h2 {
-    font-size: 64px;
-    color: #002279; /* Ajuste para o tom desejado */
-    font-family: 'Badhorse', sans-serif; /* Aplicando a fonte Badhorse */
-    text-align: center;
-    margin-top: 50px;
+.perguntas-frequentes {
+    position: relative;
+    z-index: 3; /* Valor mais alto para ficar acima da imagem */
 }
+
+    /* Estilo para a seção de Perguntas Frequentes */
+    .perguntas-frequentes h2 {
+        font-size: 64px;
+        color: #002279;
+        font-family: 'Badhorse', sans-serif;
+        text-align: center;
+        margin-top: 50px;
+    }
 
 /* Estilo para a caixinha que engloba todas as perguntas */
 .faq-container {
-    border: 10px solid #002279; /* Borda azul ao redor de todas as perguntas */
+    border: 10px solid #002279;
     padding: 20px;
-    border-radius: 30px; /* Bordas arredondadas */
-    background-color: white; /* Fundo branco dentro da borda */
+    border-radius: 30px;
+    background-color: white;
 }
 
-/* Estilo para cada pergunta dentro da caixinha */
 .faq-item {
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
+    cursor: pointer; /* Indica que é clicável */
 }
 
     .faq-item img {
-        margin-right: 10px; /* Espaço entre o ícone e o texto da pergunta */
-        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
+        margin-right: 10px;
     }
 
     .faq-item h3 {
         font-size: 24px;
         margin-bottom: 10px;
-        cursor: pointer; /* Cursor de pointer para indicar que é clicável */
     }
 
-/* Estilo das respostas, inicialmente escondidas */
 .faq-answer {
-    display: none;
-    font-size: 18px;
-    margin-top: 10px;
-    text-align: left; /* Alinha o texto à esquerda */
+    max-height: 0; /* Altura inicial */
+    overflow: hidden; /* Oculta o conteúdo */
+    transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out; /* Animação */
+    padding: 0px 10px; /* Sem padding no início */
+    background-color: #f9f9f9;
+    border-radius: 8px;
 }
 
-    /* Estilo para a animação ao mostrar a resposta */
-    .faq-answer.show {
-        display: block;
-        animation: fadeIn 0.5s ease-in-out;
-    }
+/* Quando expandido */
+.faq-item.expanded .faq-answer {
+    max-height: 200px; /* Altura suficiente para o texto */
+    padding: 0px; /* Adiciona padding */
+}
 
 @keyframes fadeIn {
     from {
@@ -257,6 +275,7 @@
 }
 
 
+
 .titulo-top {
     font-family: 'Badhorse', sans-serif; /* Fonte do título Top de Linha */
     font-size: 60px; /* Aumenta o tamanho da fonte */
@@ -276,28 +295,29 @@
     position: relative;
     width: 100%;
     z-index: 2;
-    margin-top: 150px;
-    height: auto; /* Retirar a altura fixa */
+    margin-top: 0; /* Remover margem superior se necessário */
+    margin-top: 200px;
 }
 
 .imagem-fundo {
-    width: 100%;
-    height: auto;
-    display: block;
-    position: relative;
+    width: 100%; /* Garante que a imagem ocupe 100% da largura da div */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin-top: 100px;
 }
 
 .boxes-container {
     display: flex;
     justify-content: space-around;
-    margin-top: -350px; /* Posição ajustada para sobrepor a imagem de fundo */
+    margin-top: -420px; /* Posição ajustada para sobrepor a imagem de fundo */
     z-index: 3;
     padding: 0 5%;
 }
 
 .box {
-    width: 25%;
-    height: 400px;
+    width: 25%; /* Largura das boxes 1 e 3 */
+    min-height: 200px; /* Diminui a altura mínima das boxes 1 e 3 (ajuste conforme necessário) */
+    height: 500px;
     border: 15px solid #002279; /* Borda azul */
     border-radius: 20px; /* Bordas arredondadas */
     color: #002279;
@@ -307,14 +327,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
     z-index: 4;
 }
 
     .box h1 {
         font-size: 24px; /* Tamanho do título */
-        margin-top: 0px; /* Ajusta a distância do topo */
-        margin-bottom: 20px; /* Espaçamento entre o título e a imagem */
+        margin: 0; /* Remover todas as margens */
+        margin-bottom: 10px; /* Ajustar o espaçamento entre o título e a imagem */
         text-align: center;
     }
 
@@ -326,7 +346,7 @@
 
 /* Especificamente para a Box 2 */
 .box2 {
-    width: 30%; /* Aumentando a largura */
+    width: 25%; /* Aumentando a largura */
     height: 500px; /* Aumentando a altura */
     background-color: #002279; /* Cor de preenchimento para a box2 */
     color: white;
@@ -358,4 +378,169 @@ h2 {
     position: relative; /* Para que o título fique sobre a imagem */
     z-index: 2; /* Garante que o título fique acima da imagem */
     margin: 20px 0; /* Espaçamento acima e abaixo do título */
+}
+
+.contato-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* A altura será o tamanho da tela */
+    overflow: hidden; /* Esconde qualquer coisa que ultrapasse a div */
+}
+
+.imagem-fundo-contato {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Faz com que a imagem cubra toda a área */
+    z-index: -1; /* Mantém a imagem no fundo */
+}
+
+.contato-content {
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fique acima da imagem */
+    padding: 20px;
+    color: #fff; /* Texto branco para melhor contraste */
+}
+
+@media screen and (max-width: 768px) {
+    /* Ajuste dos círculos */
+    .circle {
+        width: 90px !important;
+        height: 90px !important;
+    }
+
+        .circle img {
+            width: 30px !important; /* Reduzi ainda mais o tamanho da imagem */
+            height: 30px !important;
+            margin-top: 0 !important; /* Centraliza verticalmente */
+        }
+
+    .circle-text {
+        font-size: 12px !important;
+    }
+
+    /* Outros ajustes (mantidos como estavam no CSS anterior) */
+    .faixa-verde {
+        padding: 8px 0 !important;
+        height: 100px;
+        !important;
+    }
+
+        .faixa-verde h2 {
+            font-size: 18px !important;
+            margin-bottom: 8px !important;
+        }
+
+        .faixa-verde button {
+            font-size: 14px !important;
+            padding: 6px 12px !important;
+        }
+
+    .titulo-top {
+        font-size: 20px !important;
+    }
+
+    .boxes-container {
+        gap: 10px !important;
+    }
+
+    .box {
+        width: 90% !important;
+        padding: 8px !important;
+        font-size: 14px !important;
+        border: 2px solid #007BFF !important;
+        border-radius: 8px !important;
+    }
+
+        .box img {
+            width: 80px !important;
+        }
+
+    .legenda {
+        font-size: 12px !important;
+    }
+
+    .faq-container {
+        padding: 10px !important;
+    }
+
+    .faq-item h3 {
+        font-size: 16px !important;
+    }
+
+    .faq-answer {
+        font-size: 14px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Ajuste dos círculos */
+    .circle {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+        .circle img {
+            width: 20px !important; /* Diminuído ainda mais para telas menores */
+            height: 20px !important;
+            margin-top: 0 !important; /* Centraliza verticalmente */
+        }
+
+    .circle-text {
+        font-size: 10px !important;
+    }
+
+    /* Outros ajustes (mantidos como estavam no CSS anterior) */
+    .faixa-verde {
+        padding: 6px 0 !important;
+        height: auto !important;
+    }
+
+        .faixa-verde h2 {
+            font-size: 16px !important;
+            margin-bottom: 6px !important;
+        }
+
+        .faixa-verde button {
+            font-size: 12px !important;
+            padding: 5px 10px !important;
+        }
+
+    .titulo-top {
+        font-size: 18px !important;
+    }
+
+    .boxes-container {
+        gap: 5px !important;
+    }
+
+    .box {
+        width: 100% !important;
+        padding: 6px !important;
+        font-size: 12px !important;
+        border: 1.5px solid #007BFF !important;
+        border-radius: 6px !important;
+    }
+
+        .box img {
+            width: 60px !important;
+        }
+
+    .legenda {
+        font-size: 10px !important;
+    }
+
+    .faq-container {
+        padding: 8px !important;
+    }
+
+    .faq-item h3 {
+        font-size: 14px !important;
+    }
+
+    .faq-answer {
+        font-size: 12px !important;
+    }
 }

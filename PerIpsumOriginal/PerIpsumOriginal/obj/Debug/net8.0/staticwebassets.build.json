@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CbKvyxWM7/mXTuAxPGpWx33Iba+dkJP7oYvx93+nPzI=",
+  "Hash": "TFi1kITn9z92AjPvHq2MkTVw7zP+psScHStxzLbBfNU=",
   "Source": "PerIpsumOriginal",
   "BasePath": "_content/PerIpsumOriginal",
   "Mode": "Default",
@@ -1214,25 +1214,6 @@
       "OriginalItemSpec": "Views\\Admin\\Solicitacoes.cshtml.js"
     },
     {
-      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
-      "SourceId": "PerIpsumOriginal",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\",
-      "BasePath": "_content/PerIpsumOriginal",
-      "RelativePath": "Views/Usuario/Index.cshtml.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "Views\\Usuario\\Index.cshtml.js"
-    },
-    {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
       "SourceId": "PerIpsumOriginal",
       "SourceType": "Discovered",
@@ -2354,6 +2335,25 @@
       "OriginalItemSpec": "wwwroot\\img\\iconeContato.svg"
     },
     {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeEmail.svg",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "img/iconeEmail.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\iconeEmail.svg"
+    },
+    {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFavoritos.svg",
       "SourceId": "PerIpsumOriginal",
       "SourceType": "Discovered",
@@ -2449,6 +2449,25 @@
       "OriginalItemSpec": "wwwroot\\img\\iconeHome.svg"
     },
     {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeLocal.svg",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "img/iconeLocal.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\iconeLocal.svg"
+    },
+    {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeMais.png",
       "SourceId": "PerIpsumOriginal",
       "SourceType": "Discovered",
@@ -2523,6 +2542,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\iconeSobre.svg"
+    },
+    {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeTelefone.svg",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "img/iconeTelefone.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\iconeTelefone.svg"
     },
     {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\ImagemProfissao1.png",
@@ -2998,6 +3036,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\feedbacks.js"
+    },
+    {
+      "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\index.js",
+      "SourceId": "PerIpsumOriginal",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\",
+      "BasePath": "_content/PerIpsumOriginal",
+      "RelativePath": "js/index.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.js"
     },
     {
       "Identity": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",

@@ -37,32 +37,6 @@
     });
 });
 
-
-
-
-    // FUNÇÕES INÍCIO
-
-   /* let slideIndex = 0;
-    showSlides();
-
-    function showSlides() {
-        let slides = document.getElementsByClassName("mySlides");
-        // Esconder todas as imagens
-        for (let i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        // Incrementa o index do slide
-        slideIndex++;
-        // Se o index ultrapassar o número de slides, volta ao primeiro
-        if (slideIndex > slides.length) {
-            slideIndex = 1;
-        }
-        // Exibe o slide atual
-        slides[slideIndex - 1].style.display = "block";
-        // Altera a imagem a cada 5 segundos
-        setTimeout(showSlides, 5000);
-    }*/
-
     document.addEventListener("DOMContentLoaded", function () {
         const path = window.location.pathname;
 
@@ -72,20 +46,6 @@
         } else if (path.includes("Feed")) {
             document.querySelector('.icone-feed').classList.add('active');
         }
-    });
-
-    document.querySelectorAll('.faq-item').forEach(item => {
-        item.addEventListener('click', function () {
-            // Alternar a classe 'show' para mostrar/esconder a resposta
-            const answer = this.querySelector('.faq-answer');
-            answer.classList.toggle('show');
-        });
-    });
-
-    document.querySelectorAll('.faq-item').forEach(item => {
-        item.addEventListener('click', () => {
-            item.classList.toggle('expanded');
-        });
     });
 
     document.querySelector('a[href="#sobre-nos"]').addEventListener('click', function (e) {

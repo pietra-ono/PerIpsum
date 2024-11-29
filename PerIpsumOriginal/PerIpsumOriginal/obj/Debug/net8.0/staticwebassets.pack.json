@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\Views\\Admin\\Solicitacoes.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Index.cshtml.js"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PerIpsumOriginal.bundle.scp.css",
       "PackagePath": "staticwebassets\\PerIpsumOriginal.bundle.scp.css"
     },
@@ -281,6 +277,10 @@
       "PackagePath": "staticwebassets\\img\\iconeContato.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeEmail.svg",
+      "PackagePath": "staticwebassets\\img\\iconeEmail.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeFavoritos.svg",
       "PackagePath": "staticwebassets\\img\\iconeFavoritos.svg"
     },
@@ -301,6 +301,10 @@
       "PackagePath": "staticwebassets\\img\\iconeHome.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeLocal.svg",
+      "PackagePath": "staticwebassets\\img\\iconeLocal.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeMais.png",
       "PackagePath": "staticwebassets\\img\\iconeMais.png"
     },
@@ -315,6 +319,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeSobre.svg",
       "PackagePath": "staticwebassets\\img\\iconeSobre.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\iconeTelefone.svg",
+      "PackagePath": "staticwebassets\\img\\iconeTelefone.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\leftArrowCalend.svg",
@@ -383,6 +391,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
       "PackagePath": "staticwebassets\\js\\feedbacks.js"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",

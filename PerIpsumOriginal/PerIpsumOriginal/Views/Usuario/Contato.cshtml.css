@@ -3,3 +3,49 @@
     flex-direction: column;
     justify-content: center;
 }
+.contact-tag {
+    position: absolute;
+    top: 15px;
+    right: -60px; /* Move a etiqueta mais para o lado direito */
+    background-color: #009846;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0; /* Arredonda apenas as bordas superior e inferior do lado direito */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+    .contact-tag .arrow {
+        display: inline-block;
+        font-size: 18px;
+        margin-left: 5px;
+        transition: transform 0.3s ease;
+    }
+
+    .contact-tag:hover .arrow {
+        transform: rotateY(180deg);
+    }
+
+    .contact-tag:hover .contact-info {
+        max-height: 200px; /* Aumenta a altura máxima para acomodar todas as informações */
+        opacity: 1;
+    }
+
+.contact-info {
+    background-color: #009846;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 0px; /* Ajusta o alinhamento para ficar abaixo e à direita */
+    padding: 10px;
+    border-radius: 0 0 20px 20px; /* Arredonda somente as bordas inferiores */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: max-height 0.4s ease, opacity 0.4s ease;
+}

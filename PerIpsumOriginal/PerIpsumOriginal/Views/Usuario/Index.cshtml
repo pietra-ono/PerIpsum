@@ -7,13 +7,13 @@
     <div class="slideshow-container">
         <!-- Slideshow logic -->
         <div class="mySlides">
-            <img src="~/img/Testes (1).png" style="width:100%; border-radius: 20px;">
+            <img src="~/img/Testes (1).png" style="width:100%">
         </div>
         <div class="mySlides">
-            <img src="~/img/Testes (2).png" style="width:100%; border-radius: 20px;">
+            <img src="~/img/Testes (2).png" style="width:100%">
         </div>
         <div class="mySlides">
-            <img src="~/img/Testes (3).png" style="width:100%; border-radius: 20px;">
+            <img src="~/img/Testes (3).png" style="width:100%">
         </div>
     </div>
 
@@ -22,20 +22,20 @@
         <div class="oportunidades-overlay">
             <div class="oportunidades-box">
                 <div class="circle">
-                    <img src="~/img/icone1.svg" alt="Icone 1">
-                    <p class="circle-text">Personalize sua Experiência</p>
+                    <img id="iconeCircle" src="~/img/icone1.svg" alt="Icone 1" style="margin-top: 50px;">
+                    <p class="circle-text text-white" style="font-size: 20px;">Personalize sua Experiência</p>
                 </div>
                 <div class="circle">
-                    <img src="~/img/Icone2.svg" alt="Icone 2">
-                    <p class="circle-text">Encontre vagas específicas</p>
+                    <img id="iconeCircle" src="~/img/Icone2.svg" alt="Icone 2" style="margin-top: 50px;">
+                    <p class="circle-text text-white" style="font-size: 20px;">Encontre vagas específicas</p>
                 </div>
                 <div class="circle">
-                    <img src="~/img/icone3.svg" alt="Icone 3">
-                    <p class="circle-text">Organize seus Objetivos</p>
+                    <img id="iconeCircle" src="~/img/icone3.svg" alt="Icone 3" style="margin-top: 50px;">
+                    <p class="circle-text text-white" style="font-size: 20px;">Organize seus Objetivos</p>
                 </div>
                 <div class="circle">
-                    <img src="~/img/icone4.svg" alt="Icone 4">
-                    <p class="circle-text">Busca Otimizada</p>
+                    <img id="iconeCircle" src="~/img/icone4.svg" alt="Icone 4" style="margin-top: 20px;">
+                    <p class="circle-text text-white" style="font-size: 20px;"> Busca Otimizada</p>
                 </div>
             </div>
         </div>
@@ -47,20 +47,20 @@
             <img src="~/img/fundoLinhas.png" class="imagem-fundo" alt="Fundo Linhas">
         </div>
         <div class="boxes-container">
-            <div class="box box1" style="margin-top: 25px;">
-                <h1 class="titulo-box" style="font-family: 'Krub', sans-serif; font-size: 26px; text-align: center;">Acampamento de Verão</h1>
+            <div class="box box1">
+                <h1 class="titulo-box">Acampamento de Verão</h1>
                 <img src="~/img/ImagemProfissao1.png" alt="Imagem Profissão 1">
-                <div class="legenda">Confira os critérios<br>para conquistá-lo</div> <!-- Legenda arredondada -->
+                <div class="legenda">Confira os critérios<br>para conquistá-lo</div>
             </div>
             <div class="box box2">
-                <h1 class="titulo-box" style="font-weight: bold; font-size: 30px; text-align: center;">Bolsa de Estudos 100%</h1>
+                <h1 class="titulo-box" style="font-weight: 30px;">Bolsa de Estudos 100%</h1>
                 <img src="~/img/ImagemProfissao2.png" alt="Imagem Profissão 2">
-                <div class="legenda">Confira os critérios<br>para conquistá-la</div> <!-- Legenda arredondada -->
+                <div class="legenda">Confira os critérios<br>para conquistá-la</div>
             </div>
-            <div class="box box3" style="margin-top: 25px;">
-                <h1 class="titulo-box" style="font-family: 'Krub', sans-serif; font-size: 26px; text-align: center;">Estágio no Exterior</h1>
+            <div class="box box3">
+                <h1 class="titulo-box" style="margin-top: 0px;">Estágio no Exterior</h1>
                 <img src="~/img/ImagemProfissao3.png" alt="Imagem Profissão 3">
-                <div class="legenda">Confira os critérios<br>para conquistá-la</div> <!-- Legenda arredondada -->
+                <div class="legenda" style="margin-top: -60px;">Confira os critérios<br>para conquistá-la</div>
             </div>
         </div>
     </div>
@@ -79,7 +79,7 @@
 <div class="faixa-verde">
     <div class="atualizacoes-conteudo">
         <h2>Confira as atualizações agora mesmo!</h2>
-        <button class="btn feed-button" href="@Url.Action("Feed", "Usuario")">FEED</button>
+        <button class="feed-button" onclick="window.location.href='Usuario/Feed';">FEED</button>
     </div>
 </div>
 
@@ -90,21 +90,21 @@
         <div class="faq-container" style="margin: 20px 10%; margin-top;">
             <div class="faq-item">
                 <img src="~/img/iconeMais.png" alt="Ícone Mais">
-                <div>
+                <div style="margin-left: 20px;">
                     <h3>Como posso encontrar oportunidades de intercâmbio ou bolsas de estudo que se alinhem ao meu perfil acadêmico?</h3>
                     <p class="faq-answer">Você pode utilizar nossa plataforma para filtrar oportunidades por área de interesse, localização e tipo de programa (intercâmbio, bolsa, etc.).</p>
                 </div>
             </div>
             <div class="faq-item">
                 <img src="~/img/iconeMais.png" alt="Ícone Mais">
-                <div>
+                <div style="margin-left: 20px;">
                     <h3>Posso receber notificações de novas oportunidades ou alertas sobre prazos de inscrição?</h3>
                     <p class="faq-answer">Para se inscrever, você deve criar um perfil em nossa plataforma, preencher seus dados acadêmicos e seguir o processo de inscrição fornecido para cada oportunidade.</p>
                 </div>
             </div>
             <div class="faq-item">
                 <img src="~/img/iconeMais.png" alt="Ícone Mais">
-                <div>
+                <div style="margin-left: 20px;">
                     <h3>Existe algum custo para se cadastrar e acessar as oportunidades no site?</h3>
                     <p class="faq-answer">Os documentos variam de acordo com a oportunidade. Geralmente, são solicitados histórico escolar, cartas de recomendação e um plano de estudos.</p>
                 </div>
@@ -112,6 +112,8 @@
         </div>
     </div>
 </div>
+
+
 
 <!-- Adicionando a imagem fundoOndas para sobrepor fundo2 -->
 <div id="fundoOndas" style="position: absolute; bottom: -50px; left: 0; width: 100%; max-width: 100%; z-index: 2; overflow: hidden;">

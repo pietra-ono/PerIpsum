@@ -2,10 +2,12 @@
 @{
     ViewData["Title"] = "Contato";
 }
-<div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-image: url('/img/fundoContato.png'); background-size: cover; background-position: center; z-index: -1; margin-top: 100px;"></div>
-<div class="containerContato">
+<!-- Conteúdo da página dentro da div .container -->
+<div class="container">
     <main role="main" class="pb-3">
         <div class="contato-content" style="position: relative; z-index: 1; background-color: white; border-radius: 10px; padding: 40px 20px; max-width: 700px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); min-height: 550px;">
+
+            <!-- Etiqueta com seta no canto superior direito -->
             <div class="contact-tag">
                 <span class="arrow">></span>
                 <div class="contact-info">
@@ -22,27 +24,31 @@
                         <p style="margin: 0;">
                             Av. blah blah, 456
                             Brotas - SP
-                        </p>
+                        </p> <!-- Ajuste a informação conforme necessário -->
                     </div>
                 </div>
-                <h1 style="text-align: center; color: black; margin-bottom: 20px; font-family: 'BadHorse', sans-serif;">QUER FALAR COM A GENTE?</h1>
-                <form asp-controller="Usuario" asp-action="AdicionarContato" method="post" enctype="multipart/form-data">
-                    <div style="display: flex; justify-content: center; margin-top: 15px;">
-                        <button type="submit" class="btn" style="width: 40%; background-color: #009846; color: white; font-weight: bold; padding: 12px; font-size: 16px; border-radius: 5px;">Enviar</button>
-                    </div>
-                    <div class="form-group" style="margin-bottom: 15px;">
-                        <input type="text" asp-for="Nome" placeholder="Qual o seu nome?" style="color: black; padding: 8px; border: none; border-bottom: 1px solid #cccccc; border-radius: 0; box-shadow: none;" />
-                    </div>
-                    <div class="form-group" style="margin-bottom: 15px;">
-                        <input type="email" asp-for="Email" placeholder="E-mail" style="color: black; padding: 8px; border: none; border-bottom: 1px solid #cccccc; border-radius: 0; box-shadow: none;" />
-                    </div>
-                    <div class="form-group" style="margin-bottom: 20px;">
-                        <label asp-for="Problema" style="color: black; font-family: 'Krub', sans-serif; margin-bottom: 10px; display: block;">Qual o problema?</label>
-                        <textarea asp-for="Problema" class="form-control" placeholder="Descreva ele aqui!" rows="6" style="color: black; padding: 8px; border: 2px solid #cccccc; border-radius: 5px; box-shadow: none;" />
-                    </div>
-
-                </form>
             </div>
+
+            <!-- Título e formulário de contato -->
+            <h1 style="text-align: center; color: black; margin-bottom: 20px; font-family: 'BadHorse', sans-serif;">QUER FALAR COM A GENTE?</h1>
+
+            <form asp-controller="Usuario" asp-action="AdicionarContato" method="post" enctype="multipart/form-data">
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <input type="text" class="form-control" id="nome" asp-for="Nome" placeholder="Seu nome" style="color: black; padding: 8px; border: none; border-bottom: 1px solid #cccccc; border-radius: 0; box-shadow: none;">
+                </div>
+                <div class="form-group" style="margin-bottom: 15px;">
+                    <input type="email" class="form-control" id="email" asp-for="Email" placeholder="Seu email" style="color: black; padding: 8px; border: none; border-bottom: 1px solid #cccccc; border-radius: 0; box-shadow: none;">
+                </div>
+
+                <div class="form-group" style="margin-bottom: 20px;">
+                    <label for="mensagem" style="color: black; font-family: 'Krub', sans-serif; margin-bottom: 10px; display: block;">Qual o problema?</label>
+                    <textarea class="form-control" id="mensagem" rows="6" asp-for="Problema" placeholder="Sua mensagem" style="color: black; padding: 8px; border: 2px solid #cccccc; border-radius: 5px; box-shadow: none;"></textarea>
+                </div>
+
+                <div style="display: flex; justify-content: center; margin-top: 15px;">
+                    <button type="submit" class="btn" style="width: 40%; background-color: #009846; color: white; font-weight: bold; padding: 12px; font-size: 16px; border-radius: 5px;">Enviar</button>
+                </div>
+            </form>
         </div>
     </main>
 </div>

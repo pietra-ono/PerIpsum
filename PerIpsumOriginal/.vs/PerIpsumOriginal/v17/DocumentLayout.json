@@ -3,68 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\calendario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\calendario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\anotacoes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\anotacoes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\feed.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\favoritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\favoritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\feed.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\feed.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\calendariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\calendariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\rascunhos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\rascunhos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\feedbacks.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\feedbacks.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\calendario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\calendario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\feed.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\favoritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\favoritos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\favoritos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\favoritos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\anotacoes.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -75,40 +83,84 @@
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\anotacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\anotacoes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\anotacoes.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\css\\indexmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\css\\indexmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\calendario.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\seedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\seedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\favoritos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\deletarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\editarrascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\valoresnulosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\rascunhos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\calendariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\calendariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\feedbacks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\rascunhos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\rascunhos.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\solicitacoes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -123,16 +175,8 @@
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_solicitacaodetalhes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layoutsecundario.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\models\\conteudoaprovarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\conteudoaprovarmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\admin\\feedbacks.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\admin\\feedbacks.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\feedbacks.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -147,16 +191,8 @@
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\models\\contatomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\helpers\\conteudoshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -175,24 +211,12 @@
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\viewmodels\\preferenciasviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\viewmodels\\rascunhoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\favoritos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\favoritos.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\js\\layoutsecundario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\js\\layoutsecundario.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -203,24 +227,8 @@
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\peripsumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\peripsumdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\wwwroot\\css\\indexmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\wwwroot\\css\\indexmanager.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\areas\\identity\\pages\\account\\manage\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241122105030_DeleteUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -284,10 +292,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\data\\maps\\conteudoaprovarmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\data\\maps\\conteudoaprovarmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -374,10 +378,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\views\\usuario\\contato.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|c:\\users\\bruno\\desktop\\peripsumoriginal\\peripsumoriginal\\migrations\\20241015130702_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A46CBCE-99A7-4259-A16C-6F47F6024925}|PerIpsumOriginal\\PerIpsumOriginal.csproj|solutionrelative:peripsumoriginal\\migrations\\20241015130702_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -453,17 +453,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
+              "Title": "Feedbacks.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-27T03:29:38.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditarRascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAFQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:50:21.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Rascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAE8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T01:20:42.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Feedbacks.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T20:14:19.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DeletarRascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T15:38:20.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contato.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T20:17:04.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Feed.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
               "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAI0AAAAuAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-15T11:25:55.844Z",
               "EditorCaption": ""
@@ -471,6 +549,253 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Feed.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
+              "ViewState": "AQIAAPQAAAAAAAAAAAAiwCQCAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-25T15:58:56.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Contato.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-13T20:17:38.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Anotacoes.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAM0AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:51:26.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Favoritos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAowKIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T10:48:51.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "feed.js",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\feed.js",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\feed.js",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAiwKcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T19:12:14.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "favoritos.js",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAwwJIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-26T20:08:43.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "calendario.js",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\calendario.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\calendario.js",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\calendario.js",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\calendario.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-18T22:52:01.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T14:07:48.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RascunhoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:34:09.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeletarRascunhos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-20T14:50:01.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Favoritos.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAQwIkAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-26T20:05:41.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAAAHEAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:08:38.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T11:17:38.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "indexManager.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
+              "ViewState": "AQIAALQAAAAAAAAAAAAAAPEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-07T12:57:01.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAP0BAAAAAAAAAAAiwAECAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-13T20:12:41.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Anotacoes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAHAAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-20T14:34:42.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "anotacoes.js",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
+              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAIwJsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-14T16:31:31.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EditarRascunhos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T15:37:10.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-15T13:31:16.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "Calendario.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml",
@@ -483,33 +808,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "calendario.js",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\calendario.js",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\calendario.js",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\calendario.js",
-              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\calendario.js",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA6wB0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-18T22:52:01.341Z",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T10:50:02.476Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "feed.js",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\feed.js",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feed.js",
-              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\feed.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAB1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-10-26T19:12:14.019Z",
+              "DocumentIndex": 27,
+              "Title": "_LayoutSecundario.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T22:49:37.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\appsettings.json",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
+              "RelativeToolTip": "PerIpsumOriginal\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T13:01:00.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SeedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SeedRoles.cs",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\SeedRoles.cs",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SeedRoles.cs",
+              "RelativeToolTip": "PerIpsumOriginal\\Models\\SeedRoles.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwC0AAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:42:29.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Calendario.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
+              "ViewState": "AQIAAGABAAAAAAAAAAAAAHkBAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-23T13:25:53.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAADXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-13T22:53:19.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ValoresNulosModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
@@ -517,101 +894,48 @@
               "RelativeToolTip": "PerIpsumOriginal\\Models\\ValoresNulosModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-22T11:34:24.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-22T11:34:24.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Calendario.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Calendario.cshtml.css",
-              "ViewState": "AQIAAE4BAAAAAAAAAAAAAHkBAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T13:25:53.739Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Favoritos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAlwCwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-21T10:48:51.773Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Program.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Program.cs",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Program.cs",
               "RelativeToolTip": "PerIpsumOriginal\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAswBgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T19:54:57.825Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\UsuarioController.cs",
-              "ViewState": "AQIAAFUAAAAAAAAAAAAAAGQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:08:38.199Z",
+              "WhenOpened": "2024-10-13T19:54:57.825Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "PerIpsumOriginal\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAP0AAAAAAAAAAAAuwB0BAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:12:41.462Z",
-              "EditorCaption": ""
+              "DocumentIndex": 35,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T11:59:27.055Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "favoritos.js",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
-              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\favoritos.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-26T20:08:43.075Z",
-              "EditorCaption": ""
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAAFEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-24T13:55:36.691Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Feed.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Feed.cshtml.css",
-              "ViewState": "AQIAAJgBAAAAAAAAAAAAAAwCAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-25T15:58:56.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 38,
               "Title": "rascunhos.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\rascunhos.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\rascunhos.js",
@@ -619,25 +943,11 @@
               "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\rascunhos.js",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-15T15:47:34.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T15:47:34.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "anotacoes.js",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
-              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\anotacoes.js",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAuwJsAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-14T16:31:31.721Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 37,
               "Title": "CalendarioModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\CalendarioModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\CalendarioModel.cs",
@@ -645,25 +955,11 @@
               "RelativeToolTip": "PerIpsumOriginal\\Models\\CalendarioModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T22:39:43.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T22:39:43.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Rascunhos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAAwIAAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-14T01:20:42.03Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 39,
               "Title": "ConteudoModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoModel.cs",
@@ -671,132 +967,23 @@
               "RelativeToolTip": "PerIpsumOriginal\\Models\\ConteudoModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T20:32:01.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T20:32:01.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Anotacoes.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml",
-              "ViewState": "AQIAABoAAAAAAAAAAAAswF0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-20T14:34:42.886Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Anotacoes.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Anotacoes.cshtml.css",
-              "ViewState": "AQIAAOQAAAAAAAAAAAAAAAQBAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T14:51:26.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "DeletarRascunhos.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T14:50:01.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\appsettings.json",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\appsettings.json",
-              "RelativeToolTip": "PerIpsumOriginal\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-15T13:01:00.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "EditarRascunhos.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml.css",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-20T14:50:21.101Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "SeedRoles.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SeedRoles.cs",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\SeedRoles.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\SeedRoles.cs",
-              "RelativeToolTip": "PerIpsumOriginal\\Models\\SeedRoles.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T22:42:29.595Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "DeletarRascunhos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\DeletarRascunhos.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T15:38:20.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 41,
               "Title": "ConteudoRascunhoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
               "RelativeToolTip": "PerIpsumOriginal\\Repositorios\\ConteudoRascunhoRepositorio.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwDsAAAAFAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA3wDsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T21:39:53.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Feedbacks.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T20:14:19.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Rascunhos.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Rascunhos.cshtml.css",
-              "ViewState": "AQIAALkCAAAAAAAAAAAkwOYCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-23T14:07:48.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 40,
               "Title": "Solicitacoes.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Solicitacoes.cshtml",
@@ -808,55 +995,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "EditarRascunhos.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\EditarRascunhos.cshtml",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAowF8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T15:37:10.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "_LayoutSecundario.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAAAEkAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-23T22:49:37.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 44,
               "Title": "feedbacks.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
               "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\js\\feedbacks.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-11-27T03:28:48.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Feedbacks.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Admin\\Feedbacks.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-27T03:29:38.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 45,
               "Title": "_FeedbackDetalhes.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_FeedbackDetalhes.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_FeedbackDetalhes.cshtml",
@@ -868,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 46,
               "Title": "ContatoModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ContatoModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ContatoModel.cs",
@@ -880,19 +1031,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 42,
               "Title": "_SolicitacaoDetalhes.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_SolicitacaoDetalhes.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_SolicitacaoDetalhes.cshtml",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_SolicitacaoDetalhes.cshtml",
               "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_SolicitacaoDetalhes.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAADgAAAAiAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwDgAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-27T03:56:32.175Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "ConteudoAprovarModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoAprovarModel.cs",
@@ -904,19 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Contato.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T20:17:04.892Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\site.js",
@@ -928,19 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAEoAAABPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T22:53:19.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 49,
               "Title": "TipoEnum.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\TipoEnum.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Enums\\TipoEnum.cs",
@@ -952,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "ConteudosHelper.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Helpers\\ConteudosHelper.cs",
@@ -964,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 50,
               "Title": "PaisEnum.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Enums\\PaisEnum.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Enums\\PaisEnum.cs",
@@ -976,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 51,
               "Title": "PreferenciasViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\PreferenciasViewModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\ViewModels\\PreferenciasViewModel.cs",
@@ -988,31 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "RascunhoViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
-              "RelativeToolTip": "PerIpsumOriginal\\ViewModels\\RascunhoViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:34:09.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "Favoritos.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Favoritos.cshtml.css",
-              "ViewState": "AQIAANQBAAAAAAAAAAAkwBYCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-26T20:05:41.865Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 54,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -1024,19 +1127,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 52,
               "Title": "login.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\login.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\login.css",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\login.css",
               "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\login.css",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAEsAAAAFAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAIBJwEsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-31T11:04:37.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 53,
               "Title": "layoutSecundario.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\js\\layoutSecundario.js",
@@ -1048,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "PerIpsumDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\PerIpsumDbContext.cs",
@@ -1057,30 +1160,6 @@
               "ViewState": "AQIAAAkAAAAAAAAAAAAiwCUAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-13T19:55:44.601Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 50,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCYAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-22T11:59:27.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml",
-              "ViewState": "AQIAACoAAAAAAAAAAIBJwFEAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-24T13:55:36.691Z"
             },
             {
               "$type": "Document",
@@ -1096,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 55,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -1120,43 +1199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "indexManager.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
-              "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\indexManager.css",
-              "ViewState": "AQIAALcAAAAAAAAAAAAmwNAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-07T12:57:01.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
-              "ViewState": "AQIAACEAAAAAAAAAAAAQwFIAAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:17:38.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "RelativeToolTip": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T10:50:02.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "20241122105030_DeleteUser.cs",
               "DocumentMoniker": "C:\\Users\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241122105030_DeleteUser.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\SENAI3EM\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241122105030_DeleteUser.cs",
@@ -1167,7 +1210,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "AnotacaoModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\AnotacaoModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\AnotacaoModel.cs",
@@ -1179,19 +1222,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "register.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\register.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\register.css",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\register.css",
               "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\register.css",
-              "ViewState": "AQIAADwAAAAAAAAAAOBvwFYAAAAaAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAACBzwFYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-11-01T17:35:40.068Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "20241121230314_Roles.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241121230314_Roles.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241121230314_Roles.cs",
@@ -1202,7 +1245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "UsuarioModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\UsuarioModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\UsuarioModel.cs",
@@ -1214,13 +1257,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\css\\site.css",
               "RelativeToolTip": "PerIpsumOriginal\\wwwroot\\css\\site.css",
-              "ViewState": "AQIAAEgAAAAAAAAAAIBJwH8AAAACAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAIBZwH8AAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-15T14:02:02.606Z"
             },
@@ -1238,7 +1281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "FavoritoModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\FavoritoModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\FavoritoModel.cs",
@@ -1250,7 +1293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "20241118214728_AddFavoritos.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241118214728_AddFavoritos.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241118214728_AddFavoritos.cs",
@@ -1273,7 +1316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "ConteudoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoRepositorio.cs",
@@ -1285,7 +1328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "ConteudoAprovarRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ConteudoAprovarRepositorio.cs",
@@ -1297,7 +1340,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "AnotacaoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\AnotacaoRepositorio.cs",
@@ -1309,7 +1352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 68,
               "Title": "ContatoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\ContatoRepositorio.cs",
@@ -1321,7 +1364,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 69,
               "Title": "ConteudoMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoMap.cs",
@@ -1333,7 +1376,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 70,
               "Title": "ConteudoRascunhoMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoRascunhoMap.cs",
@@ -1345,7 +1388,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 71,
               "Title": "ConteudoRascunhoModel.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Models\\ConteudoRascunhoModel.cs",
@@ -1357,7 +1400,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 72,
               "Title": "ConteudoAprovarMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ConteudoAprovarMap.cs",
@@ -1369,19 +1412,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAACTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-15T13:31:16.628Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "Logout.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
@@ -1405,7 +1436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "IConteudoRascunhoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRascunhoRepositorio.cs",
@@ -1417,7 +1448,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\_Layout.cshtml",
@@ -1429,19 +1460,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "_LayoutSecundario.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
               "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
               "RelativeToolTip": "PerIpsumOriginal\\Views\\Shared\\_LayoutSecundario.cshtml.css",
-              "ViewState": "AQIAACoAAAAAAAAAAOBvwB0AAAAYAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAACBzwB0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-24T17:18:31.335Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "_ManageNav.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml",
@@ -1453,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\_ViewStart.cshtml",
@@ -1465,7 +1496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -1477,7 +1508,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "jquery.validate.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
@@ -1489,7 +1520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "jquery.validate.min.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
@@ -1501,7 +1532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_Layout.cshtml.css",
@@ -1513,7 +1544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "Index.cshtml.js",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
@@ -1525,7 +1556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "Index.cshtml.css",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.css",
@@ -1561,7 +1592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "AnotacaoMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\AnotacaoMap.cs",
@@ -1573,7 +1604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "ContatoMap.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Data\\Maps\\ContatoMap.cs",
@@ -1597,7 +1628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "IConteudoAprovarRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoAprovarRepositorio.cs",
@@ -1609,7 +1640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1621,7 +1652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "IConteudoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IConteudoRepositorio.cs",
@@ -1645,7 +1676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "20241023111802_Favoritos2.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241023111802_Favoritos2.cs",
@@ -1668,7 +1699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "IContatoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IContatoRepositorio.cs",
@@ -1680,7 +1711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "IAnotacaoRepositorio.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Repositorios\\IRepositorios\\IAnotacaoRepositorio.cs",
@@ -1728,7 +1759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "20241019193610_CategoriasUp.cs",
               "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
               "RelativeDocumentMoniker": "PerIpsumOriginal\\Migrations\\20241019193610_CategoriasUp.cs",
@@ -1784,18 +1815,6 @@
               "ViewState": "AQIAAGkBAAAAAAAAAAAgwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T13:07:02.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 93,
-              "Title": "Contato.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
-              "RelativeDocumentMoniker": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
-              "ToolTip": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
-              "RelativeToolTip": "PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-13T20:17:38.485Z"
             }
           ]
         }

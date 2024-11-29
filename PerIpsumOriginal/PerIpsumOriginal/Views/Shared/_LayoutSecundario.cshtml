@@ -42,12 +42,15 @@
                         <span>Calendário</span>
                     </a>
                 </li>
-                <li>
-                    <a href="@Url.Action("Rascunhos", "Admin")" data-page="Rascunhos" data-icon-active="iconeRascunhosAtivado.svg">
-                        <img src="~/img/iconeRascunhos.svg" style="flex-shrink: 0;" class="icon" />
-                        <span>Rascunhos</span>
-                    </a>
-                </li>
+                @if (User.IsInRole("Admin") || User.IsInRole("Parcerias"))
+                {
+                    <li>
+                        <a href="@Url.Action("Rascunhos", "Admin")" data-page="Rascunhos" data-icon-active="iconeRascunhosAtivado.svg">
+                            <img src="~/img/iconeRascunhos.svg" style="flex-shrink: 0;" class="icon" />
+                            <span>Rascunhos</span>
+                        </a>
+                    </li>
+                }
                 <li>
                     <a href="@Url.Action("Favoritos", "Usuario")" data-page="Favoritos" data-icon-active="iconeFavoritosAtivado.svg">
                         <img src="~/img/iconeFavoritos.svg" style="flex-shrink: 0;" class="icon" />

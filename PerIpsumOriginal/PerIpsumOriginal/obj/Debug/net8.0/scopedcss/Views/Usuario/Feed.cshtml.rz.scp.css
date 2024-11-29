@@ -89,8 +89,7 @@ main[b-zya5gcfuuh] {
     overflow: hidden;
 }
 
-#btnRascunhos[b-zya5gcfuuh],
-#admDropdown[b-zya5gcfuuh],
+
 .perfil-container[b-zya5gcfuuh],
 .link-container[b-zya5gcfuuh],
 .categorias-container[b-zya5gcfuuh],
@@ -107,7 +106,35 @@ main[b-zya5gcfuuh] {
     grid-area: pesquisar;
 }
 
+#admDropdown[b-zya5gcfuuh] {
+    display: flex;
+    flex-direction: row;
+}
 
+#admButton[b-zya5gcfuuh] {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-toggle.no-arrow[b-zya5gcfuuh]::after {
+    display: none;
+}
+
+.dropdown-menu[b-zya5gcfuuh] {
+    background-color: #FFFFF3;
+    border: none;
+    border-radius: 20px;
+    width: max-content;
+    padding: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    font-family: Krub;
+}
+
+    .dropdown-menu a:hover[b-zya5gcfuuh] {
+        border-radius: 15px;
+        font-weight: 600;
+    }
 
 #searchInputFeed[b-zya5gcfuuh] {
     width: 100%;

@@ -598,7 +598,6 @@ C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\sco
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Favoritos.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Feed.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Index.cshtml.rz.scp.css
-C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\Views\Usuario\Sobre.cshtml.rz.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\bundle\PerIpsumOriginal.styles.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\scopedcss\projectbundle\PerIpsumOriginal.bundle.scp.css
 C:\Users\SENAI3EM\Desktop\PerIpsumOriginal\PerIpsumOriginal\obj\Debug\net8.0\PerIpsum.A70D7B22.Up2Date

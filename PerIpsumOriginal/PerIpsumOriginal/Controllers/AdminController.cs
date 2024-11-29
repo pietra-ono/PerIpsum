@@ -44,7 +44,7 @@ namespace PerIpsumOriginal.Controllers
         }
         // ================================= RASCUNHOS =================================
         [HttpGet]
-        
+        [Authorize(Roles = "Admin, Parcerias")]
         public IActionResult Rascunhos()
         {
             string usuarioId = _userManager.GetUserId(User);
@@ -437,6 +437,8 @@ namespace PerIpsumOriginal.Controllers
 
 
         // ================================= APROVAR/REPROVAR =================================
+       
+        [Authorize(Roles = "Admin")]
         public IActionResult Solicitacoes()
         {
             var conteudos = _conteudoAprovarRepositorio.PegarConteudosTemporarios();
@@ -508,6 +510,8 @@ namespace PerIpsumOriginal.Controllers
         }
 
         // ================================= CONTATO/FEEDBACK =================================
+        
+        [Authorize(Roles = "Admin")]
         public IActionResult Feedbacks()
         {
             var contatos = _contatoRepositorio.TodosContatos();

@@ -24,7 +24,7 @@
 
                         <!-- Ajuste para o "Home" funcionar tanto na raiz quanto no /Inicio -->
                         <li class="nav-item">
-                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Sobre">
+                            <a class="nav-link text-dark @(Context.Request.Path.Value == "/" || Context.Request.Path.Value.Contains("/Inicio") ? "active" : "")" asp-area="" asp-controller="Usuario" asp-action="Index">
                                 <img src="~/img/iconeHome.svg" alt="Ícone Home" class="icone icone-home" style="height: 40px; padding: 5px;" />
                                 Home
                             </a>

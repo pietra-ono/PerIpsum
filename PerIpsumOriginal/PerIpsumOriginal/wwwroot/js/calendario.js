@@ -5,19 +5,6 @@
         events: '/Usuario/GetEventos',
         selectable: true,
         customButtons: {
-            search: {
-                text: '',
-                click: function () {
-                    // Lógica da pesquisa
-                },
-                html: '<input type="text" placeholder="Pesquisar..." class="fc-search-input">'
-            },
-            filter: {
-                text: 'Filtrar',
-                click: function () {
-                    // Lógica do filtro
-                }
-            },
             addEvent: {
                 text: 'Adicionar Evento',
                 click: function () {
@@ -26,7 +13,7 @@
             }
         },
         headerToolbar: {
-            left: 'search filter prev',
+            left: 'prev',
             center: 'title',
             right: 'next addEvent'
         },

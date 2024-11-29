@@ -5,10 +5,6 @@
       "PackagePath": "staticwebassets\\Views\\Admin\\Solicitacoes.cshtml.js"
     },
     {
-      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Contato.cshtml.js",
-      "PackagePath": "staticwebassets\\Views\\Usuario\\Contato.cshtml.js"
-    },
-    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\Views\\Usuario\\Index.cshtml.js",
       "PackagePath": "staticwebassets\\Views\\Usuario\\Index.cshtml.js"
     },
@@ -91,6 +87,14 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\admDropdown.svg",
       "PackagePath": "staticwebassets\\img\\admDropdown.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\adminIcon.svg",
+      "PackagePath": "staticwebassets\\img\\adminIcon.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\adminIconAct.svg",
+      "PackagePath": "staticwebassets\\img\\adminIconAct.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\backgroundFeed.svg",
@@ -217,12 +221,20 @@
       "PackagePath": "staticwebassets\\img\\decoracao-login.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\favoritosPageIcon.svg",
+      "PackagePath": "staticwebassets\\img\\favoritosPageIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\filtroBtn.svg",
       "PackagePath": "staticwebassets\\img\\filtroBtn.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoContato.png",
       "PackagePath": "staticwebassets\\img\\fundoContato.png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoFeed.svg",
+      "PackagePath": "staticwebassets\\img\\fundoFeed.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\fundoLinhas.png",
@@ -325,6 +337,10 @@
       "PackagePath": "staticwebassets\\img\\paintIcon.svg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\parceriaIcon.svg",
+      "PackagePath": "staticwebassets\\img\\parceriaIcon.svg"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\parceriaRascBtn.svg",
       "PackagePath": "staticwebassets\\img\\parceriaRascBtn.svg"
     },
@@ -339,6 +355,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\usuarioAnotaBtn.svg",
       "PackagePath": "staticwebassets\\img\\usuarioAnotaBtn.svg"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\usuarioIcon.svg",
+      "PackagePath": "staticwebassets\\img\\usuarioIcon.svg"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\img\\warning.svg",
@@ -641,12 +661,20 @@
       "PackagePath": "staticwebassets\\storage\\2179cfb5-0898-48c9-ab1f-587db64067fc_Imagem do WhatsApp de 2024-10-21 à(s) 14.28.11_1f2eb3da.jpg"
     },
     {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\2266797c-508a-49a8-96db-e4918b4beee4_Captura de Tela (4).png",
+      "PackagePath": "staticwebassets\\storage\\2266797c-508a-49a8-96db-e4918b4beee4_Captura de Tela (4).png"
+    },
+    {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\244de89b-500d-49b9-a0ae-5270b283ac04_Captura de Tela (9).png",
       "PackagePath": "staticwebassets\\storage\\244de89b-500d-49b9-a0ae-5270b283ac04_Captura de Tela (9).png"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\30d20126-f917-4edf-92c7-3ac2983cf350_Captura de Tela (13).png",
       "PackagePath": "staticwebassets\\storage\\30d20126-f917-4edf-92c7-3ac2983cf350_Captura de Tela (13).png"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\3deb0727-fca7-4a9f-be34-06700b08b662_Charmander.webp",
+      "PackagePath": "staticwebassets\\storage\\3deb0727-fca7-4a9f-be34-06700b08b662_Charmander.webp"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\4a061a71-56c3-472e-8de3-e63d8cd192c8_Captura de Tela (3).png",
@@ -699,6 +727,10 @@
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\961e64ed-c65a-4cfa-aae8-32f0d8b4494c_Bulbasaur.webp",
       "PackagePath": "staticwebassets\\storage\\961e64ed-c65a-4cfa-aae8-32f0d8b4494c_Bulbasaur.webp"
+    },
+    {
+      "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\a298d480-142c-4132-a88f-67bb6e3e8989_Charmander.webp",
+      "PackagePath": "staticwebassets\\storage\\a298d480-142c-4132-a88f-67bb6e3e8989_Charmander.webp"
     },
     {
       "Id": "C:\\Users\\Bruno\\Desktop\\PerIpsumOriginal\\PerIpsumOriginal\\wwwroot\\storage\\b30e78da-2ece-4ba5-a506-648c14de5501_Captura de Tela (7).png",

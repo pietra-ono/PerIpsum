@@ -26,7 +26,18 @@
     margin: 1em 0;
 }
 
+.btn-modal-container[b-qqq1mcgiqj] {
+    display: inline-flex;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    justify-content: end;
+}
 
+
+.btn-close[b-qqq1mcgiqj] {
+    filter: invert(19%) sepia(72%) saturate(5297%) hue-rotate(353deg) brightness(88%) contrast(108%);
+}
 
 .footerModalDelete[b-qqq1mcgiqj] {
     display: inline-flex;
@@ -47,3 +58,21 @@
     #confirmDeleteBtn:hover[b-qqq1mcgiqj] {
         transform: scale(1.05);
     }
+
+.modal-content[b-qqq1mcgiqj] {
+    position: relative;
+    display: flex;
+    justify-self: center;
+    flex-direction: row;
+    width: 30%;
+    max-height: 90vh;
+    pointer-events: auto;
+    background-color: #fffff3;
+    background-clip: border-box;
+    overflow-y: auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+}
+

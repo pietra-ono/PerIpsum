@@ -55,20 +55,33 @@
                     </ul>
                 </div>
             </div>
-
-            <div class="btn-container">
-                <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%" /></a>
-                <a id="btnRascunhos" role="button" href="@Url.Action("Rascunhos", "Admin")"><img src="~/img/parceriaRascBtn.svg" /></a>
-                <div id="admDropdown" class="dropdown">
-                    <button id="admButton" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" /></button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
-                        <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
-                    </ul>
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="btn-container">
+                    <div id="admDropdown" class="dropdown">
+                        <button id="admButton" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" style="width: 80%;" /></button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
+                        </ul>
+                    </div>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/adminIcon.svg" width="80%" style="margin-top: 0.5em;" /></a>
                 </div>
-                <div class="perfil-container">
+            }
+            @if (User.IsInRole("Parcerias"))
+            {
+                <div class="btn-container">
+                    <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%" /></a>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/parceriaIcon.svg" width="80%" /></a>
                 </div>
-            </div>
+            }
+            @if (User.IsInRole("Usuario"))
+            {
+                <div class="btn-container">
+                    <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%" /></a>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/usuarioIcon.svg" width="80%" /></a>
+                </div>
+            }
 
         </nav>
         <main>

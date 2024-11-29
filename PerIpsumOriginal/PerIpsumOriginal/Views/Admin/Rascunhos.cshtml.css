@@ -142,16 +142,43 @@ main {
 
 }
 
+
+#btnAnotacoes {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+}
+
+#admDropdown {
+    display: flex;
+    flex-direction: row;
+    justify-self: end;
+    margin-bottom: 1em;
+}
+
+#admButton {
+    border: none;
+    background-color: transparent;
+}
+
+.dropdown-toggle.no-arrow::after {
+    display: none;
+}
+
 .dropdown-menu {
     background-color: #FFFFF3;
     border: none;
     border-radius: 20px;
+    width: 25%;
     padding: 20px;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
     font-family: Krub;
-    overflow: auto;
-    width: 20%;
 }
+
+    .dropdown-menu a:hover {
+        border-radius: 15px;
+        font-weight: 600;
+    }
 
 .filter-section {
     margin-bottom: 15px; /* Espaço entre seções */

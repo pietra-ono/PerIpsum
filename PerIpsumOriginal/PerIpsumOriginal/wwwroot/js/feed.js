@@ -70,6 +70,7 @@ $('.btn-close').click(function () {
 function toggleFavorite(conteudoId) {
     const iconFeed = document.getElementById(`favorito-${conteudoId}`);
     const iconModal = document.querySelector(`#feedModal-${conteudoId} #favorito-${conteudoId}`);
+    const card = document.querySelector(`.card[data-id="${conteudoId}"]`);
 
     const isFavorited = iconFeed.src.includes("Favorito.svg");
 
@@ -81,17 +82,23 @@ function toggleFavorite(conteudoId) {
     })
         .then(response => {
             if (response.ok) {
-                // Alterna a imagem de favorito no feed
-                iconFeed.src = isFavorited
-                    ? '/img/Desfavorito.svg'
-                    : '/img/Favorito.svg';
+                // Alterna a imagem de favorito no feed e no modal
+                const newSrc = isFavorited ? '/img/Desfavorito.svg' : '/img/Favorito.svg';
 
-                // Alterna a imagem de favorito no modal, se existir
+                iconFeed.src = newSrc;
+
+                // Atualiza o ícone no modal se existir
                 if (iconModal) {
-                    iconModal.src = isFavorited
-                        ? '/img/Desfavorito.svg'
-                        : '/img/Favorito.svg';
+                    iconModal.src = newSrc;
                 }
+
+                // Garante que o card permaneça visível
+                if (card) {
+                    card.style.display = ''; // Mantém o card visível
+                }
+
+                // Reaplica os filtros para garantir consistência
+                filterCards();
             } else if (response.status === 401) {
                 // Redireciona para a página de cadastro se não autenticado
                 response.text().then(registerUrl => {
@@ -109,10 +116,42 @@ function toggleFavorite(conteudoId) {
         });
 }
 
-
-document.addEventListener('DOMContentLoaded', function () {
+// Modifique a função filterCards para ser mais robusta
+function filterCards() {
     const searchInput = document.getElementById('searchInputFeed');
     const cards = document.querySelectorAll('.card');
+    const checkboxesTipos = document.querySelectorAll('.tipos input[type="checkbox"]');
+    const checkboxesPaises = document.querySelectorAll('.paises input[type="checkbox"]');
+
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedTipos = [...checkboxesTipos].filter(cb => cb.checked).map(cb => cb.parentElement.textContent.trim());
+    const selectedPaises = [...checkboxesPaises].filter(cb => cb.checked).map(cb => cb.parentElement.textContent.trim());
+
+    cards.forEach(card => {
+        const titulo = card.querySelector('#titulo').textContent.toLowerCase();
+        const descricao = card.querySelector('#descricao').textContent.toLowerCase();
+        const categorias = card.querySelector('#categorias').textContent.toLowerCase();
+        const tipo = card.querySelector('#tipo').textContent.trim();
+        const pais = card.querySelector('#pais').textContent.trim();
+        const favoriteIcon = card.querySelector('.favorite-icon');
+        const isFavorited = favoriteIcon.src.includes("Favorito.svg");
+
+        const matchesSearch = searchTerm === '' ||
+            titulo.includes(searchTerm) ||
+            descricao.includes(searchTerm) ||
+            categorias.includes(searchTerm);
+
+        const matchesTipo = selectedTipos.length === 0 || selectedTipos.includes(tipo);
+        const matchesPais = selectedPaises.length === 0 || selectedPaises.includes(pais);
+
+        // Atualiza a exibição do card com base nos critérios
+        card.style.display = (matchesSearch && matchesTipo && matchesPais) ? '' : 'none';
+    });
+}
+
+// Adicione um event listener para garantir que filterCards seja chamado após o carregamento
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('searchInputFeed');
     const checkboxesTipos = document.querySelectorAll('.tipos input[type="checkbox"]');
     const checkboxesPaises = document.querySelectorAll('.paises input[type="checkbox"]');
 
@@ -126,31 +165,6 @@ document.addEventListener('DOMContentLoaded', function () {
     checkboxesPaises.forEach(checkbox => {
         checkbox.addEventListener('change', filterCards);
     });
-
-    function filterCards() {
-        const searchTerm = searchInput.value.toLowerCase();
-        const selectedTipos = [...checkboxesTipos].filter(cb => cb.checked).map(cb => cb.parentElement.textContent.trim());
-        const selectedPaises = [...checkboxesPaises].filter(cb => cb.checked).map(cb => cb.parentElement.textContent.trim());
-
-        cards.forEach(card => {
-            const titulo = card.querySelector('#titulo').textContent.toLowerCase();
-            const descricao = card.querySelector('#descricao').textContent.toLowerCase();
-            const categorias = card.querySelector('#categorias').textContent.toLowerCase();
-            const tipo = card.querySelector('#tipo').textContent.trim();
-            const pais = card.querySelector('#pais').textContent.trim();
-
-            const matchesSearch = searchTerm === '' ||
-                titulo.includes(searchTerm) ||
-                descricao.includes(searchTerm) ||
-                categorias.includes(searchTerm);
-
-            const matchesTipo = selectedTipos.length === 0 || selectedTipos.includes(tipo);
-            const matchesPais = selectedPaises.length === 0 || selectedPaises.includes(pais);
-
-            // Atualiza a exibição do card com base nos critérios
-            card.style.display = (matchesSearch && matchesTipo && matchesPais) ? '' : 'none';
-        });
-    }
 });
 
 

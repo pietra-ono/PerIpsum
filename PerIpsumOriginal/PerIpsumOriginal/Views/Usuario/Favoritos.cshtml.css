@@ -55,6 +55,7 @@ main {
     overflow-y: auto; /* Scroll vertical quando necessário */
     box-sizing: border-box;
     margin-inline: 1em;
+    position: relative;
 }
 
     .favoritos-container::-webkit-scrollbar {
@@ -88,9 +89,9 @@ main {
     overflow: hidden;
 }
 
-#btnRascunhos,
-#admDropdown,
-.perfil-container,
+
+
+
 .link-container,
 .categorias-container,
 .descricao-container {
@@ -151,6 +152,12 @@ main {
     font-family: Krub;
     overflow: auto;
     width: 20%;
+    z-index: 2;
+}
+
+#admButton {
+    border: none;
+    background-color: transparent;
 }
 
 .filter-section {
@@ -197,10 +204,6 @@ main {
     grid-area: funcao;
 }
 
-.perfil-container {
-    display: none;
-    grid-area: perfil;
-}
 
 
 .card {

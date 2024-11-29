@@ -31,5 +31,20 @@ public static class SeedRoles
             await userManager.CreateAsync(adminUser, "Admin@123");
             await userManager.AddToRoleAsync(adminUser, "Admin");
         }
+
+
+        var parceriaUser = new UsuarioModel
+        {
+            UserName = "parceria@peripsum.com",
+            Email = "parceria@peripsum.com",
+            EmailConfirmed = true,
+            Nome = "Parceria Oficial"
+        };
+
+        if (await userManager.FindByEmailAsync(parceriaUser.Email) == null)
+        {
+            await userManager.CreateAsync(parceriaUser, "Parceria@123");
+            await userManager.AddToRoleAsync(parceriaUser, "Parcerias");
+        }
     }
 }

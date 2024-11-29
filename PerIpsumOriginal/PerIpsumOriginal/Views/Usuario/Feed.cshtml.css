@@ -89,8 +89,7 @@ main {
     overflow: hidden;
 }
 
-#btnRascunhos,
-#admDropdown,
+
 .perfil-container,
 .link-container,
 .categorias-container,
@@ -107,7 +106,35 @@ main {
     grid-area: pesquisar;
 }
 
+#admDropdown {
+    display: flex;
+    flex-direction: row;
+}
 
+#admButton {
+    border: none;
+    background-color: transparent;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-toggle.no-arrow::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: #FFFFF3;
+    border: none;
+    border-radius: 20px;
+    width: max-content;
+    padding: 20px;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.3);
+    font-family: Krub;
+}
+
+    .dropdown-menu a:hover {
+        border-radius: 15px;
+        font-weight: 600;
+    }
 
 #searchInputFeed {
     width: 100%;

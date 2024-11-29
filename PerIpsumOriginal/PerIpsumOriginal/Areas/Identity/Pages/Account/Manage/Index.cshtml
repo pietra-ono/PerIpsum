@@ -15,17 +15,34 @@
 <body>
     <div class="manage-layout">
         <nav>
-            <div class="btn-container">
-                <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 85%; margin-top: 10px;" /></a>
-                <div id="admDropdown" class="dropdown">
-                    <button id="admButton" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" style="width: 80%;" /></button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
-                        <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
-                    </ul>
+            @if (User.IsInRole("Admin"))
+            {
+                <div class="btn-container">
+                    <div id="admDropdown" class="dropdown">
+                        <button id="admButton" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" style="width: 80%;" /></button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
+                        </ul>
+                    </div>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/adminIcon.svg" width="80%" style="margin-top: 0.5em;" /></a>
                 </div>
-
-            </div>
+            }
+            @if (User.IsInRole("Parcerias"))
+            {
+                <div class="btn-container">
+                    <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%; margin-top: 1em;" /></a>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/parceriaIcon.svg" width="80%" style="margin-top: 1em;" /></a>
+                </div>
+            }
+            @if (User.IsInRole("Usuario"))
+            {
+                <div class="btn-container">
+                    <a id="btnAnotacoes" role="button" href="@Url.Action("Anotacoes", "Usuario")"><img src="~/img/usuarioAnotaBtn.svg" style="width: 80%; margin-top: 1em;" /></a>
+                    <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/adminIcon.svg" width="80%" style="margin-top: 1em;" /></a>
+                </div>
+            }
+            
         </nav>
         <main>
             <div class="profile-form-container">
@@ -33,13 +50,13 @@
                 <div class="form-titulo">
                     <h1 id="tituloManage">Informações Pessoais</h1>
                 </div>
-                <partial name="_StatusMessage" for="StatusMessage" />
+                <div class="form-container-uau">
                     <form id="profile-form" method="post">
+                        <span asp-validation-for="Input.Nome" class="text-danger"></span>
                         <div id="nomeInput" class="profile-container">
                             <label asp-for="Input.Nome" class="form-label">Usuário:</label>
                             <div class="profile-input">
                                 <input asp-for="Input.Nome" class="form-control" />
-                                <span asp-validation-for="Input.Nome" class="text-danger"></span>
                                 <div class="profile-submit-container">
                                     <button type="submit" id="updateNomeBtn" class="btn btn-atualizar">Atualizar</button>
                                 </div>
@@ -63,16 +80,19 @@
                                 <a asp-page="./ChangePassword" class="btn btn-atualizar ms-2">Atualizar</a>
                             </div>
                         </div>
-                        <div class="form-group">
+                        <div class="delete-container">
                             <form id="delete-user" method="post" asp-page-handler="DeleteUser">
                                 <button type="submit" id="btnDeletar" onclick="return confirm('Tem certeza que deseja deletar sua conta? Esta ação não pode ser desfeita.');">
                                     <p>Deseja deletar a sua conta?</p>
                                 </button>
                             </form>
                         </div>
-                        <!-- Adicione isso junto aos outros campos do formulário -->
-                        
-                    
+                        <div class="logout-container">
+                            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Usuario", new { area = "" })">
+                                <button id="logout" type="submit" class="btn btn-logout">Sair</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

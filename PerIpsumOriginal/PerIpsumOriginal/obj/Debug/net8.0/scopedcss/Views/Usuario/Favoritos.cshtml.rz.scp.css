@@ -55,6 +55,7 @@ main[b-ctp6i0w4hz] {
     overflow-y: auto; /* Scroll vertical quando necessário */
     box-sizing: border-box;
     margin-inline: 1em;
+    position: relative;
 }
 
     .favoritos-container[b-ctp6i0w4hz]::-webkit-scrollbar {
@@ -88,9 +89,9 @@ main[b-ctp6i0w4hz] {
     overflow: hidden;
 }
 
-#btnRascunhos[b-ctp6i0w4hz],
-#admDropdown[b-ctp6i0w4hz],
-.perfil-container[b-ctp6i0w4hz],
+
+
+
 .link-container[b-ctp6i0w4hz],
 .categorias-container[b-ctp6i0w4hz],
 .descricao-container[b-ctp6i0w4hz] {
@@ -151,6 +152,12 @@ main[b-ctp6i0w4hz] {
     font-family: Krub;
     overflow: auto;
     width: 20%;
+    z-index: 2;
+}
+
+#admButton[b-ctp6i0w4hz] {
+    border: none;
+    background-color: transparent;
 }
 
 .filter-section[b-ctp6i0w4hz] {
@@ -197,10 +204,6 @@ main[b-ctp6i0w4hz] {
     grid-area: funcao;
 }
 
-.perfil-container[b-ctp6i0w4hz] {
-    display: none;
-    grid-area: perfil;
-}
 
 
 .card[b-ctp6i0w4hz] {

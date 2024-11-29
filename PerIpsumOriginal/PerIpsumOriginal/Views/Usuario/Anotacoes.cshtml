@@ -19,8 +19,32 @@
             </div>
             <div class="btn-container">
                 <button type="button" class="btn btnAdd" data-bs-toggle="modal" data-bs-target="#AddAnotModal"><img src="~/img/addBtn.svg" style="width: 80%" /></button>
-                <div class="perfil-container">
-                </div>
+                @if (User.IsInRole("Admin"))
+                {
+                    <div class="perfil-container">
+                        <div id="admDropdown" class="dropdown">
+                            <button id="admButton" class="dropdown-toggle no-arrow" data-bs-toggle="dropdown" aria-expanded="false"><img src="~/img/admDropdown.svg" style="width: 80%;" /></button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="@Url.Action("Solicitacoes", "Admin")">Solicitações</a></li>
+                                <li><a class="dropdown-item" href="@Url.Action("Feedbacks", "Admin")">Feedbacks</a></li>
+                            </ul>
+                        </div>
+                        <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/adminIcon.svg" width="80%" /></a>
+                    </div>
+                }
+                @if (User.IsInRole("Parcerias"))
+                {
+                    <div class="perfil-container">
+                        <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/parceriaIcon.svg" width="80%" /></a>
+                    </div>
+                }
+                @if (User.IsInRole("Usuario"))
+                {
+                    <div class="perfil-container">
+                        <a role="button" id="user" asp-area="Identity" asp-page="/Account/Manage/Index"><img src="~/img/usuarioIcon.svg" width="80%"  /></a>
+                    </div>
+                }
+                
             </div>
         </nav>
         <main>
@@ -69,19 +93,19 @@
 
     <!-- Modal de Confirmação de Exclusão -->
     <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content-deletar">
+        <div id="modalDeletarDialog" class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
                 <div class="btn-modal-container">
-                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <button class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="mainModalDeletar">
                     <div class="titulo-modal-delete">
                         <p>Tem certeza que deseja excluir este conteúdo?</p>
                     </div>
                     <img id="warningImg" src="~/img/warning.svg" />
-                    <h3 id="descricaoDelete">Não será possível recuperá-la depois!</h3>
+                    <h3 id="descricaoDelete">Não será possível recuperá-lo depois!</h3>
                     <div class="footerModalDelete">
-                        <button type="button" class="btn btn-danger" id="confirmDeleteBtn" data-bs-dismiss="modal">Deletar</button>
+                        <button type="button" class="btn" id="confirmDeleteBtn">Deletar</button>
                     </div>
                 </div>
             </div>
